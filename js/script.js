@@ -20,7 +20,7 @@ startButton.addEventListener('click',function() {
     button1k100.style.display = 'block';
 });
 //najechanie
-
+/*
 button1k3.addEventListener('mouseenter', function(){
     playSound("sounds/k3.mp3");
 });
@@ -48,7 +48,7 @@ button1k20.addEventListener('mouseenter', function(){
 button1k100.addEventListener('mouseenter', function(){
     playSound("sounds/k100.mp3");
 });
-
+*/
 // shake
 
 button1k3.addEventListener('click', function(){
