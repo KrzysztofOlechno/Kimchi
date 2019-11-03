@@ -8,101 +8,80 @@ button1k12 = document.getElementById("button1k12");
 button1k20 = document.getElementById("button1k20");
 button1k100 = document.getElementById("button1k100");
 
-startButton.addEventListener('click',function() {
-    playSound("sounds/shake.mp3");
-    startButton.style.display = 'none';
-    startButton.style.height = '1%';
-    button1k3.style.display = 'block';
-    button1k4.style.display = 'block';
-    button1k6.style.display = 'block';
-    button1k8.style.display = 'block';
-    button1k12.style.display = 'block';
-    button1k100.style.display = 'block';
-});
-//najechanie
-/*
-button1k3.addEventListener('mouseenter', function(){
-    playSound("sounds/k3.mp3");
-});
-
-button1k4.addEventListener('mouseenter', function(){
-    playSound("sounds/k4.mp3");
-});
-
-button1k6.addEventListener('mouseenter', function(){
-    playSound("sounds/k6.mp3");
-});
-
-button1k8.addEventListener('mouseenter', function(){
-    playSound("sounds/k8.mp3");
-});
-
-button1k12.addEventListener('mouseenter', function(){
-    playSound("sounds/k12.mp3");
-});
-
-button1k20.addEventListener('mouseenter', function(){
-    playSound("sounds/k20.mp3");
-});
-
-button1k100.addEventListener('mouseenter', function(){
-    playSound("sounds/k100.mp3");
-});
-*/
 // shake
 
 button1k3.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(3);
 });
 
 button1k4.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(4);
 });
 
 button1k6.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(6);
 });
 
 button1k8.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(8);
 });
 
 button1k12.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(12);
 });
 
 button1k20.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
     diceThrow(20);
-});
-
-button1k100.addEventListener('click', function(){
-    playSound("sounds/shake.mp3");
-    diceThrow(100);
 });
 
 function diceThrow(cubeType)
 {
+    
     var cube = parseInt((Math.random()*cubeType)+1);
     var cubeTypeString = cubeType.toString();
     console.log('W wyniku rzutu kością 1k' + cubeTypeString + ' wypadła wartość:',cube);
-    speakNumber(cubeType, cube);
+    speakNumber(cubeType, cube, randomShakeSound());
     
 }
 
-function speakNumber(cubeType, number)
+function speakNumber(cubeType, number, shake)
 {
-    var soundUrlString = 'sounds/' + number.toString() +'.mp3';
-    playSound(soundUrlString);
+    var soundUrlString = 'sounds/' + number.toString() + '.mp3';
+    var dalay = 2000;
+
+    switch (shake) {
+        case 1:
+          delay = 2000;
+          break;
+        case 2:
+          delay = 2000;
+          break;
+        case 3:
+          delay = 3000;
+          break;
+        case 4:
+          delay = 1500;
+          break;
+        default:
+          console.log('Wrong shake buddy');
+      }
+
+    setTimeout(function(){
+        playSound(soundUrlString);
+    }, delay);
+    
     console.log(soundUrlString, cubeType);
 }
 
 function playSound(url) {
     var sound = new Audio(url);
     sound.play();
+}
+
+function randomShakeSound(){
+    var shakeNumber = parseInt((Math.random()*4)+1);
+    var shakeUrlString = 'sounds/shake' + shakeNumber.toString() + '.mp3';
+    playSound(shakeUrlString);
+
+    return shakeNumber;
 }

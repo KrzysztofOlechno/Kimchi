@@ -6,15 +6,13 @@ height: 100%;
 
 .buttonThrow
 {
-width: 100%;
-height: 14%;
-text-align: center;
-display: none;
-}
-#startButton
-{
-width: 100%;
-height: 100%;
+width: 50%;
+height: 33%;
 text-align: center;
 display: block;
+float: left;
+}
+
+.textSpan{
+    vertical-align: bottom;
 }
