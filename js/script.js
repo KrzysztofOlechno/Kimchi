@@ -51,18 +51,18 @@ function diceThrow(cubeType)
 
 function speakNumber(cubeType, number, shake)
 {
-    var soundUrlString = 'sounds/' + number.toString() + '.mp3';
+    var soundUrlString = 'soundsystem/' + number.toString() + '.mp3';
     var dalay = 2000;
 
     switch (shake) {
         case 1:
-          delay = 3000;
+          delay = 4000;
           break;
         case 2:
-          delay = 3000;
+          delay = 4000;
           break;
         case 3:
-          delay = 4000;
+          delay = 5000;
           break;
         case 4:
           delay = 1500;
@@ -85,7 +85,7 @@ function playSound(url) {
 
 function randomShakeSound(){
     var shakeNumber = parseInt((Math.random()*4)+1);
-    var shakeUrlString = 'sounds/shake' + shakeNumber.toString() + '.mp3';
+    var shakeUrlString = 'soundsystem/shake' + shakeNumber.toString() + '.mp3';
     playSound(shakeUrlString);
 
     return shakeNumber;
