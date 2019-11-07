@@ -45,32 +45,16 @@ function diceThrow(cubeType)
     var cube = parseInt((Math.random()*cubeType)+1);
     var cubeTypeString = cubeType.toString();
     console.log('W wyniku rzutu kością 1k' + cubeTypeString + ' wypadła wartość:',cube);
-    speakNumber(cubeType, cube, randomShakeSound());
+    speakNumber(cubeType, cube);
     
 }
 
-function speakNumber(cubeType, number, shake)
+function speakNumber(cubeType, number)
 {
+    playSound('soundsystem/shake1.mp3');
+    var delay = 2000;
     var soundUrlString = 'soundsystem/' + number.toString() + '.mp3';
-    var dalay = 2000;
-
-    switch (shake) {
-        case 1:
-          delay = 4000;
-          break;
-        case 2:
-          delay = 4000;
-          break;
-        case 3:
-          delay = 5000;
-          break;
-        case 4:
-          delay = 1500;
-          break;
-        default:
-          console.log('Wrong shake buddy');
-      }
-
+    
     setTimeout(function(){
         playSound(soundUrlString);
     }, delay);
@@ -81,12 +65,4 @@ function speakNumber(cubeType, number, shake)
 function playSound(url) {
     var sound = new Audio(url);
     sound.play();
-}
-
-function randomShakeSound(){
-    var shakeNumber = parseInt((Math.random()*4)+1);
-    var shakeUrlString = 'soundsystem/shake' + shakeNumber.toString() + '.mp3';
-    playSound(shakeUrlString);
-
-    return shakeNumber;
 }
