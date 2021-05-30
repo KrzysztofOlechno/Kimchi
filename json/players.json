@@ -68,5 +68,145 @@
         "secbuffvalue": null
        }
     ]
+  },
+  {
+    "name": "Ilfrin",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 3,
+       "buffvalue": 1,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 2,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 4,
+        "buffvalue": 2,
+        "secbuffvalue": null
+       }
+    ]
+  },
+  {
+    "name": "Hereb",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 4,
+       "buffvalue": null,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 2,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 4,
+        "buffvalue": 2,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 2,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       }
+    ]
+  },
+  {
+    "name": "Aura",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 2,
+       "buffvalue": null,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 1,
+        "buffvalue": 2,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       }
+    ]
+  },
+  {
+    "name": "Sberatel",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 2,
+       "buffvalue": 1,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 2,
+        "buffvalue": 2,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 5,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       }
+    ]
   }
 ]
