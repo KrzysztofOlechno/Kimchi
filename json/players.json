@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Zordael",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 4,
+       "buffvalue": null,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 4,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 3,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 2,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 2,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 3,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       }
+    ]
+  },
+  {
+    "name": "Lothia",
+    "skills": [
+      {"name": "strength",
+       "basevalue": 3,
+       "buffvalue": null,
+       "secbuffvalue": null
+      },
+      {"name": "agility",
+        "basevalue": 4,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {"name": "mind",
+        "basevalue": 5,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "emotions",
+        "basevalue": 4,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "craft",
+        "basevalue": 3,
+        "buffvalue": null,
+        "secbuffvalue": null
+       },
+       {"name": "willpower",
+        "basevalue": 5,
+        "buffvalue": 2,
+        "secbuffvalue": null
+       }
+    ]
+  }
+]
