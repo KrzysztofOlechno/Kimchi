@@ -4,10 +4,38 @@ width: 100%;
 height: 100%;
 }
 
+.backButton
+{
+width: 50%;
+height: 25%;
+text-align: center;
+display: block;
+float: right;
+}
+
+.visible
+{
+    display:block;
+}
+
+.invisible
+{
+    display: none;
+}
+
 .buttonThrow
 {
 width: 50%;
 height: 25%;
+text-align: center;
+display: block;
+float: left;
+}
+
+.buttonMenu
+{
+width: 50%;
+height: 20%;
 text-align: center;
 display: block;
 float: left;

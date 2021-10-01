@@ -1,15 +1,15 @@
-buttonThrow = document.getElementsByClassName("buttonThrow")
+buttonThrow = document.getElementsByClassName("buttonThrow");
 
 // shake
 
 for(var i=0;i<6;i++)
 {
 	buttonThrow[i].addEventListener('click', function(){
-    getPlayerData(document.baseURI, this.id);	
+    getPlayerDataSkillsThrow(document.baseURI, this.id);	
 	});
 }
 
-function getPlayerData(playerURI, skillId)
+function getPlayerDataSkillsThrow(playerURI, skillId)
 {
 let requestURL = 'json/players.json';
 let request = new XMLHttpRequest();

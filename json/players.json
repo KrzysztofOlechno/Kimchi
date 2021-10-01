@@ -1,37 +1,401 @@
 [
   {
+    "name": "Kikimurmunex",
+    "surname": "Duperex",
+    "occupation": "Wiedźmin",
+    "species": "Człowiek",
+    "subspecies": "Rozumny", 
+    "variety": "Biały",
+    "provenance": "Nowiny Zdroje",
+    "age": 33,
+    "attributes": [
+      {"name": "strength",
+       "basevalue": 4,
+       "buffvalue": 0,
+       "secbuffvalue": null
+      },
+      {
+        "name": "agility",
+        "basevalue": 4,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {
+        "name": "mind",
+        "basevalue": 3,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {
+        "name": "emotions",
+        "basevalue": 2,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       },
+       {
+        "name": "craft",
+        "basevalue": 2,
+        "buffvalue": 0,
+        "secbuffvalue": null
+       },
+       {
+        "name": "willpower",
+        "basevalue": 3,
+        "buffvalue": 1,
+        "secbuffvalue": null
+       }
+    ],
+    "states": [
+      {
+        "name": "wounds",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "paralisis",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "stupor",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "panic",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "poisoning",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "weariness",
+        "basevalue": 4,
+        "buffvalue": null
+      }  
+    ],
+    "battle": [
+      {
+      "name": "reaction",
+       "basevalue": null,
+       "buffvalue": null
+      },
+      {
+       "name": "attacks",
+       "basevalue": null,
+       "buffvalue": null
+      },
+      {
+       "name": "spells",
+       "basevalue": null,
+       "buffvalue": null
+      }
+    ],
+    "comrades": [
+      {
+        "name": null,
+        "surname": null,
+        "occupation": null,
+        "race": null,
+        "provenance": null,
+        "age": null,
+        "abilities": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "equipment": [
+          {
+            "name": null,
+            "description": null,
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }         
+        ],
+        "items": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "food": null,
+        "weakness": null,
+        "motivation": null,
+        "bond": [
+          {
+            "name": null,
+            "description": null,
+            "visible": null
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": null,
+        "description": null
+      }
+    ],
+    "equipment": [
+      {
+        "name": null,
+        "description": null,
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }        
+        ],
+        "ability": null          
+      }         
+    ],
+    "notes": [
+      {
+        "note0": null,
+        "note1": null,
+        "note2": null,
+        "note3": null,
+        "note4": null,
+        "note5": null,
+        "note6": null,
+        "note7": null,
+        "note8": null,
+        "note9": null,        
+        "note10": null,
+        "note11": null,
+        "note12": null,
+        "note13": null,
+        "note14": null
+      }
+    ],
+    "biography": null,
+    "spells": [
+      {
+        "name": null,
+        "description": null,
+        "requirements": null,
+        "cost": null,
+        "effect": null
+      }
+    ],
+    "abilites": [
+      {
+        "name": null,
+        "description": null,
+        "requirements": null,
+        "cost": null,
+        "effect": null
+      }
+    ]
+  },
+  {
     "name": "Zordael",
+    "surname": null,
+    "occupation": null,
+    "race": "human",
+    "provenance": null,
+    "age": null,
     "skills": [
       {"name": "strength",
        "basevalue": 4,
        "buffvalue": null,
        "secbuffvalue": null
       },
-      {"name": "agility",
+      {
+        "name": "agility",
         "basevalue": 4,
         "buffvalue": 1,
         "secbuffvalue": null
        },
-       {"name": "mind",
+       {
+        "name": "mind",
         "basevalue": 3,
         "buffvalue": 1,
         "secbuffvalue": null
        },
-       {"name": "emotions",
+       {
+        "name": "emotions",
         "basevalue": 2,
         "buffvalue": 1,
         "secbuffvalue": null
        },
-       {"name": "craft",
+       {
+        "name": "craft",
         "basevalue": 2,
         "buffvalue": null,
         "secbuffvalue": null
        },
-       {"name": "willpower",
+       {
+        "name": "willpower",
         "basevalue": 3,
         "buffvalue": 1,
         "secbuffvalue": null
        }
+    ],
+    "states": [
+      {
+        "name": "wounds",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "paralisis",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "stupor",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "panic",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "poisoning",
+        "basevalue": 4,
+        "buffvalue": null
+      },
+      {
+        "name": "weariness",
+        "basevalue": 4,
+        "buffvalue": null
+      }  
+    ],
+    "battle": [
+      {
+      "name": "reaction",
+       "basevalue": null,
+       "buffvalue": null
+      },
+      {
+       "name": "attacks",
+       "basevalue": null,
+       "buffvalue": null
+      },
+      {
+       "name": "spells",
+       "basevalue": null,
+       "buffvalue": null
+      }
+    ],
+    "comrades": [
+      {
+        "name": null,
+        "surname": null,
+        "occupation": null,
+        "race": null,
+        "provenance": null,
+        "age": null,
+        "abilities": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "equipment": [
+          {
+            "name": null,
+            "description": null,
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }         
+        ],
+        "items": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "food": null,
+        "weakness": null,
+        "motivation": null,
+        "bond": [
+          {
+            "name": null,
+            "description": null,
+            "visible": null
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": null,
+        "description": null
+      }
+    ],
+    "equipment": [
+      {
+        "name": null,
+        "description": null,
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      }         
+    ],
+    "notes": [
+      {
+        "note0": null,
+        "note1": null,
+        "note2": null,
+        "note3": null,
+        "note4": null,
+        "note5": null,
+        "note6": null,
+        "note7": null,
+        "note8": null,
+        "note9": null,        
+        "note10": null,
+        "note11": null,
+        "note12": null,
+        "note13": null,
+        "note14": null
+      }
+    ],
+    "biography": null,
+    "spells": [
+      {
+        "name": null,
+        "description": null,
+        "requirements": null,
+        "cost": null,
+        "effect": null
+      }
+    ],
+    "abilites": [
+      {
+        "name": null,
+        "description": null,
+        "requirements": null,
+        "cost": null,
+        "effect": null
+      }
     ]
   },
   {
