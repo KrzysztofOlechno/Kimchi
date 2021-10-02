@@ -49,49 +49,49 @@
       {
         "name": "wounds",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       },
       {
         "name": "paralisis",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       },
       {
         "name": "stupor",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       },
       {
         "name": "panic",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       },
       {
         "name": "poisoning",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       },
       {
         "name": "weariness",
         "basevalue": 4,
-        "buffvalue": null
+        "buffvalue": 1
       }  
     ],
     "battle": [
       {
       "name": "reaction",
-       "basevalue": null,
-       "buffvalue": null
+       "basevalue": 1,
+       "buffvalue": 0
       },
       {
        "name": "attacks",
-       "basevalue": null,
-       "buffvalue": null
+       "basevalue": 2,
+       "buffvalue": 1
       },
       {
        "name": "spells",
-       "basevalue": null,
-       "buffvalue": null
+       "basevalue": 3,
+       "buffvalue": 2
       }
     ],
     "comrades": [
@@ -110,8 +110,8 @@
         ],
         "equipment": [
           {
-            "name": null,
-            "description": null,
+            "name": 1,
+            "description": 101,
             "type": null,
             "bodypart": null,
             "buff": [
@@ -120,7 +120,31 @@
                 "secondary": null
               }
             ]          
-          }         
+          },
+          {
+            "name": 2,
+            "description": 202,
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": 3,
+            "description": 303,
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }          
         ],
         "items": [
           {
@@ -148,6 +172,19 @@
     ],
     "equipment": [
       {
+        "name": "pie",
+        "description": "pie1",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }        
+        ],
+        "ability": null          
+      },
+      {
         "name": null,
         "description": null,
         "type": null,
@@ -159,7 +196,20 @@
           }        
         ],
         "ability": null          
-      }         
+      },
+      {
+        "name": "trzy",
+        "description": "trzy3",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }        
+        ],
+        "ability": null          
+      }        
     ],
     "notes": [
       {
