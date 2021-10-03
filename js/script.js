@@ -21,7 +21,7 @@ request.onreadystatechange = function() {
     {
       if(playerURI.includes(myObj[i].name.toLowerCase()))
       {
-        var playerSkills = myObj[i].skills;
+        var playerSkills = myObj[i].attributes;
         for(var j=0;j<playerSkills.length;j++)
         {
           if(playerSkills[j].name == skillId)

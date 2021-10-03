@@ -1,5 +1,383 @@
 [
   {
+    "name": "Aura",
+    "surname": "Rodd",
+    "occupation": "brak",
+    "species": "Elf",
+    "subspecies": "Deede", 
+    "variety": "-",
+    "provenance": "Sanda",
+    "age": 18,
+    "attributes": [
+      {"name": "strength",
+        "basevalue": 2,
+        "buffvalue": 0,
+        "secbuffvalue": null
+       },
+       {"name": "agility",
+         "basevalue": 4,
+         "buffvalue": 0,
+         "secbuffvalue": null
+        },
+        {"name": "mind",
+         "basevalue": 3,
+         "buffvalue": 0,
+         "secbuffvalue": null
+        },
+        {"name": "emotions",
+         "basevalue": 1,
+         "buffvalue": 2,
+         "secbuffvalue": null
+        },
+        {"name": "craft",
+         "basevalue": 4,
+         "buffvalue": 0,
+         "secbuffvalue": null
+        },
+        {"name": "willpower",
+         "basevalue": 4,
+         "buffvalue": 0,
+         "secbuffvalue": null
+        }
+    ],
+    "states": [
+      {
+        "name": "wounds",
+        "basevalue": 3,
+        "buffvalue": 0
+      },
+      {
+        "name": "paralisis",
+        "basevalue": 5,
+        "buffvalue": 0
+      },
+      {
+        "name": "stupor",
+        "basevalue": 4,
+        "buffvalue": 0
+      },
+      {
+        "name": "panic",
+        "basevalue": 2,
+        "buffvalue": 0
+      },
+      {
+        "name": "poisoning",
+        "basevalue": 3,
+        "buffvalue": 0
+      },
+      {
+        "name": "weariness",
+        "basevalue": 5,
+        "buffvalue": 0
+      }  
+    ],
+    "battle": [
+      {
+      "name": "reaction",
+       "basevalue": 4,
+       "buffvalue": 0
+      },
+      {
+       "name": "attacks",
+       "basevalue": 2,
+       "buffvalue": 1
+      },
+      {
+       "name": "spells",
+       "basevalue": 4,
+       "buffvalue": 0
+      }
+    ],
+    "comrades": [
+      {
+        "name": null,
+        "surname": null,
+        "occupation": null,
+        "race": null,
+        "provenance": null,
+        "age": null,
+        "abilities": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "equipment": [
+          {
+            "name": "Gogle",
+            "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Naszyjnik",
+            "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Koszula",
+            "description": "Czarna koszula tkana z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Gorset",
+            "description": "Gorset skórzany z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Rękawice",
+            "description": "Rękawice skórzane z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Pas",
+            "description": "Czarny pas skórzany z doczepionymi sakwami",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Spodnie",
+            "description": "Spodnie skórzane z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Buty",
+            "description": "Długie buty skórzane czarne",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }            
+        ],
+        "items": [
+          {
+            "name": null,
+            "description": null
+          }
+        ],
+        "food": null,
+        "weakness": null,
+        "motivation": null,
+        "bond": [
+          {
+            "name": null,
+            "description": null,
+            "visible": null
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": null,
+        "description": null,
+        "ability": null
+      }
+    ],
+    "equipment": [
+      {
+        "name": "Gogle",
+        "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Naszyjnik",
+        "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Koszula",
+        "description": "Czarna koszula tkana z fioletowym pigmentem",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Gorset",
+        "description": "Gorset skórzany z fioletowym pigmentem",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Rękawice",
+        "description": "Rękawice skórzane z fioletowym pigmentem",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Pas",
+        "description": "Czarny pas skórzany z doczepionymi sakwami",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Spodnie",
+        "description": "Spodnie skórzane z fioletowym pigmentem",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      },
+      {
+        "name": "Buty",
+        "description": "Długie buty skórzane czarne",
+        "type": null,
+        "bodypart": null,
+        "buff": [
+          {
+            "primary": null,
+            "secondary": null
+          }
+        ]          
+      }      
+    ],
+    "notes": [
+      {
+        "note0": null,
+        "note1": null,
+        "note2": null,
+        "note3": null,
+        "note4": null,
+        "note5": null,
+        "note6": null,
+        "note7": null,
+        "note8": null,
+        "note9": null,        
+        "note10": null,
+        "note11": null,
+        "note12": null,
+        "note13": null,
+        "note14": null
+      }
+    ],
+    "biography": null,
+    "spells": [
+      {
+        "name": null,
+        "description": null,
+        "requirements": null,
+        "cost": null,
+        "effect": null
+      }
+    ],
+    "abilites": [
+      {
+        "name": "Pomniejsza mikstura leczenia",
+        "description": "Wywar z roślin lecznicznych",
+        "requirements": "pojemnik, składniki",
+        "cost": "1 punkt znużenia",
+        "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+      },
+      {
+        "name": "Atak głosem",
+        "description": "Postać atakuje mocą swojego głosu",
+        "requirements": "-",
+        "cost": "1 punkt paniki",
+        "effect": "Powodując obrażania fizyczne i ogłusza przeciwników."
+      },
+      {
+        "name": "Głos furii",
+        "description": "Postać doprowadzona do granicy niszczy falą głosu wszystko wokół siebie",
+        "requirements": "-",
+        "cost": "Wyczerpanie punktów paniki",
+        "effect": "Postacie wokół oraz obiekty otrzymują obrażenia."
+      }
+    ]
+  },
+  {
     "name": "Kikimurmunex",
     "surname": "Duperex",
     "occupation": "Wiedźmin",
@@ -167,7 +545,8 @@
     "items": [
       {
         "name": null,
-        "description": null
+        "description": null,
+        "ability": null
       }
     ],
     "equipment": [
@@ -548,41 +927,6 @@
        },
        {"name": "willpower",
         "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       }
-    ]
-  },
-  {
-    "name": "Aura",
-    "skills": [
-      {"name": "strength",
-       "basevalue": 2,
-       "buffvalue": null,
-       "secbuffvalue": null
-      },
-      {"name": "agility",
-        "basevalue": 4,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "mind",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "emotions",
-        "basevalue": 1,
-        "buffvalue": 2,
-        "secbuffvalue": null
-       },
-       {"name": "craft",
-        "basevalue": 4,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "willpower",
-        "basevalue": 4,
         "buffvalue": null,
         "secbuffvalue": null
        }

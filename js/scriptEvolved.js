@@ -11,7 +11,10 @@ let requestURL = 'json/players.json';
             var general = document.getElementById("general");
             var myChar = myObj[i];
             var eq = equipmentListGeneratorP(myChar);
-            general.outerHTML = "<div class='submenu visible' id='sub'><table>" + 
+            var item = itemsListGenerator(myChar);
+            var comr = comradeListGenerator(myChar);
+            var abil = abilitesListGenerator(myChar);
+            general.outerHTML = "<div class='visible' id='general'><table>" + 
             "</td></tr><tr><td><b>1. Dane podstawowe</b>" +
             "<tr><td>Imię: </td><td>" + myChar.name +           
             "</td></tr><tr><td>Nazwisko: </td><td>" + myChar.surname + 
@@ -35,8 +38,14 @@ let requestURL = 'json/players.json';
             "</td></tr><tr><td>" + " - Panika:" + "</td><td>" + myChar.states[3].basevalue + "(+" + myChar.states[3].buffvalue + ")" +
             "</td></tr><tr><td>" + " - Zatrucie:" + "</td><td>" + myChar.states[4].basevalue + "(+" + myChar.states[4].buffvalue + ")" +
             "</td></tr><tr><td>" + " - Znużenie:" + "</td><td>" + myChar.states[5].basevalue + "(+" + myChar.states[5].buffvalue + ")" +
+            "</td></tr><tr><td><b>4. Umiejętności</b>" + 
+            abil +
             "</td></tr><tr><td><b>5. Ekwipunek</b>" + 
             eq +
+            "</td></tr><tr><td><b>6. Przedmioty</b>" + 
+            item +
+            "</td></tr><tr><td><b>7. Towarzysze</b>" +
+            comr +
             "</td></tr></table>";
         } 
       }
@@ -55,21 +64,25 @@ var subDiv = document.getElementById("sub").outerHTML;
 
 buttonInformation.addEventListener('click', function(){
   classChanger("kp", "invisible");
+  classChanger("general", "invisible");
   getPlayerData("information", document.baseURI);
 });
 
 buttonAttribute.addEventListener('click', function(){
   classChanger("kp", "invisible");
+  classChanger("general", "invisible");
   getPlayerData("attribute", document.baseURI);
 });
 
 buttonState.addEventListener('click', function(){
   classChanger("kp", "invisible");
+  classChanger("general", "invisible");
   getPlayerData("state", document.baseURI);
 });
 
 buttonBattle.addEventListener('click', function(){
   classChanger("kp", "invisible");
+  classChanger("general", "invisible");
   getPlayerData("battle", document.baseURI);
 });
 
@@ -150,6 +163,7 @@ function getPlayerData(subMenuType, playerURI)
         backButton.addEventListener('click', function(){
           classChanger("sub", "invisible");
           classChanger("kp", "visible");
+          classChanger("general", "visible");
           document.getElementById("sub").outerHTML = subDiv;
           subField = document.getElementById("sub");      
         });
@@ -197,12 +211,44 @@ function sumTable(path)
 
 function equipmentListGeneratorP(path)
 {
-  var equipment = "<tr><td>Nazwa</td><td>Opis</td></tr>"
+  var equipment = "<tr><td>Nazwa</td><td>Opis</td><td>Typ</td><td>Umiejscowienie</td><td>Właściwości</td></tr>"
   for(var i=0; i<path.equipment.length;i++)
   {
-    equipment += "<tr><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td></tr>";
-    console.log(path.equipment[i]);
+    equipment += "<tr><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td><td>" + path.equipment[i].type + "</td><td>" + path.equipment[i].bodypart + "</td><td>" + path.equipment[i].ability + "</td></tr>";
   }
 
   return equipment;
+}
+
+function itemsListGenerator(path)
+{
+  var items = "<tr><td>Nazwa</td><td>Opis</td><td>Właściwości</td></tr>"
+  for(var i=0; i<path.items.length;i++)
+  {
+    items += "<tr><td>" + path.items[i].name + "</td><td>" + path.items[i].description + "</td><td>" + path.items[i].ability + "</td></tr>";
+  }
+
+  return items;
+}
+
+function comradeListGenerator(path)
+{
+  var comrades = "<tr><td>Imię</td><td>Nazwisko</td></tr>"
+  for(var i=0; i<path.comrades.length;i++)
+  {
+    comrades += "<tr><td>" + path.comrades[i].name + "</td><td>" + path.comrades[i].surname + "</td></tr>";
+  }
+
+  return comrades;
+}
+
+function abilitesListGenerator(path)
+{
+  var abilites = "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>"
+  for(var i=0; i<path.abilites.length;i++)
+  {
+    abilites += "<tr><td>" + path.abilites[i].name + "</td><td>" + path.abilites[i].description + "</td><td>" + path.abilites[i].requirements + "</td><td>" + path.abilites[i].cost + "</td><td>" + path.abilites[i].effect + "</td></tr>";
+  }
+
+  return abilites;
 }
