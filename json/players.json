@@ -91,22 +91,104 @@
     ],
     "comrades": [
       {
-        "name": null,
-        "surname": null,
-        "occupation": null,
-        "race": null,
-        "provenance": null,
-        "age": null,
+        
+        "name": "Edek",
+        "surname": "-",
+        "occupation": "-",
+        "species": "Krasnolud",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "Piko",
+        "age": 32,
         "abilities": [
+          {
+            "name": "Pomniejsza mikstura leczenia",
+            "description": "Wywar z roślin lecznicznych",
+            "requirements": "pojemnik, składniki",
+            "cost": "1 punkt znużenia",
+            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+          },
+          {
+            "name": "Pomniejsza mikstura leczenia2",
+            "description": "Wywar z roślin lecznicznych",
+            "requirements": "pojemnik, składniki",
+            "cost": "1 punkt znużenia",
+            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "test",
+            "description": "test1",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "test",
+            "description": "test1",
+            "type": null,
+            "bodypart": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }                   
+        ],
+        "items": [
           {
             "name": null,
             "description": null
           }
         ],
+        "food": null,
+        "weakness": null,
+        "motivation": null,
+        "bond": [
+          {
+            "name": null,
+            "description": null,
+            "visible": null
+          }
+        ]
+      },
+      {
+        
+        "name": "Edek",
+        "surname": "-",
+        "occupation": "-",
+        "species": "Krasnolud",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "Piko",
+        "age": 32,
+        "abilities": [
+          {
+            "name": "Pomniejsza mikstura leczenia",
+            "description": "Wywar z roślin lecznicznych",
+            "requirements": "pojemnik, składniki",
+            "cost": "1 punkt znużenia",
+            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+          },
+          {
+            "name": "Pomniejsza mikstura leczenia2",
+            "description": "Wywar z roślin lecznicznych",
+            "requirements": "pojemnik, składniki",
+            "cost": "1 punkt znużenia",
+            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+          }
+        ],
         "equipment": [
           {
-            "name": "Gogle",
-            "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
+            "name": "test",
+            "description": "test1",
             "type": null,
             "bodypart": null,
             "buff": [
@@ -117,8 +199,8 @@
             ]          
           },
           {
-            "name": "Naszyjnik",
-            "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
+            "name": "test",
+            "description": "test1",
             "type": null,
             "bodypart": null,
             "buff": [
@@ -127,79 +209,7 @@
                 "secondary": null
               }
             ]          
-          },
-          {
-            "name": "Koszula",
-            "description": "Czarna koszula tkana z fioletowym pigmentem",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "Gorset",
-            "description": "Gorset skórzany z fioletowym pigmentem",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "Rękawice",
-            "description": "Rękawice skórzane z fioletowym pigmentem",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "Pas",
-            "description": "Czarny pas skórzany z doczepionymi sakwami",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "Spodnie",
-            "description": "Spodnie skórzane z fioletowym pigmentem",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "Buty",
-            "description": "Długie buty skórzane czarne",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          }            
+          }                   
         ],
         "items": [
           {
@@ -232,6 +242,7 @@
         "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -244,6 +255,7 @@
         "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -256,6 +268,7 @@
         "description": "Czarna koszula tkana z fioletowym pigmentem",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -268,6 +281,7 @@
         "description": "Gorset skórzany z fioletowym pigmentem",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -280,6 +294,7 @@
         "description": "Rękawice skórzane z fioletowym pigmentem",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -292,6 +307,7 @@
         "description": "Czarny pas skórzany z doczepionymi sakwami",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -304,6 +320,7 @@
         "description": "Spodnie skórzane z fioletowym pigmentem",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -316,6 +333,7 @@
         "description": "Długie buty skórzane czarne",
         "type": null,
         "bodypart": null,
+        "ability": null,
         "buff": [
           {
             "primary": null,
@@ -353,7 +371,7 @@
         "effect": null
       }
     ],
-    "abilites": [
+    "abilities": [
       {
         "name": "Pomniejsza mikstura leczenia",
         "description": "Wywar z roślin lecznicznych",
