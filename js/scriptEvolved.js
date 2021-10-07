@@ -1,59 +1,4 @@
-/*let requestURL = 'json/players.json';
-  let request = new XMLHttpRequest();
-  request.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) 
-    {
-    var myObj = JSON.parse(this.responseText);    
-    for(var i=0;i<myObj.length;i++)
-      {
-      if(document.baseURI.includes(myObj[i].name.toLowerCase()))
-        {
-            var general = document.getElementById("general");
-            var myChar = myObj[i];
-            var eq = equipmentListGeneratorP(myChar);
-            var item = itemsListGenerator(myChar);
-            var comr = comradeListGenerator(myChar);
-            var abil = abilitesListGenerator(myChar);
-            general.outerHTML = "<div class='visible' id='general'><table>" + 
-            "</td></tr><tr><td><b>1. Dane podstawowe</b>" +
-            "<tr><td>Imię: </td><td>" + myChar.name +           
-            "</td></tr><tr><td>Nazwisko: </td><td>" + myChar.surname + 
-            "</td></tr><tr><td>Zajęcie: </td><td>" + myChar.occupation + 
-            "</td></tr><tr><td>Gatunek: </td><td>" + myChar.species +
-            "</td></tr><tr><td>Podgatunek: </td><td>" + myChar.subspecies +
-            "</td></tr><tr><td>Rasa/Odmiana: </td><td>" + myChar.variety +
-            "</td></tr><tr><td>Pochodzenie: </td><td>" + myChar.provenance + 
-            "</td></tr><tr><td>Wiek: </td><td>" + myChar.age + 
-            "</td></tr><tr><td><b>2. Atrybuty</b>" + 
-            "</td></tr><tr><td>" + " - Krzepa:" + "</td><td>" + myChar.attributes[0].basevalue + "(+" + myChar.attributes[0].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Zwinność:" + "</td><td>" + myChar.attributes[1].basevalue + "(+" + myChar.attributes[1].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Rozum:" + "</td><td>" + myChar.attributes[2].basevalue + "(+" + myChar.attributes[2].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Emocje:" + "</td><td>" + myChar.attributes[3].basevalue + "(+" + myChar.attributes[3].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Rzemiosło:" + "</td><td>" + myChar.attributes[4].basevalue + "(+" + myChar.attributes[4].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Wola:" + "</td><td>" + myChar.attributes[5].basevalue + "(+" + myChar.attributes[5].buffvalue + ")" +
-            "</td></tr><tr><td><b>3. Stany</b>" + 
-            "</td></tr><tr><td>" + " - Zranienie:" + "</td><td>" + myChar.states[0].basevalue + "(+" + myChar.states[0].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Paraliż:" + "</td><td>" + myChar.states[1].basevalue + "(+" + myChar.states[1].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Otępienie:" + "</td><td>" + myChar.states[2].basevalue + "(+" + myChar.states[2].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Panika:" + "</td><td>" + myChar.states[3].basevalue + "(+" + myChar.states[3].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Zatrucie:" + "</td><td>" + myChar.states[4].basevalue + "(+" + myChar.states[4].buffvalue + ")" +
-            "</td></tr><tr><td>" + " - Znużenie:" + "</td><td>" + myChar.states[5].basevalue + "(+" + myChar.states[5].buffvalue + ")" +
-            "</td></tr><tr><td><b>4. Umiejętności</b>" + 
-            abil +
-            "</td></tr><tr><td><b>5. Ekwipunek</b>" + 
-            eq +
-            "</td></tr><tr><td><b>6. Przedmioty</b>" + 
-            item +
-            "</td></tr><tr><td><b>7. Towarzysze</b>" +
-            comr +
-            "</td></tr></table>";
-        } 
-      }
-    }
-  }
-request.open('GET', requestURL);
-request.send();
-*/
+
 var buttonInformation = document.getElementById("information");
 var buttonAttribute = document.getElementById("attribute");
 var buttonState = document.getElementById("state");
@@ -63,6 +8,8 @@ var buttonItems = document.getElementById("items");
 var buttonAbilities = document.getElementById("abilities");
 var buttonSpells = document.getElementById("spells");
 var buttonComrades = document.getElementById("companions");
+var buttonNotes = document.getElementById("notes");
+var buttonBio = document.getElementById("biography");
 var subField = document.getElementById("sub");
 var subDiv = document.getElementById("sub").outerHTML;
 
@@ -110,6 +57,16 @@ buttonSpells.addEventListener('click', function(){
 buttonComrades.addEventListener('click', function(){
   classChanger("kp", "invisible");
   getPlayerData("comrades", document.baseURI);
+});
+
+buttonNotes.addEventListener('click', function(){
+  classChanger("kp", "invisible");
+  getPlayerData("notes", document.baseURI);
+});
+
+buttonBio.addEventListener('click', function(){
+  classChanger("kp", "invisible");
+  getPlayerData("biography", document.baseURI);
 });
 
 function playerInformation(locationInJson)
@@ -218,6 +175,10 @@ function subMenuSwitch(subMenuType, locationInJson)
       return spellsListGenerator(locationInJson);
     case "comrades":
       return comradeListGenerator(locationInJson);
+    case "notes":
+      return notesListGenerator(locationInJson);
+    case "biography":
+      return biographyGenerator(locationInJson); 
     default:
       return null;
   }
@@ -271,7 +232,7 @@ function itemsListGenerator(path)
 function abilitiesListGenerator(path)
 {
   var abilites =  
-  "</td></tr><tr><td><b>Umiejętności</b>" + 
+  "<tr><td><b>Umiejętności</b></td></tr>" + 
   "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>";
   for(var i=0; i<path.abilities.length;i++)
   {
@@ -284,7 +245,7 @@ function abilitiesListGenerator(path)
 function spellsListGenerator(path)
 {
   var spells = 
-  "</td></tr><tr><td><b>Zaklęcia</b>" + 
+  "<tr><td><b>Zaklęcia</b></td></tr>" + 
   "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>";
   for(var i=0; i<path.spells.length;i++)
   {
@@ -297,7 +258,7 @@ function spellsListGenerator(path)
 function comradeListGenerator(path)
 {
   var comrade = path.comrades;
-  var comrades = "</td></tr><tr><td><b>Towarzysze</b>";
+  var comrades = "<tr><td><b>Towarzysze</b></td></tr>";
   for(var i=0; i<comrade.length;i++)
   {
     comrades += playerInformation(comrade[i]) +  
@@ -307,6 +268,28 @@ function comradeListGenerator(path)
   }
 
   return comrades;
+}
+
+function notesListGenerator(path)
+{
+  var notes = 
+  "<tr><td><b>Notatki</b></td></tr>"; 
+  
+  for(var i=0; i<path.notes.length;i++)
+  {
+    notes += "<tr><td>" + path.notes[i].content + "</td></tr>";
+  }
+
+  return notes;
+}
+
+function biographyGenerator(path)
+{
+  var bio = 
+  "<tr><td><b>Biografia</b></td></tr>" +
+  "<tr><td>" + path.biography + "</td></tr>";
+
+  return bio;
 }
 
 function addOpenDiv() {

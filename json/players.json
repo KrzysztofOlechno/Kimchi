@@ -344,24 +344,16 @@
     ],
     "notes": [
       {
-        "note0": null,
-        "note1": null,
-        "note2": null,
-        "note3": null,
-        "note4": null,
-        "note5": null,
-        "note6": null,
-        "note7": null,
-        "note8": null,
-        "note9": null,        
-        "note10": null,
-        "note11": null,
-        "note12": null,
-        "note13": null,
-        "note14": null
+        "content": "-"
+      },
+      {
+        "content": "--"
+      },
+      {
+        "content": "-"
       }
     ],
-    "biography": null,
+    "biography": "Opis",
     "spells": [
       {
         "name": null,
