@@ -385,7 +385,8 @@
         "cost": "Wyczerpanie punktów paniki",
         "effect": "Postacie wokół oraz obiekty otrzymują obrażenia."
       }
-    ]
+    ],
+    "knownherbs":[2,4,5]
   },
   {
     "name": "Kikimurmunex",
