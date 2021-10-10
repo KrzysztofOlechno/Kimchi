@@ -11,6 +11,7 @@ height: 25%;
 text-align: center;
 display: block;
 float: right;
+font-size: 20px;
 }
 
 .visible
@@ -25,11 +26,11 @@ float: right;
 
 .buttonThrow
 {
-width: 50%;
-height: 25%;
 text-align: center;
 display: block;
 float: left;
+border: black;
+border-style: solid;
 }
 
 .buttonMenu
@@ -39,11 +40,11 @@ height: 20%;
 text-align: left;
 display: block;
 float: left;
+font-size: 50px;
 }
 
 .textSpan{
     vertical-align: bottom;
-    font-size: 50px;
 }
 
 #button1k20{

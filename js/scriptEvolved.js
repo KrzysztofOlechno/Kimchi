@@ -88,12 +88,12 @@ function playerAttributes(locationInJson)
 {
   var attr = "<tr><td><b>Cechy</b></td></tr>" +
   "<tr><td>Cecha</td><td>Bazowa</td><td>Bonus</td></tr>" + 
-  "<tr><td>Krzepa: </td><td>" + locationInJson.attributes[0].basevalue + "</td><td>" + locationInJson.attributes[0].buffvalue + "</td></tr>" + 
-  "<tr><td>Zwinność: </td><td>" + locationInJson.attributes[1].basevalue + "</td><td>" + locationInJson.attributes[1].buffvalue + "</td></tr>" +
-  "<tr><td>Rozum: </td><td>" + locationInJson.attributes[2].basevalue + "</td><td>" + locationInJson.attributes[2].buffvalue + "</td></tr>" + 
-  "<tr><td>Emocje: </td><td>" + locationInJson.attributes[3].basevalue + "</td><td>" + locationInJson.attributes[3].buffvalue + "</td></tr>" + 
-  "<tr><td>Rzemiosło: </td><td>" + locationInJson.attributes[4].basevalue + "</td><td>" + locationInJson.attributes[4].buffvalue + "</td></tr>" + 
-  "<tr><td>Wola: </td><td>" + locationInJson.attributes[5].basevalue + "</td><td>" + locationInJson.attributes[5].buffvalue + "</td></tr>";
+  "<tr><td><div class='buttonThrow' id='strength' tabindex='1' aria-label='Krzepa'><span class='textSpan'>Krzepa Rzut </span></div></td><td>Krzepa: </td><td>" + locationInJson.attributes[0].basevalue + "</td><td>" + locationInJson.attributes[0].buffvalue + "</td></tr>" + 
+  "<tr><td><div class='buttonThrow' id='agility' tabindex='2' aria-label='Zwinność'><span class='textSpan'>Zwinność Rzut </span></div></td><td>Zwinność: </td><td>" + locationInJson.attributes[1].basevalue + "</td><td>" + locationInJson.attributes[1].buffvalue + "</td></tr>" +
+  "<tr><td><div class='buttonThrow' id='mind' tabindex='3' aria-label='Rozum'><span class='textSpan'>Rozum Rzut </span></div></td><td>Rozum: </td><td>" + locationInJson.attributes[2].basevalue + "</td><td>" + locationInJson.attributes[2].buffvalue + "</td></tr>" + 
+  "<tr><td><div class='buttonThrow' id='emotions' tabindex='4' aria-label='Emocje'><span class='textSpan'>Emocje Rzut </span></div></td><td>Emocje: </td><td>" + locationInJson.attributes[3].basevalue + "</td><td>" + locationInJson.attributes[3].buffvalue + "</td></tr>" + 
+  "<tr><td><div class='buttonThrow' id='craft' tabindex='5' aria-label='Rzemiosło'><span class='textSpan'>Rzemiosło Rzut </span></div></td><td>Rzemiosło: </td><td>" + locationInJson.attributes[4].basevalue + "</td><td>" + locationInJson.attributes[4].buffvalue + "</td></tr>" + 
+  "<tr><td><div class='buttonThrow' id='willpower' tabindex='6' aria-label='Wola'><span class='textSpan'>Wola Rzut </span></div></td><td>Wola: </td><td>" + locationInJson.attributes[5].basevalue + "</td><td>" + locationInJson.attributes[5].buffvalue + "</td></tr>";
 
   return attr;
 }
@@ -138,13 +138,24 @@ function getPlayerData(subMenuType, playerURI)
         
         subField.outerHTML = makeTable(subMenuSwitch(subMenuType, myObj[i]));
 
+        var buttonThrow = document.getElementsByClassName("buttonThrow");  
+        if(buttonThrow.length!=0)
+        {
+          for(var i=0;i<6;i++)
+          {
+	          buttonThrow[i].addEventListener('click', function(){
+            getPlayerDataSkillsThrow(document.baseURI, this.id);	
+	          });
+          }
+        }
         var backButton = document.getElementById("bButton");
+
 
         backButton.addEventListener('click', function(){
           classChanger("sub", "invisible");
           classChanger("kp", "visible");
           document.getElementById("sub").outerHTML = subDiv;
-          subField = document.getElementById("sub");      
+          subField = document.getElementById("sub");    
         });
         } 
       }
@@ -332,4 +343,108 @@ function makeTable(type){
   var table = addOpenDiv() + addOpenTable() + type + addCloseTable() + addCloseButton() + addCloseDiv();
   console.log(table);
   return table;
+}
+
+function getPlayerDataSkillsThrow(playerURI, skillId)
+{
+let requestURL = 'json/players.json';
+let request = new XMLHttpRequest();
+request.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) 
+  {
+    var myObj = JSON.parse(this.responseText);    
+    for(var i=0;i<myObj.length;i++)
+    {
+      if(playerURI.includes(myObj[i].name.toLowerCase()))
+      {
+        var playerSkills = myObj[i].attributes;
+        for(var j=0;j<playerSkills.length;j++)
+        {
+          if(playerSkills[j].name == skillId)
+          {
+            var pskill = playerSkills[j];
+            var base = pskill.basevalue;
+            var buff = pskill.buffvalue;
+            var secbuff = pskill.secbuffvalue
+
+            throwAndSum(base, buff, secbuff);
+          }
+        }
+      } 
+    }
+  }
+};
+request.open('GET', requestURL);
+request.send();
+
+}
+
+function throwAndSum(base, second, third)
+{
+  var fir = skillToCubeConverter(base);
+  var sec = skillToCubeConverter(second);
+  var thi = skillToCubeConverter(third);
+
+  var sum = 0;
+
+  if(fir != null)
+    {
+      console.log(fir);
+      sum += diceThrow(fir);
+      console.log('Sum:' + sum);
+    }
+  if(sec != null)
+    {
+      console.log(sec);
+      sum += diceThrow(sec);
+      console.log('Sum:' + sum);
+    }
+  if(thi != null)
+    {
+      sum += diceThrow(thi);
+      console.log('Sum:' + sum);
+    }
+    console.log('Suma to: ' + sum);
+speakNumber(sum);
+}
+
+function skillToCubeConverter(skillValue)
+{
+  switch(skillValue) {
+    case 1:
+      return 4;
+    case 2:
+      return 6;
+    case 3:
+      return 8;
+    case 4:
+      return 10;
+    case 5:
+      return 12;
+    case 6:
+      return 20;
+    default:
+      return null;
+  }
+}
+
+function diceThrow(cubeType)
+{
+	
+    var cube = parseInt((Math.random()*cubeType)+1);
+    var cubeTypeString = cubeType.toString();
+    console.log('W wyniku rzutu kością 1k' + cubeTypeString + ' wypadła wartość:',cube);
+    return cube;
+}
+
+function speakNumber(number)
+{
+    var soundUrlString = 'soundsystem/' + number.toString() + '.mp3';
+    playSound(soundUrlString);  
+    console.log(soundUrlString);
+}
+
+function playSound(url) {
+    var sound = new Audio(url);
+    sound.play();
 }
