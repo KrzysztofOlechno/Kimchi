@@ -1,0 +1,480 @@
+  {
+    "players":[
+      {
+        "name": "Aura",
+        "surname": "-",
+        "occupation": "-",
+        "species": "-",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "-",
+        "age": "-",
+        "height": "-",
+        "haircolor": "-",
+        "eyecolor": "-",
+        "peculiarities": "-",
+        "biography": "-",
+        "knownherbs": [2,4],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "-",
+            "description": "-",
+            "ability": "-"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "-",
+            "description": "-",
+            "type": "-",
+            "bodypart": "-",
+            "ability": "-",
+            "buff": [
+              {
+                "primary": "-",
+                "secondary": "-"
+              }
+            ]          
+          }
+        ],
+        "abilities": [
+          {
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "spells": [
+          {
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "stupor",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "panic",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "weariness",
+            "basevalue": 0,
+            "buffvalue": 0
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "attacks",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "spells",
+            "basevalue": 0,
+            "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "-",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "abilities": [
+              {
+                "name": "-",
+                "description": "-",
+                "requirements": "-",
+                "cost": "-",
+                "effect": "-"
+              }
+            ],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }
+        ]        
+      },
+      {
+        "name": "Drugi",
+        "surname": "-",
+        "occupation": "-",
+        "species": "-",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "-",
+        "age": "-",
+        "height": "-",
+        "haircolor": "-",
+        "eyecolor": "-",
+        "peculiarities": "-",
+        "biography": "-",
+        "knownherbs": [0],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "-",
+            "description": "-",
+            "ability": "-"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "-",
+            "description": "-",
+            "type": "-",
+            "bodypart": "-",
+            "ability": "-",
+            "buff": [
+              {
+                "primary": "-",
+                "secondary": "-"
+              }
+            ]          
+          }
+        ],
+        "abilities": [
+          {
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "spells": [
+          {
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 0,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "stupor",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "panic",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "weariness",
+            "basevalue": 0,
+            "buffvalue": 0
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "attacks",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "spells",
+            "basevalue": 0,
+            "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "-",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "abilities": [
+              {
+                "name": "-",
+                "description": "-",
+                "requirements": "-",
+                "cost": "-",
+                "effect": "-"
+              }
+            ],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }
+        ]        
+      }
+    ],
+    "herbs":[
+      {
+        "id": 1,
+        "nameFormal": "Ziółko1",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      },
+      {
+        "id": 2,
+        "nameFormal": "Ziółko2",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      },
+      {
+        "id": 3,
+        "nameFormal": "Ziółko3",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      },
+      {
+        "id": 4,
+        "nameFormal": "Ziółko4",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      },
+      {
+        "id": 5,
+        "nameFormal": "Ziółko5",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      },
+      {
+        "id": 6,
+        "nameFormal": "Ziółko6",
+        "nameCasual":"-",
+        "morphology": "-",
+        "scent": "-",
+        "taste": "-",
+        "effects": "-",
+        "rarity": "-",
+        "area": "-"
+      }
+    ],
+    "spells": [
+      {
+        "name": "-",
+        "description": "-",
+        "sphere": "-",
+        "requirements": "-",
+        "cost": "-",
+        "effect": "-"
+      }
+    ]
+  }

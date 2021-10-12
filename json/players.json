@@ -90,148 +90,59 @@
       }
     ],
     "comrades": [
-      {
-        
-        "name": "Edek",
+      {        
+        "name": "-",
         "surname": "-",
         "occupation": "-",
-        "species": "Krasnolud",
+        "species": "-",
         "subspecies": "-", 
         "variety": "-",
-        "provenance": "Piko",
-        "age": 32,
+        "provenance": "-",
+        "age": "-",
         "abilities": [
           {
-            "name": "Pomniejsza mikstura leczenia",
-            "description": "Wywar z roślin lecznicznych",
-            "requirements": "pojemnik, składniki",
-            "cost": "1 punkt znużenia",
-            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
-          },
-          {
-            "name": "Pomniejsza mikstura leczenia2",
-            "description": "Wywar z roślin lecznicznych",
-            "requirements": "pojemnik, składniki",
-            "cost": "1 punkt znużenia",
-            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
           }
         ],
         "equipment": [
           {
-            "name": "test",
-            "description": "test1",
-            "type": null,
-            "bodypart": null,
+            "name": "-",
+            "description": "-",
+            "type": "-",
+            "bodypart": "-",
             "buff": [
               {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "test",
-            "description": "test1",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
+                "primary": "-",
+                "secondary": "-"
               }
             ]          
           }                   
         ],
         "items": [
           {
-            "name": null,
-            "description": null
+            "name": "-",
+            "description": "-"
           }
         ],
-        "food": null,
-        "weakness": null,
-        "motivation": null,
+        "food": "-",
+        "weakness": "-",
+        "motivation": "-",
         "bond": [
           {
-            "name": null,
-            "description": null,
-            "visible": null
-          }
-        ]
-      },
-      {
-        
-        "name": "Edek",
-        "surname": "-",
-        "occupation": "-",
-        "species": "Krasnolud",
-        "subspecies": "-", 
-        "variety": "-",
-        "provenance": "Piko",
-        "age": 32,
-        "abilities": [
-          {
-            "name": "Pomniejsza mikstura leczenia",
-            "description": "Wywar z roślin lecznicznych",
-            "requirements": "pojemnik, składniki",
-            "cost": "1 punkt znużenia",
-            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
-          },
-          {
-            "name": "Pomniejsza mikstura leczenia2",
-            "description": "Wywar z roślin lecznicznych",
-            "requirements": "pojemnik, składniki",
-            "cost": "1 punkt znużenia",
-            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
-          }
-        ],
-        "equipment": [
-          {
-            "name": "test",
-            "description": "test1",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          },
-          {
-            "name": "test",
-            "description": "test1",
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          }                   
-        ],
-        "items": [
-          {
-            "name": null,
-            "description": null
-          }
-        ],
-        "food": null,
-        "weakness": null,
-        "motivation": null,
-        "bond": [
-          {
-            "name": null,
-            "description": null,
-            "visible": null
+            "name": "-",
+            "description": "-",
+            "visible": "-"
           }
         ]
       }
     ],
     "items": [
       {
-        "name": null,
+        "name": "Naszyjnik srebrny",
         "description": null,
         "ability": null
       }
@@ -388,121 +299,425 @@
     ],
     "knownherbs":[2,4,5]
   },
-  {
-    "name": "Kikimurmunex",
-    "surname": "Duperex",
-    "occupation": "Wiedźmin",
-    "species": "Człowiek",
-    "subspecies": "Rozumny", 
-    "variety": "Biały",
-    "provenance": "Nowiny Zdroje",
-    "age": 33,
-    "attributes": [
-      {"name": "strength",
-       "basevalue": 4,
-       "buffvalue": 0,
-       "secbuffvalue": null
-      },
+  [
+    {
+      "name": "Zordael",
+      "surname": "Oreański",
+      "occupation": "Łowca istot magicznych",
+      "species": "Człowiek",
+      "subspecies": "-", 
+      "variety": "-",
+      "provenance": "Cydrinka",
+      "age": 22,
+      "attributes": [
+        {"name": "strength",
+          "basevalue": 4,
+          "buffvalue": 0,
+          "secbuffvalue": null
+         },
+         {"name": "agility",
+           "basevalue": 4,
+           "buffvalue": 1,
+           "secbuffvalue": null
+          },
+          {"name": "mind",
+           "basevalue": 3,
+           "buffvalue": 1,
+           "secbuffvalue": null
+          },
+          {"name": "emotions",
+           "basevalue": 2,
+           "buffvalue": 1,
+           "secbuffvalue": null
+          },
+          {"name": "craft",
+           "basevalue": 2,
+           "buffvalue": 0,
+           "secbuffvalue": null
+          },
+          {"name": "willpower",
+           "basevalue": 3,
+           "buffvalue": 1,
+           "secbuffvalue": null
+          }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 4,
+          "buffvalue": 0
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 4,
+          "buffvalue": 0
+        },
+        {
+          "name": "stupor",
+          "basevalue": 4,
+          "buffvalue": 0
+        },
+        {
+          "name": "panic",
+          "basevalue": 4,
+          "buffvalue": 0
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 4,
+          "buffvalue": 0
+        },
+        {
+          "name": "weariness",
+          "basevalue": 4,
+          "buffvalue": 0
+        }  
+      ],
+      "battle": [
+        {
+        "name": "reaction",
+         "basevalue": 4,
+         "buffvalue": 0
+        },
+        {
+         "name": "attacks",
+         "basevalue": 4,
+         "buffvalue": 0
+        },
+        {
+         "name": "spells",
+         "basevalue": 3,
+         "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {
+          
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "Jastrząb",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": "-",
+          "abilities": [
+            {
+              "name": "-",
+              "description": "-",
+              "requirements": "-",
+              "cost": "-",
+              "effect": "-"
+            }
+          ],
+          "food": "mięso",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }
+      ],  
+      "items": [
+        {
+          "name": null,
+          "description": null,
+          "ability": null
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Gogle",
+          "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Naszyjnik",
+          "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula",
+          "description": "Czarna koszula tkana z fioletowym pigmentem",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Gorset",
+          "description": "Gorset skórzany z fioletowym pigmentem",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Rękawice",
+          "description": "Rękawice skórzane z fioletowym pigmentem",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Pas",
+          "description": "Czarny pas skórzany z doczepionymi sakwami",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie",
+          "description": "Spodnie skórzane z fioletowym pigmentem",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        },
+        {
+          "name": "Buty",
+          "description": "Długie buty skórzane czarne",
+          "type": null,
+          "bodypart": null,
+          "ability": null,
+          "buff": [
+            {
+              "primary": null,
+              "secondary": null
+            }
+          ]          
+        }      
+      ],
+      "notes": [
+        {
+          "content": "-"
+        },
+        {
+          "content": "--"
+        },
+        {
+          "content": "-"
+        }
+      ],
+      "biography": "Opis",
+      "spells": [
+        {
+          "name": null,
+          "description": null,
+          "requirements": null,
+          "cost": null,
+          "effect": null
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Pomniejsza mikstura leczenia",
+          "description": "Wywar z roślin lecznicznych",
+          "requirements": "pojemnik, składniki",
+          "cost": "1 punkt znużenia",
+          "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+        },
+        {
+          "name": "Atak głosem",
+          "description": "Postać atakuje mocą swojego głosu",
+          "requirements": "-",
+          "cost": "1 punkt paniki",
+          "effect": "Powodując obrażania fizyczne i ogłusza przeciwników."
+        },
+        {
+          "name": "Głos furii",
+          "description": "Postać doprowadzona do granicy niszczy falą głosu wszystko wokół siebie",
+          "requirements": "-",
+          "cost": "Wyczerpanie punktów paniki",
+          "effect": "Postacie wokół oraz obiekty otrzymują obrażenia."
+        }
+      ],
+      "knownherbs":[2,4,5]
+    },
+    [
       {
-        "name": "agility",
-        "basevalue": 4,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "mind",
-        "basevalue": 3,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "emotions",
-        "basevalue": 2,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "craft",
-        "basevalue": 2,
-        "buffvalue": 0,
-        "secbuffvalue": null
-       },
-       {
-        "name": "willpower",
-        "basevalue": 3,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       }
-    ],
-    "states": [
-      {
-        "name": "wounds",
-        "basevalue": 4,
-        "buffvalue": 1
-      },
-      {
-        "name": "paralisis",
-        "basevalue": 4,
-        "buffvalue": 1
-      },
-      {
-        "name": "stupor",
-        "basevalue": 4,
-        "buffvalue": 1
-      },
-      {
-        "name": "panic",
-        "basevalue": 4,
-        "buffvalue": 1
-      },
-      {
-        "name": "poisoning",
-        "basevalue": 4,
-        "buffvalue": 1
-      },
-      {
-        "name": "weariness",
-        "basevalue": 4,
-        "buffvalue": 1
-      }  
-    ],
-    "battle": [
-      {
-      "name": "reaction",
-       "basevalue": 1,
-       "buffvalue": 0
-      },
-      {
-       "name": "attacks",
-       "basevalue": 2,
-       "buffvalue": 1
-      },
-      {
-       "name": "spells",
-       "basevalue": 3,
-       "buffvalue": 2
-      }
-    ],
-    "comrades": [
-      {
-        "name": null,
-        "surname": null,
-        "occupation": null,
-        "race": null,
-        "provenance": null,
-        "age": null,
-        "abilities": [
+        "name": "Ilfrin",
+        "surname": "-",
+        "occupation": "Czarownik",
+        "species": "Człowiek",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "Cydrinka",
+        "age": 22,
+        "attributes": [
+          {"name": "strength",
+            "basevalue": 4,
+            "buffvalue": 0,
+            "secbuffvalue": null
+           },
+           {"name": "agility",
+             "basevalue": 4,
+             "buffvalue": 1,
+             "secbuffvalue": null
+            },
+            {"name": "mind",
+             "basevalue": 3,
+             "buffvalue": 1,
+             "secbuffvalue": null
+            },
+            {"name": "emotions",
+             "basevalue": 2,
+             "buffvalue": 1,
+             "secbuffvalue": null
+            },
+            {"name": "craft",
+             "basevalue": 2,
+             "buffvalue": 0,
+             "secbuffvalue": null
+            },
+            {"name": "willpower",
+             "basevalue": 3,
+             "buffvalue": 1,
+             "secbuffvalue": null
+            }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "stupor",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "panic",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "weariness",
+            "basevalue": 4,
+            "buffvalue": 0
+          }  
+        ],
+        "battle": [
+          {
+          "name": "reaction",
+           "basevalue": 4,
+           "buffvalue": 0
+          },
+          {
+           "name": "attacks",
+           "basevalue": 4,
+           "buffvalue": 0
+          },
+          {
+           "name": "spells",
+           "basevalue": 3,
+           "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {
+            
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "Jastrząb",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "abilities": [
+              {
+                "name": "-",
+                "description": "-",
+                "requirements": "-",
+                "cost": "-",
+                "effect": "-"
+              }
+            ],
+            "food": "mięso",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }
+        ],  
+        "items": [
           {
             "name": null,
-            "description": null
+            "description": null,
+            "ability": null
           }
         ],
         "equipment": [
           {
-            "name": 1,
-            "description": 101,
+            "name": "Gogle",
+            "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
             "type": null,
             "bodypart": null,
+            "ability": null,
             "buff": [
               {
                 "primary": null,
@@ -511,10 +726,11 @@
             ]          
           },
           {
-            "name": 2,
-            "description": 202,
+            "name": "Naszyjnik",
+            "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
             "type": null,
             "bodypart": null,
+            "ability": null,
             "buff": [
               {
                 "primary": null,
@@ -523,459 +739,128 @@
             ]          
           },
           {
-            "name": 3,
-            "description": 303,
+            "name": "Koszula",
+            "description": "Czarna koszula tkana z fioletowym pigmentem",
             "type": null,
             "bodypart": null,
+            "ability": null,
             "buff": [
               {
                 "primary": null,
                 "secondary": null
               }
             ]          
-          }          
-        ],
-        "items": [
+          },
           {
-            "name": null,
-            "description": null
+            "name": "Gorset",
+            "description": "Gorset skórzany z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "ability": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Rękawice",
+            "description": "Rękawice skórzane z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "ability": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Pas",
+            "description": "Czarny pas skórzany z doczepionymi sakwami",
+            "type": null,
+            "bodypart": null,
+            "ability": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Spodnie",
+            "description": "Spodnie skórzane z fioletowym pigmentem",
+            "type": null,
+            "bodypart": null,
+            "ability": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          },
+          {
+            "name": "Buty",
+            "description": "Długie buty skórzane czarne",
+            "type": null,
+            "bodypart": null,
+            "ability": null,
+            "buff": [
+              {
+                "primary": null,
+                "secondary": null
+              }
+            ]          
+          }      
+        ],
+        "notes": [
+          {
+            "content": "-"
+          },
+          {
+            "content": "--"
+          },
+          {
+            "content": "-"
           }
         ],
-        "food": null,
-        "weakness": null,
-        "motivation": null,
-        "bond": [
+        "biography": "Opis",
+        "spells": [
           {
             "name": null,
             "description": null,
-            "visible": null
+            "requirements": null,
+            "cost": null,
+            "effect": null
           }
-        ]
-      }
-    ],
-    "items": [
-      {
-        "name": null,
-        "description": null,
-        "ability": null
-      }
-    ],
-    "equipment": [
-      {
-        "name": "pie",
-        "description": "pie1",
-        "type": null,
-        "bodypart": null,
-        "buff": [
-          {
-            "primary": null,
-            "secondary": null
-          }        
         ],
-        "ability": null          
-      },
-      {
-        "name": null,
-        "description": null,
-        "type": null,
-        "bodypart": null,
-        "buff": [
-          {
-            "primary": null,
-            "secondary": null
-          }        
-        ],
-        "ability": null          
-      },
-      {
-        "name": "trzy",
-        "description": "trzy3",
-        "type": null,
-        "bodypart": null,
-        "buff": [
-          {
-            "primary": null,
-            "secondary": null
-          }        
-        ],
-        "ability": null          
-      }        
-    ],
-    "notes": [
-      {
-        "note0": null,
-        "note1": null,
-        "note2": null,
-        "note3": null,
-        "note4": null,
-        "note5": null,
-        "note6": null,
-        "note7": null,
-        "note8": null,
-        "note9": null,        
-        "note10": null,
-        "note11": null,
-        "note12": null,
-        "note13": null,
-        "note14": null
-      }
-    ],
-    "biography": null,
-    "spells": [
-      {
-        "name": null,
-        "description": null,
-        "requirements": null,
-        "cost": null,
-        "effect": null
-      }
-    ],
-    "abilites": [
-      {
-        "name": null,
-        "description": null,
-        "requirements": null,
-        "cost": null,
-        "effect": null
-      }
-    ]
-  },
-  {
-    "name": "Zordael",
-    "surname": null,
-    "occupation": null,
-    "race": "human",
-    "provenance": null,
-    "age": null,
-    "skills": [
-      {"name": "strength",
-       "basevalue": 4,
-       "buffvalue": null,
-       "secbuffvalue": null
-      },
-      {
-        "name": "agility",
-        "basevalue": 4,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "mind",
-        "basevalue": 3,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "emotions",
-        "basevalue": 2,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {
-        "name": "craft",
-        "basevalue": 2,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {
-        "name": "willpower",
-        "basevalue": 3,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       }
-    ],
-    "states": [
-      {
-        "name": "wounds",
-        "basevalue": 4,
-        "buffvalue": null
-      },
-      {
-        "name": "paralisis",
-        "basevalue": 4,
-        "buffvalue": null
-      },
-      {
-        "name": "stupor",
-        "basevalue": 4,
-        "buffvalue": null
-      },
-      {
-        "name": "panic",
-        "basevalue": 4,
-        "buffvalue": null
-      },
-      {
-        "name": "poisoning",
-        "basevalue": 4,
-        "buffvalue": null
-      },
-      {
-        "name": "weariness",
-        "basevalue": 4,
-        "buffvalue": null
-      }  
-    ],
-    "battle": [
-      {
-      "name": "reaction",
-       "basevalue": null,
-       "buffvalue": null
-      },
-      {
-       "name": "attacks",
-       "basevalue": null,
-       "buffvalue": null
-      },
-      {
-       "name": "spells",
-       "basevalue": null,
-       "buffvalue": null
-      }
-    ],
-    "comrades": [
-      {
-        "name": null,
-        "surname": null,
-        "occupation": null,
-        "race": null,
-        "provenance": null,
-        "age": null,
         "abilities": [
           {
-            "name": null,
-            "description": null
+            "name": "Pomniejsza mikstura leczenia",
+            "description": "Wywar z roślin lecznicznych",
+            "requirements": "pojemnik, składniki",
+            "cost": "1 punkt znużenia",
+            "effect": "Przyrządzona misktura przywraca 1 punkt ran"
+          },
+          {
+            "name": "Atak głosem",
+            "description": "Postać atakuje mocą swojego głosu",
+            "requirements": "-",
+            "cost": "1 punkt paniki",
+            "effect": "Powodując obrażania fizyczne i ogłusza przeciwników."
+          },
+          {
+            "name": "Głos furii",
+            "description": "Postać doprowadzona do granicy niszczy falą głosu wszystko wokół siebie",
+            "requirements": "-",
+            "cost": "Wyczerpanie punktów paniki",
+            "effect": "Postacie wokół oraz obiekty otrzymują obrażenia."
           }
         ],
-        "equipment": [
-          {
-            "name": null,
-            "description": null,
-            "type": null,
-            "bodypart": null,
-            "buff": [
-              {
-                "primary": null,
-                "secondary": null
-              }
-            ]          
-          }         
-        ],
-        "items": [
-          {
-            "name": null,
-            "description": null
-          }
-        ],
-        "food": null,
-        "weakness": null,
-        "motivation": null,
-        "bond": [
-          {
-            "name": null,
-            "description": null,
-            "visible": null
-          }
-        ]
-      }
-    ],
-    "items": [
-      {
-        "name": null,
-        "description": null
-      }
-    ],
-    "equipment": [
-      {
-        "name": null,
-        "description": null,
-        "type": null,
-        "bodypart": null,
-        "buff": [
-          {
-            "primary": null,
-            "secondary": null
-          }
-        ]          
-      }         
-    ],
-    "notes": [
-      {
-        "note0": null,
-        "note1": null,
-        "note2": null,
-        "note3": null,
-        "note4": null,
-        "note5": null,
-        "note6": null,
-        "note7": null,
-        "note8": null,
-        "note9": null,        
-        "note10": null,
-        "note11": null,
-        "note12": null,
-        "note13": null,
-        "note14": null
-      }
-    ],
-    "biography": null,
-    "spells": [
-      {
-        "name": null,
-        "description": null,
-        "requirements": null,
-        "cost": null,
-        "effect": null
-      }
-    ],
-    "abilites": [
-      {
-        "name": null,
-        "description": null,
-        "requirements": null,
-        "cost": null,
-        "effect": null
+        "knownherbs":[2,4,5]
       }
     ]
-  },
-  {
-    "name": "Lothia",
-    "skills": [
-      {"name": "strength",
-       "basevalue": 3,
-       "buffvalue": null,
-       "secbuffvalue": null
-      },
-      {"name": "agility",
-        "basevalue": 4,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {"name": "mind",
-        "basevalue": 5,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "emotions",
-        "basevalue": 4,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "craft",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "willpower",
-        "basevalue": 5,
-        "buffvalue": 2,
-        "secbuffvalue": null
-       }
-    ]
-  },
-  {
-    "name": "Ilfrin",
-    "skills": [
-      {"name": "strength",
-       "basevalue": 3,
-       "buffvalue": 1,
-       "secbuffvalue": null
-      },
-      {"name": "agility",
-        "basevalue": 2,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "mind",
-        "basevalue": 4,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "emotions",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "craft",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "willpower",
-        "basevalue": 4,
-        "buffvalue": 2,
-        "secbuffvalue": null
-       }
-    ]
-  },
-  {
-    "name": "Hereb",
-    "skills": [
-      {"name": "strength",
-       "basevalue": 4,
-       "buffvalue": null,
-       "secbuffvalue": null
-      },
-      {"name": "agility",
-        "basevalue": 4,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "mind",
-        "basevalue": 2,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "emotions",
-        "basevalue": 4,
-        "buffvalue": 2,
-        "secbuffvalue": null
-       },
-       {"name": "craft",
-        "basevalue": 2,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "willpower",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       }
-    ]
-  },
-  {
-    "name": "Sberatel",
-    "skills": [
-      {"name": "strength",
-       "basevalue": 2,
-       "buffvalue": 1,
-       "secbuffvalue": null
-      },
-      {"name": "agility",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "mind",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       },
-       {"name": "emotions",
-        "basevalue": 2,
-        "buffvalue": 2,
-        "secbuffvalue": null
-       },
-       {"name": "craft",
-        "basevalue": 5,
-        "buffvalue": 1,
-        "secbuffvalue": null
-       },
-       {"name": "willpower",
-        "basevalue": 3,
-        "buffvalue": null,
-        "secbuffvalue": null
-       }
-    ]
-  }
-]
