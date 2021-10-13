@@ -116,12 +116,12 @@ function playerAttributes(locationInJson)
 {
   var attr = "<tr><td><b>Cechy</b></td></tr>" +
   "<tr><td>Cecha</td><td>Bazowa</td><td>Bonus</td></tr>" + 
-  "<tr><td><div class='buttonThrow' id='strength' tabindex='1' aria-label='Krzepa'><span class='textSpan'>Krzepa Rzut </span></div></td><td>Krzepa: </td><td>" + locationInJson.attributes[0].basevalue + "</td><td>" + locationInJson.attributes[0].buffvalue + "</td></tr>" + 
-  "<tr><td><div class='buttonThrow' id='agility' tabindex='2' aria-label='Zwinność'><span class='textSpan'>Zwinność Rzut </span></div></td><td>Zwinność: </td><td>" + locationInJson.attributes[1].basevalue + "</td><td>" + locationInJson.attributes[1].buffvalue + "</td></tr>" +
-  "<tr><td><div class='buttonThrow' id='mind' tabindex='3' aria-label='Rozum'><span class='textSpan'>Rozum Rzut </span></div></td><td>Rozum: </td><td>" + locationInJson.attributes[2].basevalue + "</td><td>" + locationInJson.attributes[2].buffvalue + "</td></tr>" + 
-  "<tr><td><div class='buttonThrow' id='emotions' tabindex='4' aria-label='Emocje'><span class='textSpan'>Emocje Rzut </span></div></td><td>Emocje: </td><td>" + locationInJson.attributes[3].basevalue + "</td><td>" + locationInJson.attributes[3].buffvalue + "</td></tr>" + 
-  "<tr><td><div class='buttonThrow' id='craft' tabindex='5' aria-label='Rzemiosło'><span class='textSpan'>Rzemiosło Rzut </span></div></td><td>Rzemiosło: </td><td>" + locationInJson.attributes[4].basevalue + "</td><td>" + locationInJson.attributes[4].buffvalue + "</td></tr>" + 
-  "<tr><td><div class='buttonThrow' id='willpower' tabindex='6' aria-label='Wola'><span class='textSpan'>Wola Rzut </span></div></td><td>Wola: </td><td>" + locationInJson.attributes[5].basevalue + "</td><td>" + locationInJson.attributes[5].buffvalue + "</td></tr>";
+  "<tr><td><button class='buttonThrow' id='strength' aria-label='Krzepa'>Krzepa</button></td><td>" + locationInJson.attributes[0].basevalue + "</td><td>" + locationInJson.attributes[0].buffvalue + "</td></tr>" + 
+  "<tr><td><button class='buttonThrow' id='agility' aria-label='Zwinność'>Zwinność</button></td><td>" + locationInJson.attributes[1].basevalue + "</td><td>" + locationInJson.attributes[1].buffvalue + "</td></tr>" +
+  "<tr><td><button class='buttonThrow' id='mind' aria-label='Rozum'>Rozum</button></td><td>" + locationInJson.attributes[2].basevalue + "</td><td>" + locationInJson.attributes[2].buffvalue + "</td></tr>" + 
+  "<tr><td><button class='buttonThrow' id='emotions' aria-label='Emocje'>Emocje</button></td><td>" + locationInJson.attributes[3].basevalue + "</td><td>" + locationInJson.attributes[3].buffvalue + "</td></tr>" + 
+  "<tr><td><button class='buttonThrow' id='craft' aria-label='Rzemiosło'>Rzemiosło</button></td><td>" + locationInJson.attributes[4].basevalue + "</td><td>" + locationInJson.attributes[4].buffvalue + "</td></tr>" + 
+  "<tr><td><button class='buttonThrow' id='willpower' aria-label='Wola'>Wola</button></td><td>" + locationInJson.attributes[5].basevalue + "</td><td>" + locationInJson.attributes[5].buffvalue + "</td></tr>";
 
   return attr;
 }
@@ -396,17 +396,17 @@ function makeTable(type){
 
 function getPlayerDataSkillsThrow(playerURI, skillId)
 {
-let requestURL = 'json/players.json';
+let requestURL = 'json/cleanplayer.json';
 let request = new XMLHttpRequest();
 request.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) 
   {
     var myObj = JSON.parse(this.responseText);    
-    for(var i=0;i<myObj.length;i++)
+    for(var i=0;i<myObj.players.length;i++)
     {
-      if(playerURI.includes(myObj[i].name.toLowerCase()))
+      if(playerURI.includes(myObj.players[i].name.toLowerCase()))
       {
-        var playerSkills = myObj[i].attributes;
+        var playerSkills = myObj.players[i].attributes;
         for(var j=0;j<playerSkills.length;j++)
         {
           if(playerSkills[j].name == skillId)
@@ -427,7 +427,7 @@ request.open('GET', requestURL);
 request.send();
 
 }
-
+//Kostki
 function throwAndSum(base, second, third)
 {
   var fir = skillToCubeConverter(base);
@@ -495,5 +495,6 @@ function speakNumber(number)
 
 function playSound(url) {
     var sound = new Audio(url);
+    sound.volume = 1.0; 
     sound.play();
 }

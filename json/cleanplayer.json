@@ -63,14 +63,14 @@
         "attributes": [
           {
             "name": "strength",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 1,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "agility",
             "basevalue": 0,
-            "buffvalue": 0,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
