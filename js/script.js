@@ -107,7 +107,10 @@ function playerInformation(locationInJson)
         "<tr><td>Podgatunek: </td><td>" + locationInJson.subspecies + "</td></tr>" +
         "<tr><td>Rasa/Odmiana: </td><td>" + locationInJson.variety + "</td></tr>" +
         "<tr><td>Pochodzenie: </td><td>" + locationInJson.provenance + "</td></tr>" +
-        "<tr><td>Wiek: </td><td>" + locationInJson.age + "</td></tr>";
+        "<tr><td>Wzrost: </td><td>" + locationInJson.height + "</td></tr>" +
+        "<tr><td>Włosy: </td><td>" + locationInJson.haircolor + "</td></tr>" +
+        "<tr><td>Oczy: </td><td>" + locationInJson.eyecolor + "</td></tr>" +
+        "<tr><td>Znaki szczególne: </td><td>" + locationInJson.peculiarities + "</td></tr>";
 
   return info;
 }
@@ -275,10 +278,10 @@ function abilitiesListGenerator(path)
 {
   var abilites =  
   "<tr><td><b>Umiejętności</b></td></tr>" + 
-  "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>";
+  "<tr><td>Nazwa</td><td>Opis</td></tr>";
   for(var i=0; i<path.abilities.length;i++)
   {
-    abilites += "<tr><td>" + path.abilities[i].name + "</td><td>" + path.abilities[i].description + "</td><td>" + path.abilities[i].requirements + "</td><td>" + path.abilities[i].cost + "</td><td>" + path.abilities[i].effect + "</td></tr>";
+    abilites += "<tr><td>" + path.abilities[i].name + "</td><td>" + path.abilities[i].description + "</td></tr>";
   }
 
   return abilites;
@@ -341,9 +344,13 @@ function herbListGenerator(path, herbarium){
   } else {
   var herbs = 
   "<tr><td><b>Zioła</b></td></tr>" +
-  "<tr><td>Nazwa</td></tr>";
+  "<tr><td>Nazwa formalna</td><td>Nazwa potoczna</td><td>Efekt</td><td>Morfologia</td></tr>";
     for(var i=0;i<path.knownherbs.length;i++){
-      herbs += "<tr><td>" + herbarium[path.knownherbs[i]-1].nameFormal + "</td></tr>";
+      var herbNumb = path.knownherbs[i]-1;
+      herbs += "<tr><td>" + herbarium[herbNumb].nameformal + 
+      "</td><td>" + herbarium[herbNumb].namecasual + 
+      "</td><td>" + herbarium[herbNumb].effects + 
+      "</td><td>" + herbarium[herbNumb].morphology + "</td></tr>";
     }
   return herbs;
   }

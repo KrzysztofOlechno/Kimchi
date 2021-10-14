@@ -2,19 +2,19 @@
     "players":[
       {
         "name": "Aura",
-        "surname": "-",
-        "occupation": "-",
-        "species": "-",
-        "subspecies": "-", 
-        "variety": "-",
-        "provenance": "-",
-        "age": "-",
-        "height": "-",
-        "haircolor": "-",
-        "eyecolor": "-",
+        "surname": "Rodd",
+        "occupation": "Uzdrawiaczka",
+        "species": "Ludzie",
+        "subspecies": "Elf", 
+        "variety": "Deede",
+        "provenance": "Sanda",
+        "age": 18,
+        "height": 170,
+        "haircolor": "długie, brązowe",
+        "eyecolor": "zielone",
         "peculiarities": "-",
         "biography": "-",
-        "knownherbs": [2,4],
+        "knownherbs": [1,2,3],
         "notes": [
           {
             "content": "-"
@@ -22,39 +22,154 @@
         ],
         "items": [
           {
-            "name": "-",
-            "description": "-",
+            "name": "Srebrny naszyjnik",
+            "description": "Srebrny naszyjnik w kształcie półksiężyca należący do ojca Aury.",
             "ability": "-"
           }
         ],
         "equipment": [
           {
-            "name": "-",
-            "description": "-",
-            "type": "-",
-            "bodypart": "-",
+            "name": "Gogle",
+            "description": "Gogle z fioletowymi szkłami(przeciwsłoneczne)",
+            "type": "jewelery",
+            "bodypart": "head",
+            "ability": "Ochrona oczu przed silnym światłem",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Naszyjnik",
+            "description": "Srebrny naszyjnik rodzinny w kształcie półksiężyca",
+            "type": "jewelery",
+            "bodypart": "neck",
+            "ability": "Pozwala Aurze opanować emocje",
+            "buff": [
+              {
+                "name": "emotions",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Koszula",
+            "description": "Czarna, tkana koszula tkana barwiona fioletowym pigmentem",
+            "type": "clothes",
+            "bodypart": "torso",
             "ability": "-",
             "buff": [
               {
-                "primary": "-",
-                "secondary": "-"
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Gorset",
+            "description": "Gorset skórzany barwiony fioletowym pigmentem",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Rękawice",
+            "description": "Rękawice skórzane barwione fioletowym pigmentem",
+            "type": "clothes",
+            "bodypart": "hands",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Pas",
+            "description": "Czarny pas skórzany z doczepionymi sakwami",
+            "type": "clothes",
+            "bodypart": "waist",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Spodnie",
+            "description": "Spodnie skórzane barwione fioletowym pigmentem",
+            "type": "clothes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Buty",
+            "description": "Długie, czarne, skórzane buty",
+            "type": "clothes",
+            "bodypart": "feet",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
               }
             ]          
           }
         ],
         "abilities": [
           {
-            "name": "-",
-            "description": "-",
-            "requirements": "-",
-            "cost": "-",
-            "effect": "-"
+            "name": "Zielarstwo",
+            "level": "1",
+            "description": "Znajomość ziół i ich właściwości oraz umiejętność tworzenia wyrobów zielarskich."         
+          },
+          {
+            "name": "Śpiew",
+            "level": "1",
+            "description": "Umiejętność śpiewania."         
           }
         ],
         "spells": [
           {
-            "name": "-",
-            "description": "-",
+            "name": "Głos furii",
+            "description": "Postać doprowadzona do granicy niszczy falą głosu wszystko wokół siebie.",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Atak głosem",
+            "description": "Postać atakuje mocą swojego głosu powodując obrażanie fizyczne i ogłuszając przeciwnika.",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Pomniejsze leczenie",
+            "description": "Leczenie z pomocą magii",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Bukowa skóra",
+            "description": "Skóra twardnieje niczym kora bukowego drzewa. Skóra delikatnie zmienia odcień i pojawia się na niej deseń kory buka.",
             "requirements": "-",
             "cost": "-",
             "effect": "-"
@@ -63,87 +178,87 @@
         "attributes": [
           {
             "name": "strength",
-            "basevalue": 1,
+            "basevalue": 2,
             "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "agility",
-            "basevalue": 0,
+            "basevalue": 4,
             "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "mind",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 3,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "emotions",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 1,
+            "buffvalue": 2,
             "secbuffvalue": null
           },
           {
             "name": "craft",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 4,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "willpower",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 4,
+            "buffvalue": null,
             "secbuffvalue": null
           }
         ],
         "states": [
           {
             "name": "wounds",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 3,
+            "buffvalue": null
           },
           {
             "name": "paralisis",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 5,
+            "buffvalue": null
           },
           {
             "name": "stupor",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 4,
+            "buffvalue": null
           },
           {
             "name": "panic",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 2,
+            "buffvalue": null
           },
           {
             "name": "poisoning",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 3,
+            "buffvalue": null
           },
           {
             "name": "weariness",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 5,
+            "buffvalue": null
           }  
         ],
         "battle": [
           {
             "name": "reaction",
-            "basevalue": 0,
+            "basevalue": 4,
             "buffvalue": 0
           },
           {
             "name": "attacks",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 2,
+            "buffvalue": 1
           },
           {
             "name": "spells",
-            "basevalue": 0,
+            "basevalue": 4,
             "buffvalue": 0
           }
         ],
@@ -200,20 +315,20 @@
         ]        
       },
       {
-        "name": "Drugi",
-        "surname": "-",
-        "occupation": "-",
-        "species": "-",
-        "subspecies": "-", 
+        "name": "Zordael",
+        "surname": "Oreański",
+        "occupation": "Łowca istot magicznych",
+        "species": "Ludzie",
+        "subspecies": "Półelf", 
         "variety": "-",
-        "provenance": "-",
-        "age": "-",
-        "height": "-",
-        "haircolor": "-",
-        "eyecolor": "-",
+        "provenance": "Cydrinka",
+        "age": "22",
+        "height": 180,
+        "haircolor": "brązowe, krótkie",
+        "eyecolor": "brązowe",
         "peculiarities": "-",
         "biography": "-",
-        "knownherbs": [0],
+        "knownherbs": [1,2,3],
         "notes": [
           {
             "content": "-"
@@ -228,32 +343,538 @@
         ],
         "equipment": [
           {
-            "name": "-",
-            "description": "-",
-            "type": "-",
-            "bodypart": "-",
+            "name": "Płaszcz z kapturem",
+            "description": "Solidny, długi, tkany płacz z kapturem",
+            "type": "clothes",
+            "bodypart": "fullbody",
             "ability": "-",
             "buff": [
               {
-                "primary": "-",
-                "secondary": "-"
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Srebrny medalion z okiem",
+            "description": "Medalion wykonany z dobrej jakości srebra z wybitym symbolem oka i obłożony zaklęciem.",
+            "type": "jewelery",
+            "bodypart": "neck",
+            "ability": "Chroni przed zamgleniem umysłu i ułatwia zachowanie świadomości.",
+            "buff": [
+              {
+                "name": "willpower",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Amulet z żółtym kamieniem",
+            "description": "Żółty minerał z przewierconą dziurką na rzemyku i obłożony zaklęciem.",
+            "type": "jewelery",
+            "bodypart": "neck",
+            "ability": "Uspokaja niepożądane emocje.",
+            "buff": [
+              {
+                "name": "emotions",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Srebrny medalion ze świeczką",
+            "description": "Medalion wykonany z dobrej jakości srebra z wybitym symbolem świeczki i obłożony zaklęciem.",
+            "type": "jewelery",
+            "bodypart": "neck",
+            "ability": "Poprawia koncentrację i myślenie.",
+            "buff": [
+              {
+                "name": "mind",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Skórzana zbroja",
+            "description": "Skórzna zbroja z pasami ściągającymi, dobrze przylega do ciała. Nosi na sobie ślady użytkowania.",
+            "type": "armor",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Stalowe ochraniacze zwinności",
+            "description": "Zdobione, stalowe ochraniacze na przedramiona z osadzonami kamieniami. Obłożone zaklęciem.",
+            "type": "armor",
+            "bodypart": "forearm",
+            "ability": "Dodaje lekkości i sprawności.",
+            "buff": [
+              {
+                "name": "agility",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Skórzane rękawice",
+            "description": "Solidne rękawice ze skóry",
+            "type": "clothes",
+            "bodypart": "hands",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Pas z pojemnikami",
+            "description": "Skórzany pas z trzema pojemnikami na drobiazgi.",
+            "type": "clothes",
+            "bodypart": "waist",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Skórzane spodnie",
+            "description": "Solidne spodnie ze skóry",
+            "type": "clothes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Skórzane buty",
+            "description": "Solidne buty ze skóry",
+            "type": "clothes",
+            "bodypart": "feet",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Krótki miecz stalowy",
+            "description": "Prosty, krótki miecz wykonany z przyzwoitej stali.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Nóż stalowy",
+            "description": "Nóż wykonany ze stali.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          }       
+        ],
+        "abilities": [
+          {
+            "name": "Zaklinanie przedmiotów",
+            "level": "1",
+            "description": "Pozwala nałożyć na drobny przedmiot krótkotrwały czar."         
+          },
+          {
+            "name": "Tropienie",
+            "level": "1",
+            "description": "Umiejętność znajdywania śladów i tropienia."         
+          },
+          {
+            "name": "Tworzenie pułapek",
+            "level": "1",
+            "description": "Umiejętność tworzenia prostych pułapek, ich zakładania oraz rozbrajania."         
+          },
+          {
+            "name": "Anatomia",
+            "level": "1",
+            "description": "Znajomość anatomii różnych stworzeń, rozłożenia ich organów i punktów witalnych."         
+          }
+        ],
+        "spells": [
+          {
+            "name": "Rozproszenie magii",
+            "description": "Rozprasza czary na obszarze działania zaklęcia",
+            "requirements": null,
+            "cost": null,
+            "effect": null
+          },
+          {
+            "name": "Wykrycie magii",
+            "description": "Pozwala na wykrycie przepływu magii na niewielkim obszarze",
+            "requirements": null,
+            "cost": null,
+            "effect": null
+          },
+          {
+            "name": "Pochwycenie",
+            "description": "Czarujący, swoją wolą utrzymuje obiekt w miejscu",
+            "requirements": null,
+            "cost": null,
+            "effect": null
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 4,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 4,
+            "buffvalue": 1,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 3,
+            "buffvalue": 1,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 2,
+            "buffvalue": 1,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 2,
+            "buffvalue": 0,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 3,
+            "buffvalue": 1,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 5,
+            "buffvalue": 0
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 5,
+            "buffvalue": 0
+          },
+          {
+            "name": "stupor",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "panic",
+            "basevalue": 3,
+            "buffvalue": 0
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 5,
+            "buffvalue": 0
+          },
+          {
+            "name": "weariness",
+            "basevalue": 4,
+            "buffvalue": 0
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "attacks",
+            "basevalue": 4,
+            "buffvalue": 0
+          },
+          {
+            "name": "spells",
+            "basevalue": 3,
+            "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "-",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "abilities": [
+              {
+                "name": "-",
+                "description": "-",
+                "requirements": "-",
+                "cost": "-",
+                "effect": "-"
+              }
+            ],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }
+        ]        
+      },
+      {
+        "name": "Lothia",
+        "surname": "Tunglvindur",
+        "occupation": "Czarodziejka",
+        "species": "Ludzie",
+        "subspecies": "Elf", 
+        "variety": "Lunadire",
+        "provenance": "Kanderama",
+        "age": 51,
+        "height": 178,
+        "haircolor": "długie, srebrne",
+        "eyecolor": "fioletowe",
+        "peculiarities": "bardzo jasna karnacja",
+        "biography": "-",
+        "knownherbs": [1,2,3],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "-",
+            "description": "-",
+            "ability": "-"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "Ponczo Lunadire",
+            "description": "Granatowe ponczo ze srebrnymi runami i zdobieniami",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Kwiecista złota broszka",
+            "description": "Broszka wykonana ze świetnej jakości złota z grawerowanym kwiatem wykonanym ze złota z domieszką nadającą czerwoną barwę. Symbol rodu Tunglvindur. Obłożona zaklęciem. ",
+            "type": "jewelery",
+            "bodypart": "torso",
+            "ability": "Wzmacnia wolę i dodaje zręczności",
+            "buff": [
+              {
+                "name": "agility",
+                "value": 1
+              },
+              {
+                "name": "mind",
+                "value": 2
+              }
+            ]          
+          },
+          {
+            "name": "Śnieżnobiała koszula",
+            "description": "Idealnie biała koszula z lekkiego i mocnego materiału.",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Gorset Lunadire",
+            "description": "Skórzany gorset ze srebrnymi runami i zdobieniami",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Przedramienniki Lunadire",
+            "description": "Skórzane ochraniacze na ramiona ze srebrnymi zdobieniami i wiązane białymi sznurkami.",
+            "type": "clothes",
+            "bodypart": "forearm",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Pas Lunadire",
+            "description": "Granatowy pas materiału ze srebrnymi zdobieniami i runami na obu końcach",
+            "type": "clothes",
+            "bodypart": "waist",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Spodnie Lunadire",
+            "description": "Skrojone na miarę skórzany spodnie ze srebrnymi zdobieniami",
+            "type": "clothes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Buty Lunadire",
+            "description": "Skórzane buty z obacasem i srebrnymi sprzączkami oraz okuciami.",
+            "type": "clothes",
+            "bodypart": "feet",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Długa Różdżka Lunadire",
+            "description": "Długa różdżka z uchwytem z ciemnego drewna i okuta białym metalem z obu stron.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
               }
             ]          
           }
         ],
         "abilities": [
           {
-            "name": "-",
-            "description": "-",
-            "requirements": "-",
-            "cost": "-",
-            "effect": "-"
+            "name": "Nocny spacer",
+            "level": "1",
+            "description": "Umiejętność rasowa. Unoszenie się nocą. Niewelowanie upadków, nie można zabić się spadając."         
+          },
+          {
+            "name": "Posługiwanie się różdzką",
+            "level": "1",
+            "description": "Postać umie dobrze władać różdżką. Może przerzucić niekorzystny wynik rzutu na czar."         
+          },
+          {
+            "name": "Regeneracja podczas pełni",
+            "level": "1",
+            "description": "Postać bardzo szybko się regeneruje w trakcie pełni księżyca."         
           }
         ],
         "spells": [
           {
-            "name": "-",
-            "description": "-",
+            "name": "Przenikliwy księżycowy blask",
+            "description": "Wypatrywanie na dużą odległość istot żywych, tam gdzie pada światło.",
+            "requirements": "Pełnia",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Teatr cieni",
+            "description": "Tworzenie iluzji z wykorzystaniem cieni i migotliwych świateł nocy.",
+            "requirements": "Noc, półmrok",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Promień gwiazdy",
+            "description": "Rozproszone lub skupione światło gwiazdy. Oślepiający gdy rozproszony, obrażenia od ognia, gdy skupiony.",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Światło gwiazdy",
+            "description": "Utworzenie świecącego punktu, który można zawiesić w przestrzeni i rozświetlić ciemności. Wraz z odległoąścią maleje natężenie światła.",
             "requirements": "-",
             "cost": "-",
             "effect": "-"
@@ -262,88 +883,88 @@
         "attributes": [
           {
             "name": "strength",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 3,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "agility",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 4,
+            "buffvalue": 1,
             "secbuffvalue": null
           },
           {
             "name": "mind",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 5,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "emotions",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 4,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "craft",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 3,
+            "buffvalue": null,
             "secbuffvalue": null
           },
           {
             "name": "willpower",
-            "basevalue": 0,
-            "buffvalue": 0,
+            "basevalue": 5,
+            "buffvalue": 2,
             "secbuffvalue": null
           }
         ],
         "states": [
           {
             "name": "wounds",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 4,
+            "buffvalue": null
           },
           {
             "name": "paralisis",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 5,
+            "buffvalue": null
           },
           {
             "name": "stupor",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 6,
+            "buffvalue": null
           },
           {
             "name": "panic",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 5,
+            "buffvalue": null
           },
           {
             "name": "poisoning",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 4,
+            "buffvalue": null
           },
           {
             "name": "weariness",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 6,
+            "buffvalue": null
           }  
         ],
         "battle": [
           {
             "name": "reaction",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 4,
+            "buffvalue": 1
           },
           {
             "name": "attacks",
-            "basevalue": 0,
+            "basevalue": 3,
             "buffvalue": 0
           },
           {
             "name": "spells",
-            "basevalue": 0,
-            "buffvalue": 0
+            "basevalue": 5,
+            "buffvalue": 2
           }
         ],
         "comrades": [
@@ -402,69 +1023,39 @@
     "herbs":[
       {
         "id": 1,
-        "nameFormal": "Ziółko1",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
+        "nameformal": "Ammi visnaga",
+        "namecasual":"Aminek zębodłubka",
+        "morphology": "Silnie rozgałęziona, średniej wielkości roślina. Liście drobne, podłużne, rozdzielone. Małe białe kwiaty w baldachach. Drobne nasionka.",
+        "scent": "Słaby i nieprzyjemny",
+        "taste": "Gorzki i ostrawy",
+        "effects": "Leczy okskrzela, jelita, pęcherz.",
+        "rarity": "Pospolity",
+        "goearea": "Południowa Erpia",
+        "landtype": "Wszędzie"
       },
       {
         "id": 2,
-        "nameFormal": "Ziółko2",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
+        "nameformal": "Angelica archangelica",
+        "namecasual":"Arcydzięgiel litwor",
+        "morphology": "Okazała roślina o grubych łodygach. Kłącza krótki, poładowane i brunatne. Liście pierzaste i jajowate. Kwiaty zielonkawo-żółte, drogne w baldachach. Nasiona duże.",
+        "scent": "Mocny, korzenno-żywiczny",
+        "taste": "Lekko gorzkawy",
+        "effects": "Fotoczułość, żołądek, kaszel, reumatyzm, choroby skóry",
+        "rarity": "Pospolity",
+        "goearea": "Erpia",
+        "landtype": "Wilgotne, żyzne, górzyste, cień, półcień"
       },
       {
         "id": 3,
-        "nameFormal": "Ziółko3",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
-      },
-      {
-        "id": 4,
-        "nameFormal": "Ziółko4",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
-      },
-      {
-        "id": 5,
-        "nameFormal": "Ziółko5",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
-      },
-      {
-        "id": 6,
-        "nameFormal": "Ziółko6",
-        "nameCasual":"-",
-        "morphology": "-",
-        "scent": "-",
-        "taste": "-",
-        "effects": "-",
-        "rarity": "-",
-        "area": "-"
+        "nameformal": "Arnica montana",
+        "namecasual":"Arnila górska, Pomornik",
+        "morphology": "Średnia roślina o owłosionych łodygach. Liście grube, wydłużone i jajowate. Kwiaty w postaci żółtych koszyczków.",
+        "scent": "Przyjemny",
+        "taste": "Gorzkawy",
+        "effects": "Krążenie, zapalenia, krwiaki",
+        "rarity": "Pospolity",
+        "goearea": "Erpia",
+        "landtype": "Górskie, podgórskie"
       }
     ],
     "spells": [
