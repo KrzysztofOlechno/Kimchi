@@ -213,7 +213,7 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
     case "items":
       return itemsListGenerator(locationInJson);
     case "abilites":
-      return abilitiesListGenerator(locationInJson);
+      return abilitiesListGenerator(locationInJson, fullJson.skills);
     case "spells":
       return spellsListGenerator(locationInJson);
     case "comrades":
@@ -274,18 +274,33 @@ function itemsListGenerator(path)
   return items;
 }
 
-function abilitiesListGenerator(path)
+function abilitiesListGenerator(path, skillsList)
 {
-  var abilites =  
-  "<tr><td><b>Umiejętności</b></td></tr>" + 
+  if (path.knownskills == 0){
+    var skills = 'Ta postać nie ma umiejętności.';
+    return skills;
+  } else {
+  var skills = 
+  "<tr><td><b>Umiejętności</b></td></tr>" +
   "<tr><td>Nazwa</td><td>Opis</td></tr>";
-  for(var i=0; i<path.abilities.length;i++)
-  {
-    abilites += "<tr><td>" + path.abilities[i].name + "</td><td>" + path.abilities[i].description + "</td></tr>";
-  }
+    for(var i=0;i<path.knownskills.length;i++){
 
-  return abilites;
+      var skillNumb = path.knownskills[i]-1;
+
+      if(skillsList[skillNumb].level != null){
+        var level = skillsList[skillNumb].level;
+      } else {
+          var level = '';
+      };
+      
+      skills += "<tr><td>" + skillsList[skillNumb].name + " " + level +
+      "</td><td>" + skillsList[skillNumb].description + "</td></tr>";
+    };
+  return skills;
+  };
 }
+
+
 
 function spellsListGenerator(path)
 {
@@ -401,7 +416,7 @@ function makeTable(type){
 
 //Rzuty kostkami
 
-function getPlayerDataSkillsThrow(playerURI, skillId)
+function getPlayerDataSkillsThrow(playerURI, attribute)
 {
 let requestURL = 'json/cleanplayer.json';
 let request = new XMLHttpRequest();
@@ -416,7 +431,7 @@ request.onreadystatechange = function() {
         var playerSkills = myObj.players[i].attributes;
         for(var j=0;j<playerSkills.length;j++)
         {
-          if(playerSkills[j].name == skillId)
+          if(playerSkills[j].name == attribute)
           {
             var pskill = playerSkills[j];
             var base = pskill.basevalue;
