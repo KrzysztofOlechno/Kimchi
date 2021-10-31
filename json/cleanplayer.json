@@ -261,21 +261,18 @@
             "variety": "-",
             "provenance": "-",
             "age": "-",
-            "abilities": [
-              {
-                "name": "-",
-                "description": "-",
-                "requirements": "-",
-                "cost": "-",
-                "effect": "-"
-              }
-            ],
+            "height": 170,
+            "haircolor": "długie, brązowe",
+            "eyecolor": "zielone",
+            "peculiarities": "-",
+            "knownskills": [0],
             "equipment": [
               {
                 "name": "-",
                 "description": "-",
                 "type": "-",
                 "bodypart": "-",
+                "ability": "-",
                 "buff": [
                   {
                     "primary": "-",
@@ -287,7 +284,55 @@
             "items": [
               {
                 "name": "-",
-                "description": "-"
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          },
+          {        
+            "name": "x",
+            "surname": "y",
+            "occupation": "-",
+            "species": "-",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "height": 170,
+            "haircolor": "długie, brązowe",
+            "eyecolor": "zielone",
+            "peculiarities": "-",
+            "knownskills": [0],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
               }
             ],
             "food": "-",
@@ -970,6 +1015,408 @@
             ]
           }
         ]        
+      },
+      {
+        "name": "Ilfrin",
+        "surname": "Mork",
+        "occupation": "Mag Buntownik",
+        "species": "Ludzie",
+        "subspecies": "Człoweik", 
+        "variety": "-",
+        "provenance": "Andhera",
+        "age": 27,
+        "height": 187,
+        "haircolor": "czarne włosy i broda",
+        "eyecolor": "ciemne",
+        "peculiarities": "-",
+        "biography": "-",
+        "knownherbs": [0],
+        "knownskills": [0],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "Miedziak",
+            "description": "Miedziana moneta o wadze 10g.",
+            "ability": "-",
+            "quantity": 36
+          },
+          {
+            "name": "Srebrniak",
+            "description": "Srebrna moneta o wadze 10g.",
+            "ability": "-",
+            "quantity": 8
+          },
+          {
+            "name": "Złotniak",
+            "description": "Złota moneta o wadze 20g.",
+            "ability": "-",
+            "quantity": 5
+          }
+        ],
+        "equipment": [
+          {
+            "name": "Szata maga bitwnego z kaputrem",
+            "description": "Biała szata z granatowymi pasamia z wyszywanymi złotą nicią wzorami. Granatowy kaptur, obszywany złotą nicią. Dodatkowe naszyte ochraniacze na ramionach, łokciach oraz lędźwiach.",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Amulet skupienia",
+            "description": "Amulet wyniesiony ze Szkoły Magii. Srebrny z wybitym symbolem pięści chwytającej błyskawicę.",
+            "type": "jewelery",
+            "bodypart": "neck",
+            "ability": "Wzmacnia wolę i dodaje zręczności",
+            "buff": [
+              {
+                "name": "willpower",
+                "value": 2
+              }
+            ]          
+          },
+          {
+            "name": "Pas siły z pojemnikami",
+            "description": "Wyplatany cieńki pas z zaklętym wzmocnieniem. Posiada cztery odczepianie pojemniki.",
+            "type": "clothes",
+            "bodypart": "belt",
+            "ability": "Pas dodaje krzepy używającemu.",
+            "buff": [
+              {
+                "name": "strength",
+                "value": 1
+              }
+            ]          
+          },
+          {
+            "name": "Skórzane spodnia z ochraniaczami na kolana.",
+            "description": "Solidne spodnie ze skóry, dodatkowo wzmacniane na kolanach i goleniach. Eleganckie wykończenia.",
+            "type": "clothes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Ciężkie skórzane buty",
+            "description": "Porządne buty wykonane ze skóry.",
+            "type": "clothes",
+            "bodypart": "feet",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Dagnir",
+            "description": "Miecz dwuręczny, posrebrzany i zdobiony prostymi motywami. Skuteczna broń na siły nieczyste.",
+            "type": "weapon",
+            "bodypart": "twohanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Sztylet",
+            "description": "Zwykły stalowy sztylet.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          }
+        ],
+        "spells": [
+          {
+            "name": "Robak umysłu",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Rytuał ożywienia",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Portal",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Wyssanie życia",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          },
+          {
+            "name": "Przeklęty płomień",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 3,
+            "buffvalue": 1,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 2,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 4,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 3,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 3,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 4,
+            "buffvalue": 2,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 4,
+            "buffvalue": null
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 3,
+            "buffvalue": null
+          },
+          {
+            "name": "stupor",
+            "basevalue": 5,
+            "buffvalue": null
+          },
+          {
+            "name": "panic",
+            "basevalue": 4,
+            "buffvalue": null
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 4,
+            "buffvalue": null
+          },
+          {
+            "name": "weariness",
+            "basevalue": 5,
+            "buffvalue": null
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 2,
+            "buffvalue": null
+          },
+          {
+            "name": "attacks",
+            "basevalue": 3,
+            "buffvalue": null
+          },
+          {
+            "name": "spells",
+            "basevalue": 4,
+            "buffvalue": null
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "Esgal",
+            "surname": "-",
+            "occupation": "Sługa",
+            "species": "Ogrowate",
+            "subspecies": "Goblin", 
+            "variety": "Zielony",
+            "provenance": "-",
+            "age": "-",
+            "height": "-",
+            "haircolor": "-",
+            "eyecolor": "-",
+            "peculiarities": "-",
+            "knownskills": [15],
+            "equipment": [
+              {
+                "name": "Sztylet",
+                "description": "Zwykły stalowy sztylet",
+                "type": "weapon",
+                "bodypart": "onehanded",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "Padlina",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          },
+          {        
+            "name": "Meglivorn",
+            "surname": "-",
+            "occupation": "-",
+            "species": "Koniowate",
+            "subspecies": "Koń", 
+            "variety": "Bojowy",
+            "provenance": "-",
+            "age": "-",
+            "height": "-",
+            "haircolor": "-",
+            "eyecolor": "-",
+            "peculiarities": "-",
+            "knownskills": [14],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "Rośliny",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          },
+          {        
+            "name": "Isil",
+            "surname": "-",
+            "occupation": "-",
+            "species": "Duch",
+            "subspecies": "Orb", 
+            "variety": "-",
+            "provenance": "-",
+            "age": "-",
+            "height": "-",
+            "haircolor": "-",
+            "eyecolor": "-",
+            "peculiarities": "-",
+            "knownskills": [16,17,18,19],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "Magia",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }
+        ]        
       }
     ],
     "herbs":[
@@ -1126,6 +1573,54 @@
         "xpcost": 50,
         "requiredskills": [0],
         "description": "Postać w trakcie walki wchodzi w stan podwyższonej świadomości przez co walczy i broni się bardziej efekywnie."
+      },
+      {
+        "id": 14,
+        "name": "Szarża",
+        "level": 1,
+        "xpcost": 50,
+        "requiredskills": [0],
+        "description": "-"
+      },
+      {
+        "id": 15,
+        "name": "Nieumarły",
+        "level": 1,
+        "xpcost": null,
+        "requiredskills": [0],
+        "description": "Postać została utrzymywana jest przy życiu magią nekromancji."
+      },
+      {
+        "id": 16,
+        "name": "Unoszenie się",
+        "level": 1,
+        "xpcost": "inborn",
+        "requiredskills": [0],
+        "description": "-"
+      },
+      {
+        "id": 17,
+        "name": "Przenikanie przez ściany",
+        "level": 1,
+        "xpcost": "inborn",
+        "requiredskills": [0],
+        "description": "-"
+      },
+      {
+        "id": 18,
+        "name": "Niewidzialność",
+        "level": 1,
+        "xpcost": "inborn",
+        "requiredskills": [0],
+        "description": "-"
+      },
+      {
+        "id": 19,
+        "name": "Porażenie",
+        "level": 1,
+        "xpcost": null,
+        "requiredskills": [0],
+        "description": "-"
       }
     ]
   }

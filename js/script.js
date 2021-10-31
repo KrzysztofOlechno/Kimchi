@@ -1,12 +1,13 @@
 //Przycisk cofania w przeglądarce
 window.onpopstate = function() {
-  if(location.hash != "#next"){
+  if(location.hash != "#next" /*&& location.hash != "#comrade"*/)
+  {
     console.log(window.location.hash, 1);
     classChanger("sub", "invisible");
     classChanger("kp", "visible");
     document.getElementById("sub").outerHTML = subDiv;
     subField = document.getElementById("sub");
-  }
+  } 
 };
 
 var buttonInformation = document.getElementById("information");
@@ -64,7 +65,7 @@ buttonItems.addEventListener('click', function(){
 buttonAbilities.addEventListener('click', function(){
   window.location.hash = '#next';
   classChanger("kp", "invisible");
-  getPlayerData("abilites", document.baseURI);
+  getPlayerData("abilities", document.baseURI);
 });
 
 buttonSpells.addEventListener('click', function(){
@@ -75,6 +76,7 @@ buttonSpells.addEventListener('click', function(){
 
 buttonComrades.addEventListener('click', function(){
   window.location.hash = '#next';
+  console.log(window.location.hash, 3);
   classChanger("kp", "invisible");
   getPlayerData("comrades", document.baseURI);
 });
@@ -97,20 +99,20 @@ buttonsHerbs.addEventListener('click', function(){
   getPlayerData("herbarium", document.baseURI);
 });
 
-function playerInformation(locationInJson)
+function playerInformation(locationInJson, valueForClass)
 {
-  var info =  "<tr><td><b>Dane podstawowe</b></td></tr>" + 
-        "<tr><td>Imię: </td><td>" + locationInJson.name + "</td></tr>" +
-        "<tr><td>Nazwisko: </td><td>" + locationInJson.surname + "</td></tr>" +
-        "<tr><td>Zajęcie: </td><td>" + locationInJson.occupation + "</td></tr>" +
-        "<tr><td>Gatunek: </td><td>" + locationInJson.species + "</td></tr>" +
-        "<tr><td>Podgatunek: </td><td>" + locationInJson.subspecies + "</td></tr>" +
-        "<tr><td>Rasa/Odmiana: </td><td>" + locationInJson.variety + "</td></tr>" +
-        "<tr><td>Pochodzenie: </td><td>" + locationInJson.provenance + "</td></tr>" +
-        "<tr><td>Wzrost: </td><td>" + locationInJson.height + "</td></tr>" +
-        "<tr><td>Włosy: </td><td>" + locationInJson.haircolor + "</td></tr>" +
-        "<tr><td>Oczy: </td><td>" + locationInJson.eyecolor + "</td></tr>" +
-        "<tr><td>Znaki szczególne: </td><td>" + locationInJson.peculiarities + "</td></tr>";
+  var info =  "<tr class = 'detail" + valueForClass + "'><td><b>Dane podstawowe</b></td></tr>" + 
+        "<tr class = 'detail" + valueForClass + "'><td>Imię: </td><td>" + locationInJson.name + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Nazwisko: </td><td>" + locationInJson.surname + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Zajęcie: </td><td>" + locationInJson.occupation + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Gatunek: </td><td>" + locationInJson.species + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Podgatunek: </td><td>" + locationInJson.subspecies + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Rasa/Odmiana: </td><td>" + locationInJson.variety + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Pochodzenie: </td><td>" + locationInJson.provenance + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Wzrost: </td><td>" + locationInJson.height + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Włosy: </td><td>" + locationInJson.haircolor + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Oczy: </td><td>" + locationInJson.eyecolor + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Znaki szczególne: </td><td>" + locationInJson.peculiarities + "</td></tr>";
 
   return info;
 }
@@ -180,6 +182,29 @@ function getPlayerData(subMenuType, playerURI)
 	          });
           };
         };
+
+        var buttonComrade = document.getElementsByClassName("comrade");  
+        if(buttonComrade.length!=0)
+        {
+          for(var k=0;k<buttonComrade.length;k++)
+          {
+              classChangerForClass("detail" + k, "detail" + k + " invisible");
+
+	            buttonComrade[k].addEventListener('click', function(){
+              var thisButton = this;
+              var allComrButtons = document.getElementsByClassName("comrade");
+              for (var l=0;l<allComrButtons.length;l++)
+              {
+                if(allComrButtons[l]==thisButton)
+                { 
+                  var comrNumb = l;
+                } 
+              };
+              classChangerForClass("list" + comrNumb, "list" + comrNumb + " invisible");
+              classChangerForClass("detail" + comrNumb, "detail" + comrNumb + " visible");
+            });	
+          };
+        };
         
         var backButton = document.getElementById("bButton");
 
@@ -201,7 +226,7 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
 {
   switch(subMenuType) {
     case "information":
-      return  playerInformation(locationInJson);
+      return  playerInformation(locationInJson, '');
     case "attribute":
       return playerAttributes(locationInJson);
     case "state":
@@ -209,15 +234,15 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
     case "battle":
       return playerBattle(locationInJson);
     case "equipment":
-      return equipmentListGenerator(locationInJson);
+      return equipmentListGenerator(locationInJson, '');
     case "items":
-      return itemsListGenerator(locationInJson);
-    case "abilites":
-      return abilitiesListGenerator(locationInJson, fullJson.skills);
+      return itemsListGenerator(locationInJson, '');
+    case "abilities":
+      return abilitiesListGenerator(locationInJson, fullJson.skills, '');
     case "spells":
       return spellsListGenerator(locationInJson);
     case "comrades":
-      return comradeListGenerator(locationInJson);
+      return comradeListGenerator(locationInJson, fullJson.skills);
     case "notes":
       return notesListGenerator(locationInJson);
     case "biography":
@@ -232,7 +257,17 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
 function classChanger(idLocator, newClassName)
 {
   document.getElementById(idLocator).className = newClassName;
-}
+};
+
+function classChangerForClass(classLocator, newClassName)
+{
+  var listOfElements = document.getElementsByClassName(classLocator);
+
+  for(var h=0;h<listOfElements.length;h++)
+  {
+    listOfElements[h].className = newClassName;
+  };
+};
 
 function sumTable(path)
 {
@@ -247,42 +282,42 @@ function sumTable(path)
   return sum;
 }
 
-function equipmentListGenerator(path)
+function equipmentListGenerator(path, valueForClass)
 {
   var equipment =  
-  "<tr><td><b>Ekwipunek</b></td></tr>" + 
-  "<tr><td>Nazwa</td><td>Opis</td><td>Typ</td><td>Umiejscowienie</td><td>Właściwości</td></tr>";
+  "<tr class='detail" + valueForClass + "'><td><b>Ekwipunek</b></td></tr>" + 
+  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td><td>Typ</td><td>Umiejscowienie</td><td>Właściwości</td></tr>";
 
   for(var i=0; i<path.equipment.length;i++)
   {
-    equipment += "<tr><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td><td>" + path.equipment[i].type + "</td><td>" + path.equipment[i].bodypart + "</td><td>" + path.equipment[i].ability + "</td></tr>";
+    equipment += "<tr class='detail" + valueForClass + "'><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td><td>" + path.equipment[i].type + "</td><td>" + path.equipment[i].bodypart + "</td><td>" + path.equipment[i].ability + "</td></tr>";
   }
   
   return equipment;
 }
 
-function itemsListGenerator(path)
+function itemsListGenerator(path, valueForClass)
 {
   var items =  
-  "<tr><td><b>Przedmioty</b></td></tr>" + 
-  "<tr><td>Nazwa</td><td>Opis</td><td>Właściwości</td></tr>";
+  "<tr class='detail" + valueForClass + "'><td><b>Przedmioty</b></td></tr>" + 
+  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Liczba</td><td>Opis</td><td>Właściwości</td></tr>";
   for(var i=0; i<path.items.length;i++)
   {
-    items += "<tr><td>" + path.items[i].name + "</td><td>" + path.items[i].description + "</td><td>" + path.items[i].ability + "</td></tr>";
+    items += "<tr class='detail" + valueForClass + "'><td>" + path.items[i].name + "</td><td>" + path.items[i].quantity + "</td><td>" + path.items[i].description + "</td><td>" + path.items[i].ability + "</td></tr>";
   }
 
   return items;
 }
 
-function abilitiesListGenerator(path, skillsList)
+function abilitiesListGenerator(path, skillsList, valueForClass)
 {
   if (path.knownskills == 0){
-    var skills = 'Ta postać nie ma umiejętności.';
+    var skills = "<tr class='detail" + valueForClass + "'><td>Ta postać nie ma umiejętności.</td></tr>";
     return skills;
   } else {
   var skills = 
-  "<tr><td><b>Umiejętności</b></td></tr>" +
-  "<tr><td>Nazwa</td><td>Opis</td></tr>";
+  "<tr class='detail" + valueForClass + "'><td><b>Umiejętności</b></td></tr>" +
+  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td></tr>";
     for(var i=0;i<path.knownskills.length;i++){
 
       var skillNumb = path.knownskills[i]-1;
@@ -293,7 +328,7 @@ function abilitiesListGenerator(path, skillsList)
           var level = '';
       };
       
-      skills += "<tr><td>" + skillsList[skillNumb].name + " " + level +
+      skills += "<tr class='detail" + valueForClass + "'><td>" + skillsList[skillNumb].name + " " + level +
       "</td><td>" + skillsList[skillNumb].description + "</td></tr>";
     };
   return skills;
@@ -315,20 +350,29 @@ function spellsListGenerator(path)
   return spells;
 }
 
-function comradeListGenerator(path)
+function comradeListGenerator(path, skillsList)
 {
   var comrade = path.comrades;
-  var comrades = "<tr><td><b>Towarzysze</b></td></tr>";
+  var comrades = "";
   for(var i=0; i<comrade.length;i++)
+    {
+      comrades += "<tr class = 'list" + i + " visible' ><td><button class='comrade' aria-label='" + comrade[i].name + " " + comrade[i].surname + "'>" + comrade[i].name + " " + comrade[i].surname + "</button></td></tr>";
+    };
+
+  for(var j=0; j<comrade.length;j++)
   {
-    comrades += playerInformation(comrade[i]) +  
-    equipmentListGenerator(comrade[i]) +
-    itemsListGenerator(comrade[i]) +
-    abilitiesListGenerator(comrade[i]);
+    comrades += "<tr class = 'detail" + j + " invisible'><td><b>Dieta: </td><td>" + comrade[j].food + "</td></tr>" +
+    "<tr class = 'detail" + j + " invisible'><td><b>Słabość: </b></td><td>" + comrade[j].weakness + "</td></tr>" +
+    "<tr class = 'detail" + j + " invisible'><td><b>Motywacja: </b></td><td>" + comrade[j].motivation + "</td></tr>" +
+    "<tr class = 'detail" + j + " invisible'><td><b>Więź: </b></td><td>" + comrade[j].bond[0].name + "</td><td>" + comrade[j].bond[0].description + "</td></tr>" +
+    playerInformation(comrade[j], j) +  
+    equipmentListGenerator(comrade[j], j) +
+    itemsListGenerator(comrade[j], j) +
+    abilitiesListGenerator(comrade[j], skillsList, j);
   }
 
   return comrades;
-}
+} 
 
 function notesListGenerator(path)
 {
