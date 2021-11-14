@@ -1,0 +1,194 @@
+  {
+    "players":[
+      {
+        "name": "-",
+        "surname": "-",
+        "occupation": "-",
+        "species": "-",
+        "subspecies": "-", 
+        "variety": "-",
+        "provenance": "-",
+        "age": 0,
+        "height": 0,
+        "haircolor": "-",
+        "eyecolor": "-",
+        "peculiarities": "-",
+        "biography": "-",
+        "knownherbs": [0],
+        "knownskills": [0],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "-",
+            "quantity": 0,
+            "description": "-",
+            "ability": "-"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "-",
+            "description": "-",
+            "type": "-",
+            "bodypart": "-",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          }       
+        ],
+        "spells": [
+          {
+            "name": "-",
+            "description": "-",
+            "requirements": "-",
+            "cost": "-",
+            "effect": "-"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "stupor",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "panic",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "weariness",
+            "basevalue": 1,
+            "buffvalue": null
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "attacks",
+            "basevalue": 0,
+            "buffvalue": 1
+          },
+          {
+            "name": "spells",
+            "basevalue": 0,
+            "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "-",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": 0,
+            "height": 0,
+            "haircolor": "-",
+            "eyecolor": "-",
+            "peculiarities": "-",
+            "knownskills": [0],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }        
+        ]        
+      }
+    ]
+  }
