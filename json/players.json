@@ -1,0 +1,959 @@
+{
+  "players":[
+    {
+      "name": "Telumehtar",
+      "surname": "-",
+      "occupation": "Żeglarz",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "Irmihańczyk",
+      "provenance": "Irmih",
+      "age": 40,
+      "height": 180,
+      "haircolor": "Czarne",
+      "eyecolor": "Piwne",
+      "peculiarities": "Blizna przez policzek",
+      "biography": "-",
+      "exp": 108,
+      "knownherbs": [0],
+      "knownskills": [0],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "Kamancheh",
+          "quantity": 1,
+          "description": "Tradycyjny irmihański instrument z czterema strunami. Przypomina ogromną fajkę.",
+          "ability": "-"
+        },
+        {
+          "name": "Fajka żeglarza",
+          "quantity": 1,
+          "description": "Prosta fajka, która przepaliła wiele tytoniu.",
+          "ability": "-"
+        },
+        {
+          "name": "Tytoń",
+          "quantity": 92,
+          "description": "Porcja tytoniu na jedno palenie fajki.",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Żeliwny toporek",
+          "description": "Jednoręczny, poręczny toporek. Wygodna broń do obrony podczas abordażu.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Noż",
+          "description": "Lekki i poręczny nóż, który można łatwo schować.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Buty irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały buty z dobrej jakości tkaniny.",
+          "type": "shoes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 1,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 0,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 0,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 0,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "Papuga",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Zordael",
+      "surname": "Oreański",
+      "occupation": "Łowca istot magicznych",
+      "species": "Ludzie",
+      "subspecies": "Półelf", 
+      "variety": "-",
+      "provenance": "Cydrinka",
+      "age": 23,
+      "height": 180,
+      "haircolor": "brązowe, krótkie",
+      "eyecolor": "brązowe",
+      "peculiarities": "-",
+      "biography": "-",
+      "exp": 134,
+      "knownherbs": [0],
+      "knownskills": [3,4,5,6,7],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Żeliwny miecz",
+          "description": "Prosty żeliwny miecz",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Żeliwny miecz",
+          "description": "Prosty żeliwny miecz",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Lina z hakiem",
+          "description": "Cienka linka z hakiem przywiązanym na jej końcu.",
+          "type": "weapon",
+          "bodypart": "twohanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula galernika",
+          "description": "Koszula z szorstkiej tkaniny",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie galernika",
+          "description": "Spodnie z szorstkiej tkaniny",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 1,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 0,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 0,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 0,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Isil",
+      "surname": "Korvanjund",
+      "occupation": "Łowczyni",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "-",
+      "provenance": "Solvejk",
+      "age": 17,
+      "height": 170,
+      "haircolor": "złoty blond",
+      "eyecolor": "błękitne",
+      "peculiarities": "-",
+      "biography": "-",
+      "exp": 102,
+      "knownherbs": [0],
+      "knownskills": [0],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "Koc",
+          "quantity": 1,
+          "description": "Ciepły wełniany koc.",
+          "ability": "-"
+        },
+        {
+          "name": "Hubka i krzesiwo",
+          "quantity": 1,
+          "description": "Suchy materiał i krzesiwo.",
+          "ability": "-"
+        },
+        {
+          "name": "Strzały",
+          "quantity": 30,
+          "description": "Strzały z żeliwnym grotem i lotkami z ptasich piór.",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Nóż myśliwski",
+          "description": "Prosty, ale skuteczny nóż wykonany ze stali.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Łuk myśliwski",
+          "description": "Łuk przeznaczony do polowania.",
+          "type": "weapon",
+          "bodypart": "otwohanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Kołczan na strzały",
+          "description": "Skórzany kołczan.",
+          "type": "bag",
+          "bodypart": "back",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Biała chusta",
+          "description": "Gruba chusta wełniana z futerkiem lisa polarnego.",
+          "type": "clothes",
+          "bodypart": "head",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Futra",
+          "description": "Ciepłe futra chroniąc przed zimnem obrażeniami.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula ludzi z północy",
+          "description": "Tkana koszula ludzi z północy.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie ludzi z północy",
+          "description": "Skórzane spodnie ludzi z północy.",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Buty z grubej skóry z futrem",
+          "description": "Buty z grubej skóry z futrem",
+          "type": "shoes",
+          "bodypart": "feet",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }               
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 1,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 0,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 0,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 0,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "Lumi",
+          "surname": "-",
+          "occupation": "-",
+          "species": "Pantera śniezna",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "Mroźna północ",
+          "age": 0,
+          "height": 60,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Thonvar",
+      "surname": "Tel'Batrai",
+      "occupation": "Mag",
+      "species": "Człowiek",
+      "subspecies": "Elf", 
+      "variety": "Popielny elf",
+      "provenance": "Loriken",
+      "age": 96,
+      "height": 192,
+      "haircolor": "fielotowo-srebrne, długie",
+      "eyecolor": "czerwone",
+      "peculiarities": "kolczyki w uszach",
+      "biography": "-",
+      "exp": 118,
+      "knownherbs": [0],
+      "knownskills": [0],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "-",
+          "description": "-",
+          "type": "-",
+          "bodypart": "-",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }       
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 1,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 1,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 0,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 0,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 0,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    }
+  ]
+}

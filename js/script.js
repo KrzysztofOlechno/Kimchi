@@ -158,8 +158,7 @@ function playerBattle(locationInJson)
 
 function getPlayerData(subMenuType, playerURI)
 {
-  //let playerURL = 'json/players.json';
-  let playerURL = 'json/cleanplayer.json';
+  let playerURL = 'json/appdata.json';
   let playerJSON = new XMLHttpRequest();
   playerJSON.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) 
@@ -337,8 +336,32 @@ function abilitiesListGenerator(path, skillsList, valueForClass)
 
 
 
-function spellsListGenerator(path)
+function spellsListGenerator(path, spellsList, valueForClass)
 {
+  if (path.knownspells == 0){
+    var spells = "<tr class='detail" + valueForClass + "'><td>Ta postać nie ma czarów.</td></tr>";
+    return spells;
+  } else {
+    var spells = 
+    "<tr class='detail" + valueForClass + "'><td><b>Czary</b></td></tr>" +
+    "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td></tr>";
+    for(var i=0;i<path.knownskills.length;i++){
+
+      var skillNumb = path.knownspells[i]-1;
+
+      if(spellsList[skillNumb].level != null){
+        var level = spellsList[skillNumb].level;
+      } else {
+          var level = '';
+      };
+
+      spells += "<tr class='detail" + valueForClass + "'><td>" + spellsList[skillNumb].name + " " + level +
+      "</td><td>" + spellsList[skillNumb].description + "</td></tr>";
+    };
+  return spells;
+  };
+}
+
   var spells = 
   "<tr><td><b>Zaklęcia</b></td></tr>" + 
   "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>";
@@ -462,7 +485,7 @@ function makeTable(type){
 
 function getPlayerDataSkillsThrow(playerURI, attribute)
 {
-let requestURL = 'json/cleanplayer.json';
+let requestURL = 'json/appdata.json';
 let request = new XMLHttpRequest();
 request.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) 

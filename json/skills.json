@@ -1,0 +1,181 @@
+{
+    "skills": [
+    {
+      "id": 1,
+      "name": "Adrenalina",
+      "level": 1,
+      "xpcost": 10,
+      "requiredskills": [0],
+      "description": "Po wyczerpaniu punktów zranień są one przywracane do normy"
+    },
+    {
+      "id": 1,
+      "name": "Adrenalina",
+      "level": 2,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Zraniena spadną do zera, zregenruje punkty zranienia, ale tylko raz na walkę. Po walce punkty znużenia rosną do maksymalnej wartości."
+    },
+    {
+      "id": 1,
+      "name": "Adrenalina",
+      "level": 3,
+      "xpcost": 250,
+      "requiredskills": [0],
+      "description": "Zraniena spadną do zera, zregenruje punkty zranienia, ale tylko raz na walkę. Po walce punkty znużenia rosną do maksymalnej wartości."
+    },
+    {
+      "id": 1,
+      "name": "Adrenalina",
+      "level": 4,
+      "xpcost": 1250,
+      "requiredskills": [0],
+      "description": "Zraniena spadną do zera, zregenruje punkty zranienia, ale tylko raz na walkę. Po walce punkty znużenia rosną do maksymalnej wartości."
+    },
+    {
+      "id": 1,
+      "name": "Zielarstwo",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Znajomość ziół i ich właściwości oraz umiejętność tworzenia wyrobów zielarskich."
+    },
+    {
+      "id": 2,
+      "name": "Śpiew",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Umiejętność śpiewania."
+    },
+    {
+      "id": 3,
+      "name": "Zaklinanie przedmiotów",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Pozwala nałożyć na drobny przedmiot krótkotrwały czar."
+    },
+    {
+      "id": 4,
+      "name": "Czarowanie",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Pozwala rzucać czary."
+    },
+    {
+      "id": 5,
+      "name": "Tropienie",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Umiejętność znajdywania śladów i tropienia."
+    },
+    {
+      "id": 6,
+      "name": "Tworzenie pułpek",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Umiejętność tworzenia prostych pułapek, ich zakładania oraz rozbrajania."
+    },
+    {
+      "id": 7,
+      "name": "Anatomia",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Znajomość anatomii różnych stworzeń, rozłożenia ich organów i punktów witalnych."
+    },
+    {
+      "id": 8,
+      "name": "Nocny spacer",
+      "level": null,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Umiejętność rasowa. Unoszenie się nocą. Niewelowanie upadków, nie można zabić się spadając."
+    },
+    {
+      "id": 9,
+      "name": "Posługiwanie się różdżką",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Postać umie dobrze władać różdżką. Może przerzucić niekorzystny wynik rzutu na czar."
+    },
+    {
+      "id": 10,
+      "name": "Regeneracja podczas pełni",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Postać bardzo szybko się regeneruje w trakcie pełni księżyca."
+    },
+    
+    {
+      "id": 12,
+      "name": "Noszenie zbroi",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Wiesz dobrze jak poprawnie założyć zbroję i jak efektywnie się w niej poruszać."
+    },
+    {
+      "id": 13,
+      "name": "Świadomość bitwena",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "Postać w trakcie walki wchodzi w stan podwyższonej świadomości przez co walczy i broni się bardziej efekywnie."
+    },
+    {
+      "id": 14,
+      "name": "Szarża",
+      "level": 1,
+      "xpcost": 50,
+      "requiredskills": [0],
+      "description": "-"
+    },
+    {
+      "id": 15,
+      "name": "Nieumarły",
+      "level": 1,
+      "xpcost": null,
+      "requiredskills": [0],
+      "description": "Postać została utrzymywana jest przy życiu magią nekromancji."
+    },
+    {
+      "id": 16,
+      "name": "Unoszenie się",
+      "level": 1,
+      "xpcost": "inborn",
+      "requiredskills": [0],
+      "description": "-"
+    },
+    {
+      "id": 17,
+      "name": "Przenikanie przez ściany",
+      "level": 1,
+      "xpcost": "inborn",
+      "requiredskills": [0],
+      "description": "-"
+    },
+    {
+      "id": 18,
+      "name": "Niewidzialność",
+      "level": 1,
+      "xpcost": "inborn",
+      "requiredskills": [0],
+      "description": "-"
+    },
+    {
+      "id": 19,
+      "name": "Porażenie",
+      "level": 1,
+      "xpcost": null,
+      "requiredskills": [0],
+      "description": "-"
+    }
+  ]
+}
