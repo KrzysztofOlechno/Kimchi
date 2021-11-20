@@ -1,12 +1,18 @@
 {
     "spells": [
     {
-      "name": "-",
-      "description": "-",
-      "sphere": "-",
-      "requirements": "-",
-      "cost": "-",
-      "effect": "-"
+      "id": 1,
+      "name": "Bomba gazowa",
+      "level": 1,
+      "xpcost": 10,
+      "type": 0,
+      "requiredspells": [0],
+      "requiredskills": [0],
+      "requiredattributes": [0],
+      "castcost": [0],
+      "requirements": [0],
+      "effect": [0],
+      "description": "Po wyczerpaniu punktów zranień są one przywracane do normy"
     }
   ]
 }

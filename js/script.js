@@ -239,7 +239,7 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
     case "abilities":
       return abilitiesListGenerator(locationInJson, fullJson.skills, '');
     case "spells":
-      return spellsListGenerator(locationInJson);
+      return spellsListGenerator(locationInJson, fullJson.spells, '');
     case "comrades":
       return comradeListGenerator(locationInJson, fullJson.skills);
     case "notes":
@@ -338,39 +338,28 @@ function abilitiesListGenerator(path, skillsList, valueForClass)
 
 function spellsListGenerator(path, spellsList, valueForClass)
 {
-  if (path.knownspells == 0){
+  if (path.knowspells == 0){
     var spells = "<tr class='detail" + valueForClass + "'><td>Ta postać nie ma czarów.</td></tr>";
     return spells;
   } else {
     var spells = 
     "<tr class='detail" + valueForClass + "'><td><b>Czary</b></td></tr>" +
     "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td></tr>";
-    for(var i=0;i<path.knownskills.length;i++){
+    for(var i=0;i<path.knownspells.length;i++){
 
-      var skillNumb = path.knownspells[i]-1;
+      var spellNumb = path.knownspells[i]-1;
 
-      if(spellsList[skillNumb].level != null){
-        var level = spellsList[skillNumb].level;
+      if(spellsList[spellNumb].level != null){
+        var level = spellsList[spellNumb].level;
       } else {
           var level = '';
       };
 
-      spells += "<tr class='detail" + valueForClass + "'><td>" + spellsList[skillNumb].name + " " + level +
-      "</td><td>" + spellsList[skillNumb].description + "</td></tr>";
+      spells += "<tr class='detail" + valueForClass + "'><td>" + spellsList[spellNumb].name + " " + level +
+      "</td><td>" + spellsList[spellNumb].description + "</td></tr>";
     };
   return spells;
   };
-}
-
-  var spells = 
-  "<tr><td><b>Zaklęcia</b></td></tr>" + 
-  "<tr><td>Nazwa</td><td>Opis</td><td>Wymagania</td><td>Koszt</td><td>Efekt</td></tr>";
-  for(var i=0; i<path.spells.length;i++)
-  {
-    spells += "<tr><td>" + path.spells[i].name + "</td><td>" + path.spells[i].description + "</td><td>" + path.spells[i].requirements + "</td><td>" + path.spells[i].cost + "</td><td>" + path.spells[i].effect + "</td></tr>";
-  }
-
-  return spells;
 }
 
 function comradeListGenerator(path, skillsList)

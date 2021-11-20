@@ -1,0 +1,320 @@
+{
+    "players":[
+      {
+        "name": "Telumehtar",
+        "surname": "-",
+        "occupation": "Żeglarz",
+        "species": "Ludzie",
+        "subspecies": "Człowiek", 
+        "variety": "Irmihańczyk",
+        "provenance": "Irmih",
+        "age": 40,
+        "height": 180,
+        "haircolor": "Czarne",
+        "eyecolor": "Piwne",
+        "peculiarities": "Blizna przez policzek",
+        "biography": "-",
+        "exp": 108,
+        "knownherbs": [1],
+        "knownskills": [1],
+        "knownspells": [1],
+        "notes": [
+          {
+            "content": "-"
+          }
+        ],
+        "items": [
+          {
+            "name": "Kamancheh",
+            "quantity": 1,
+            "description": "Tradycyjny irmihański instrument z czterema strunami. Przypomina ogromną fajkę.",
+            "ability": "-"
+          },
+          {
+            "name": "Fajka żeglarza",
+            "quantity": 1,
+            "description": "Prosta fajka, która przepaliła wiele tytoniu.",
+            "ability": "-"
+          },
+          {
+            "name": "Tytoń",
+            "quantity": 92,
+            "description": "Porcja tytoniu na jedno palenie fajki.",
+            "ability": "-"
+          }
+        ],
+        "equipment": [
+          {
+            "name": "Żeliwny toporek",
+            "description": "Jednoręczny, poręczny toporek. Wygodna broń do obrony podczas abordażu.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Noż",
+            "description": "Lekki i poręczny nóż, który można łatwo schować.",
+            "type": "weapon",
+            "bodypart": "onehanded",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Koszula irmihańskiego żeglarza",
+            "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+            "type": "clothes",
+            "bodypart": "torso",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Spodnie irmihańskiego żeglarza",
+            "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+            "type": "clothes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          },
+          {
+            "name": "Buty irmihańskiego żeglarza",
+            "description": "Wygodny i wytrzymały buty z dobrej jakości tkaniny.",
+            "type": "shoes",
+            "bodypart": "legs",
+            "ability": "-",
+            "buff": [
+              {
+                "name": null,
+                "value": null
+              }
+            ]          
+          }
+        ],
+        "attributes": [
+          {
+            "name": "strength",
+            "basevalue": 3,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "agility",
+            "basevalue": 3,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "mind",
+            "basevalue": 2,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "emotions",
+            "basevalue": 2,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "craft",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          },
+          {
+            "name": "willpower",
+            "basevalue": 1,
+            "buffvalue": null,
+            "secbuffvalue": null
+          }
+        ],
+        "states": [
+          {
+            "name": "wounds",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "paralisis",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "stupor",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "panic",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "poisoning",
+            "basevalue": 1,
+            "buffvalue": null
+          },
+          {
+            "name": "weariness",
+            "basevalue": 1,
+            "buffvalue": null
+          }  
+        ],
+        "battle": [
+          {
+            "name": "reaction",
+            "basevalue": 0,
+            "buffvalue": 0
+          },
+          {
+            "name": "attacks",
+            "basevalue": 0,
+            "buffvalue": 1
+          },
+          {
+            "name": "spells",
+            "basevalue": 0,
+            "buffvalue": 0
+          }
+        ],
+        "comrades": [
+          {        
+            "name": "-",
+            "surname": "-",
+            "occupation": "-",
+            "species": "Papuga",
+            "subspecies": "-", 
+            "variety": "-",
+            "provenance": "-",
+            "age": 0,
+            "height": 0,
+            "haircolor": "-",
+            "eyecolor": "-",
+            "peculiarities": "-",
+            "knownskills": [0],
+            "knownspells": [0],
+            "equipment": [
+              {
+                "name": "-",
+                "description": "-",
+                "type": "-",
+                "bodypart": "-",
+                "ability": "-",
+                "buff": [
+                  {
+                    "primary": "-",
+                    "secondary": "-"
+                  }
+                ]          
+              }                   
+            ],
+            "items": [
+              {
+                "name": "-",
+                "description": "-",
+                "ability": "-"
+              }
+            ],
+            "food": "-",
+            "weakness": "-",
+            "motivation": "-",
+            "bond": [
+              {
+                "name": "-",
+                "description": "-",
+                "visible": "-"
+              }
+            ]
+          }        
+        ]        
+      }
+    ],
+    "herbs":[
+        {
+          "id": 1,
+          "nameformal": "Ammi visnaga",
+          "namecasual":"Aminek zębodłubka",
+          "morphology": "Silnie rozgałęziona, średniej wielkości roślina. Liście drobne, podłużne, rozdzielone. Małe białe kwiaty w baldachach. Drobne nasionka.",
+          "scent": "Słaby i nieprzyjemny",
+          "taste": "Gorzki i ostrawy",
+          "effects": "Leczy okskrzela, jelita, pęcherz.",
+          "rarity": "Pospolity",
+          "goearea": "Południowa Erpia",
+          "landtype": "Wszędzie"
+        },
+        {
+          "id": 2,
+          "nameformal": "Angelica archangelica",
+          "namecasual":"Arcydzięgiel litwor",
+          "morphology": "Okazała roślina o grubych łodygach. Kłącza krótki, poładowane i brunatne. Liście pierzaste i jajowate. Kwiaty zielonkawo-żółte, drogne w baldachach. Nasiona duże.",
+          "scent": "Mocny, korzenno-żywiczny",
+          "taste": "Lekko gorzkawy",
+          "effects": "Fotoczułość, żołądek, kaszel, reumatyzm, choroby skóry",
+          "rarity": "Pospolity",
+          "goearea": "Erpia",
+          "landtype": "Wilgotne, żyzne, górzyste, cień, półcień"
+        },
+        {
+          "id": 3,
+          "nameformal": "Arnica montana",
+          "namecasual":"Arnila górska, Pomornik",
+          "morphology": "Średnia roślina o owłosionych łodygach. Liście grube, wydłużone i jajowate. Kwiaty w postaci żółtych koszyczków.",
+          "scent": "Przyjemny",
+          "taste": "Gorzkawy",
+          "effects": "Krążenie, zapalenia, krwiaki",
+          "rarity": "Pospolity",
+          "goearea": "Erpia",
+          "landtype": "Górskie, podgórskie"
+        }
+      ],
+      "skills": [
+        {
+          "id": 1,
+          "name": "Adrenalina",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": [0],
+          "requiredskills": [0],
+          "usecost": [0],
+          "requirements": [0],
+          "effect": [0],
+          "description": "Po wyczerpaniu punktów zranień są one przywracane do normy"
+        }  
+      ],
+      "spells": [
+        {
+          "id": 1,
+          "name": "Bomba gazowa",
+          "level": 1,
+          "xpcost": 10,
+          "type": 0,
+          "requiredspells": [0],
+          "requiredskills": [0],
+          "requiredattributes": [0],
+          "castcost": [0],
+          "requirements": [0],
+          "effect": [0],
+          "description": "Po wyczerpaniu punktów zranień są one przywracane do normy"
+        }
+      ]
+}
