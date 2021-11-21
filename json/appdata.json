@@ -16,7 +16,7 @@
       "biography": "-",
       "exp": 108,
       "knownherbs": [0],
-      "knownskills": [173,33,81,69,165,166,169],
+      "knownskills": [5,173,33,81,69,165,166,169],
       "knonwspells": [0],
       "notes": [
         {
@@ -120,7 +120,7 @@
         {
           "name": "agility",
           "basevalue": 3,
-          "buffvalue": null,
+          "buffvalue": 1,
           "secbuffvalue": null
         },
         {
@@ -774,7 +774,7 @@
       "biography": "-",
       "exp": 118,
       "knownherbs": [0],
-      "knownskills": [21,77,45,9,29,161],
+      "knownskills": [21,77,45,9,29,161,189,193,197,201],
       "knownspells": [1,5,9,13],
       "notes": [
         {
