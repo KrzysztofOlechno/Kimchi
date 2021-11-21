@@ -775,7 +775,7 @@
       "exp": 118,
       "knownherbs": [0],
       "knownskills": [21,77,45,9,29,161],
-      "knownspells": [0],
+      "knownspells": [1,5,9,13],
       "notes": [
         {
           "content": "-"

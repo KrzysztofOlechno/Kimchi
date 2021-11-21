@@ -316,7 +316,7 @@ function abilitiesListGenerator(path, skillsList, valueForClass)
   } else {
   var skills = 
   "<tr class='detail" + valueForClass + "'><td><b>Umiejętności</b></td></tr>" +
-  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td></tr>";
+  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Koszt</td><td>Warunek</td><td>Efekt</td><td>Opis</td></tr>";
     for(var i=0;i<path.knownskills.length;i++){
 
       var skillNumb = path.knownskills[i]-1;
@@ -328,6 +328,9 @@ function abilitiesListGenerator(path, skillsList, valueForClass)
       };
       
       skills += "<tr class='detail" + valueForClass + "'><td>" + skillsList[skillNumb].name + " " + level +
+      "</td><td>" + skillsList[skillNumb].usecost +
+      "</td><td>" + skillsList[skillNumb].requirements + 
+      "</td><td>" + skillsList[skillNumb].effect +
       "</td><td>" + skillsList[skillNumb].description + "</td></tr>";
     };
   return skills;
@@ -344,7 +347,7 @@ function spellsListGenerator(path, spellsList, valueForClass)
   } else {
     var spells = 
     "<tr class='detail" + valueForClass + "'><td><b>Czary</b></td></tr>" +
-    "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td></tr>";
+    "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Koszt</td><td>Warunek</td><td>Efekt</td><td>Opis</td></tr>";
     for(var i=0;i<path.knownspells.length;i++){
 
       var spellNumb = path.knownspells[i]-1;
@@ -356,6 +359,9 @@ function spellsListGenerator(path, spellsList, valueForClass)
       };
 
       spells += "<tr class='detail" + valueForClass + "'><td>" + spellsList[spellNumb].name + " " + level +
+      "</td><td>" + spellsList[spellNumb].usecost + 
+      "</td><td>" + spellsList[spellNumb].requirements + 
+      "</td><td>" + spellsList[spellNumb].effect + 
       "</td><td>" + spellsList[spellNumb].description + "</td></tr>";
     };
   return spells;
