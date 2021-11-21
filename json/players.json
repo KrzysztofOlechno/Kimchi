@@ -773,9 +773,9 @@
       "peculiarities": "kolczyki w uszach",
       "biography": "-",
       "exp": 118,
-      "knownherbs": [0],
+      "knownherbs": [1,2,3],
       "knownskills": [21,77,45,9,29,161],
-      "knonwspells": [0],
+      "knonwspells": [1,5,9,13],
       "notes": [
         {
           "content": "-"
