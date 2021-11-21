@@ -1,254 +1,1132 @@
 {
-    "players":[
-      {
-        "name": "Telumehtar",
-        "surname": "-",
-        "occupation": "Żeglarz",
-        "species": "Ludzie",
-        "subspecies": "Człowiek", 
-        "variety": "Irmihańczyk",
-        "provenance": "Irmih",
-        "age": 40,
-        "height": 180,
-        "haircolor": "Czarne",
-        "eyecolor": "Piwne",
-        "peculiarities": "Blizna przez policzek",
-        "biography": "-",
-        "exp": 108,
-        "knownherbs": [1],
-        "knownskills": [1],
-        "knownspells": [1],
-        "notes": [
-          {
-            "content": "-"
-          }
-        ],
-        "items": [
-          {
-            "name": "Kamancheh",
-            "quantity": 1,
-            "description": "Tradycyjny irmihański instrument z czterema strunami. Przypomina ogromną fajkę.",
-            "ability": "-"
-          },
-          {
-            "name": "Fajka żeglarza",
-            "quantity": 1,
-            "description": "Prosta fajka, która przepaliła wiele tytoniu.",
-            "ability": "-"
-          },
-          {
-            "name": "Tytoń",
-            "quantity": 92,
-            "description": "Porcja tytoniu na jedno palenie fajki.",
-            "ability": "-"
-          }
-        ],
-        "equipment": [
-          {
-            "name": "Żeliwny toporek",
-            "description": "Jednoręczny, poręczny toporek. Wygodna broń do obrony podczas abordażu.",
-            "type": "weapon",
-            "bodypart": "onehanded",
-            "ability": "-",
-            "buff": [
-              {
-                "name": null,
-                "value": null
-              }
-            ]          
-          },
-          {
-            "name": "Noż",
-            "description": "Lekki i poręczny nóż, który można łatwo schować.",
-            "type": "weapon",
-            "bodypart": "onehanded",
-            "ability": "-",
-            "buff": [
-              {
-                "name": null,
-                "value": null
-              }
-            ]          
-          },
-          {
-            "name": "Koszula irmihańskiego żeglarza",
-            "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
-            "type": "clothes",
-            "bodypart": "torso",
-            "ability": "-",
-            "buff": [
-              {
-                "name": null,
-                "value": null
-              }
-            ]          
-          },
-          {
-            "name": "Spodnie irmihańskiego żeglarza",
-            "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
-            "type": "clothes",
-            "bodypart": "legs",
-            "ability": "-",
-            "buff": [
-              {
-                "name": null,
-                "value": null
-              }
-            ]          
-          },
-          {
-            "name": "Buty irmihańskiego żeglarza",
-            "description": "Wygodny i wytrzymały buty z dobrej jakości tkaniny.",
-            "type": "shoes",
-            "bodypart": "legs",
-            "ability": "-",
-            "buff": [
-              {
-                "name": null,
-                "value": null
-              }
-            ]          
-          }
-        ],
-        "attributes": [
-          {
-            "name": "strength",
-            "basevalue": 3,
-            "buffvalue": null,
-            "secbuffvalue": null
-          },
-          {
-            "name": "agility",
-            "basevalue": 3,
-            "buffvalue": null,
-            "secbuffvalue": null
-          },
-          {
-            "name": "mind",
-            "basevalue": 2,
-            "buffvalue": null,
-            "secbuffvalue": null
-          },
-          {
-            "name": "emotions",
-            "basevalue": 2,
-            "buffvalue": null,
-            "secbuffvalue": null
-          },
-          {
-            "name": "craft",
-            "basevalue": 1,
-            "buffvalue": null,
-            "secbuffvalue": null
-          },
-          {
-            "name": "willpower",
-            "basevalue": 1,
-            "buffvalue": null,
-            "secbuffvalue": null
-          }
-        ],
-        "states": [
-          {
-            "name": "wounds",
-            "basevalue": 1,
-            "buffvalue": null
-          },
-          {
-            "name": "paralisis",
-            "basevalue": 1,
-            "buffvalue": null
-          },
-          {
-            "name": "stupor",
-            "basevalue": 1,
-            "buffvalue": null
-          },
-          {
-            "name": "panic",
-            "basevalue": 1,
-            "buffvalue": null
-          },
-          {
-            "name": "poisoning",
-            "basevalue": 1,
-            "buffvalue": null
-          },
-          {
-            "name": "weariness",
-            "basevalue": 1,
-            "buffvalue": null
-          }  
-        ],
-        "battle": [
-          {
-            "name": "reaction",
-            "basevalue": 0,
-            "buffvalue": 0
-          },
-          {
-            "name": "attacks",
-            "basevalue": 0,
-            "buffvalue": 1
-          },
-          {
-            "name": "spells",
-            "basevalue": 0,
-            "buffvalue": 0
-          }
-        ],
-        "comrades": [
-          {        
-            "name": "-",
-            "surname": "-",
-            "occupation": "-",
-            "species": "Papuga",
-            "subspecies": "-", 
-            "variety": "-",
-            "provenance": "-",
-            "age": 0,
-            "height": 0,
-            "haircolor": "-",
-            "eyecolor": "-",
-            "peculiarities": "-",
-            "knownskills": [0],
-            "knownspells": [0],
-            "equipment": [
-              {
-                "name": "-",
-                "description": "-",
-                "type": "-",
-                "bodypart": "-",
-                "ability": "-",
-                "buff": [
-                  {
-                    "primary": "-",
-                    "secondary": "-"
-                  }
-                ]          
-              }                   
-            ],
-            "items": [
-              {
-                "name": "-",
-                "description": "-",
-                "ability": "-"
-              }
-            ],
-            "food": "-",
-            "weakness": "-",
-            "motivation": "-",
-            "bond": [
-              {
-                "name": "-",
-                "description": "-",
-                "visible": "-"
-              }
-            ]
-          }        
-        ]        
-      }
-    ],
+  "players":[
+    {
+      "name": "Telumehtar",
+      "surname": "-",
+      "occupation": "Żeglarz",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "Irmihańczyk",
+      "provenance": "Irmih",
+      "age": 40,
+      "height": 180,
+      "haircolor": "Czarne",
+      "eyecolor": "Piwne",
+      "peculiarities": "Blizna przez policzek",
+      "biography": "-",
+      "exp": 108,
+      "knownherbs": [0],
+      "knownskills": [173,33,81,69,165,166,169],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "Kamancheh",
+          "quantity": 1,
+          "description": "Tradycyjny irmihański instrument z czterema strunami. Przypomina ogromną fajkę.",
+          "ability": "-"
+        },
+        {
+          "name": "Fajka żeglarza",
+          "quantity": 1,
+          "description": "Prosta fajka, która przepaliła wiele tytoniu.",
+          "ability": "-"
+        },
+        {
+          "name": "Tytoń",
+          "quantity": 92,
+          "description": "Porcja tytoniu na jedno palenie fajki.",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Żeliwny toporek",
+          "description": "Jednoręczny, poręczny toporek. Wygodna broń do obrony podczas abordażu.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Noż",
+          "description": "Lekki i poręczny nóż, który można łatwo schować.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały strój z dobrej jakości tkaniny.",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Buty irmihańskiego żeglarza",
+          "description": "Wygodny i wytrzymały buty z dobrej jakości tkaniny.",
+          "type": "shoes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 18,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 2,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 3,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 3,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 0,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "Papuga",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Zordael",
+      "surname": "Oreański",
+      "occupation": "Łowca istot magicznych",
+      "species": "Ludzie",
+      "subspecies": "Półelf", 
+      "variety": "-",
+      "provenance": "Cydrinka",
+      "age": 23,
+      "height": 180,
+      "haircolor": "brązowe, krótkie",
+      "eyecolor": "brązowe",
+      "peculiarities": "-",
+      "biography": "-",
+      "exp": 134,
+      "knownherbs": [0],
+      "knownskills": [13,17,21,81,85,105,125,129,145],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Żeliwny miecz",
+          "description": "Prosty żeliwny miecz",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Lina z hakiem",
+          "description": "Cienka linka z hakiem przywiązanym na jej końcu.",
+          "type": "weapon",
+          "bodypart": "twohanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula galernika",
+          "description": "Koszula z szorstkiej tkaniny",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie galernika",
+          "description": "Spodnie z szorstkiej tkaniny",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": 1,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 22,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 2,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 3,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 3,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 1,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Isil",
+      "surname": "Korvanjund",
+      "occupation": "Łowczyni",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "-",
+      "provenance": "Solvejk",
+      "age": 17,
+      "height": 170,
+      "haircolor": "złoty blond",
+      "eyecolor": "błękitne",
+      "peculiarities": "-",
+      "biography": "-",
+      "exp": 102,
+      "knownherbs": [0],
+      "knownskills": [1,113,125,129,13,85],
+      "knownspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "Koc",
+          "quantity": 1,
+          "description": "Ciepły wełniany koc.",
+          "ability": "-"
+        },
+        {
+          "name": "Hubka i krzesiwo",
+          "quantity": 1,
+          "description": "Suchy materiał i krzesiwo.",
+          "ability": "-"
+        },
+        {
+          "name": "Strzały",
+          "quantity": 30,
+          "description": "Strzały z żeliwnym grotem i lotkami z ptasich piór.",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Nóż myśliwski",
+          "description": "Prosty, ale skuteczny nóż wykonany ze stali.",
+          "type": "weapon",
+          "bodypart": "onehanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Łuk myśliwski",
+          "description": "Łuk przeznaczony do polowania.",
+          "type": "weapon",
+          "bodypart": "twohanded",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Kołczan na strzały",
+          "description": "Skórzany kołczan.",
+          "type": "bag",
+          "bodypart": "back",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Biała chusta",
+          "description": "Gruba chusta wełniana z futerkiem lisa polarnego.",
+          "type": "clothes",
+          "bodypart": "head",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Futra",
+          "description": "Ciepłe futra chroniąc przed zimnem obrażeniami.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Koszula ludzi z północy",
+          "description": "Tkana koszula ludzi z północy.",
+          "type": "clothes",
+          "bodypart": "torso",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Spodnie ludzi z północy",
+          "description": "Skórzane spodnie ludzi z północy.",
+          "type": "clothes",
+          "bodypart": "legs",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        },
+        {
+          "name": "Buty z grubej skóry z futrem",
+          "description": "Buty z grubej skóry z futrem",
+          "type": "shoes",
+          "bodypart": "feet",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }               
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 21,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 3,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 3,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 3,
+          "buffvalue": 0
+        },
+        {
+          "name": "spells",
+          "basevalue": 1,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "Lumi",
+          "surname": "-",
+          "occupation": "-",
+          "species": "Pantera śniezna",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "Mroźna północ",
+          "age": 0,
+          "height": 60,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Thonvar",
+      "surname": "Tel'Batrai",
+      "occupation": "Mag",
+      "species": "Człowiek",
+      "subspecies": "Elf", 
+      "variety": "Popielny elf",
+      "provenance": "Loriken",
+      "age": 96,
+      "height": 192,
+      "haircolor": "fielotowo-srebrne, długie",
+      "eyecolor": "czerwone",
+      "peculiarities": "kolczyki w uszach",
+      "biography": "-",
+      "exp": 118,
+      "knownherbs": [0],
+      "knownskills": [21,77,45,9,29,161],
+      "knownspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "-",
+          "description": "-",
+          "type": "-",
+          "bodypart": "-",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }       
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 16,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 4,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 1,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 1,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 2,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Gazania",
+      "surname": "-",
+      "occupation": "Kapłanka",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "-",
+      "provenance": "Nordstjern",
+      "age": 28,
+      "height": 165,
+      "haircolor": "jasne, blond, długie",
+      "eyecolor": "niebieskie",
+      "peculiarities": "głęboka blizna na prawym ramieniu",
+      "biography": "-",
+      "exp": 104,
+      "knownherbs": [0],
+      "knownskills": [0],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "-",
+          "description": "-",
+          "type": "-",
+          "bodypart": "-",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }       
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 16,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 4,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 1,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 1,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 2,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    }
+  ],
     "herbs":[
         {
           "id": 1,
@@ -293,13 +1171,2449 @@
           "name": "Adrenalina",
           "level": 1,
           "xpcost": 10,
-          "requiredattributes": [0],
-          "requiredskills": [0],
-          "usecost": [0],
-          "requirements": [0],
-          "effect": [0],
-          "description": "Po wyczerpaniu punktów zranień są one przywracane do normy"
-        }  
+          "requiredattributes": "Krzepa 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Przywrócenie punktów zranienia do maksimum na czas walki. Po walce punkty znużenia i zranienia spadają do zera. Można użyć raz na walkę.",
+          "description": "Wojownik pod wpływem ciężkich ran dostaje wystrzał adrenaliny, który powstrzymuje krwawienie i dodaje sił do walki. Po walce, gdy adrenalina opada rany wojownika się otwierają i przygniata go zmęczenie. "
+        },
+        {
+          "id": 2,
+          "name": "Adrenalina",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "Krzepa 4 ",
+          "requiredskills": "Adrenalina 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Przywrócenie punktów zranienia do maksimum na czas walki. Po walce punkty znużenia spadają do jednego, a zranienia spadają do zera. Można użyć raz na walkę.",
+          "description": "Wojownik pod wpływem ciężkich ran dostaje wystrzał adrenaliny, który powstrzymuje krwawienie i dodaje sił do walki. Po walce, gdy adrenalina opada rany wojownika się otwierają i przygniata go zmęczenie. "
+        },
+        {
+          "id": 3,
+          "name": "Adrenalina",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "Krzepa 5 ",
+          "requiredskills": "Adrenalina 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Przywrócenie punktów zranienia do maksimum na czas walki. Po walce punkty znużenia i zranienia spadają do jednego. Można użyć raz na walkę.",
+          "description": "Wojownik pod wpływem ciężkich ran dostaje wystrzał adrenaliny, który powstrzymuje krwawienie i dodaje sił do walki. Po walce, gdy adrenalina opada rany wojownika się otwierają i przygniata go zmęczenie. "
+        },
+        {
+          "id": 4,
+          "name": "Adrenalina",
+          "level": 4,
+          "xpcost": 1250,
+          "requiredattributes": "Krzepa 6 ",
+          "requiredskills": "Adrenalina 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Przywrócenie punktów zranienia do maksimum na czas walki. Jeśli użyte raz w walce to punkty znużenia i zranienia spadają do dwóch po walce. Jeśli użyte dwa razy w walce to punkty znużenia i zranienia spadają do zera po walce.",
+          "description": "Wojownik pod wpływem ciężkich ran dostaje wystrzał adrenaliny, który powstrzymuje krwawienie i dodaje sił do walki. Po walce, gdy adrenalina opada rany wojownika się otwierają i przygniata go zmęczenie. "
+        },
+        {
+          "id": 5,
+          "name": "Akrobatyka",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "Zręczność 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do zręczności +1",
+          "description": "Zręczność postaci wykracza ponad przeciętne zdolności."
+        },
+        {
+          "id": 6,
+          "name": "Akrobatyka",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "Zręczność 4",
+          "requiredskills": "Akrobatyka 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do zręczności +2",
+          "description": "Zręczność postaci wykracza ponad przeciętne zdolności."
+        },
+        {
+          "id": 7,
+          "name": "Akrobatyka",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "Zręczność 5",
+          "requiredskills": "Akrobatyka 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do zręczności +3",
+          "description": "Zręczność postaci wykracza ponad przeciętne zdolności."
+        },
+        {
+          "id": 8,
+          "name": "Akrobatyka",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "Zręczność 6",
+          "requiredskills": "Akrobatyka 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do zręczności +4",
+          "description": "Zręczność postaci wykracza ponad przeciętne zdolności."
+        },
+        {
+          "id": 9,
+          "name": "Alchemia",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "Rozum 3 Rzemiosło 2",
+          "requiredskills": "Zielarstwo 1 Geologia 1",
+          "usecost": "Punkty znużenia równe poziomowi receptury",
+          "requirements": "Receptura Składniki Sprzęt alchemiczny ",
+          "effect": "Wykonanie mikstur, których liczba pomnożona przez poziom mikstury jest mniejsza niż wynik rzutu na Rzemiosło.",
+          "description": "Umiejętność wytwarzania mikstur o nadzwyczajnych właściwościach."
+        },
+        {
+          "id": 10,
+          "name": "Alchemia",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "Rozum 3 Rzemiosło 3 Wola 3",
+          "requiredskills": "Alchemia 1 Zielarstwo 2 Geologia 2",
+          "usecost": "Punkty znużenia równe poziomowi receptury",
+          "requirements": "Receptura Składniki Sprzęt alchemiczny ",
+          "effect": "Wykonanie mikstur, których liczba pomnożona przez poziom mikstury jest mniejsza niż wynik rzutu na Rzemiosło.",
+          "description": "Umiejętność wytwarzania mikstur o nadzwyczajnych właściwościach."
+        },
+        {
+          "id": 11,
+          "name": "Alchemia",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": " Rozum 4 Rzemiosło 4 Wola 4",
+          "requiredskills": "Alchemia 2 Zielarstwo 3  Geologia 3 ",
+          "usecost": "Punkty znużenia równe poziomowi receptury",
+          "requirements": "Receptura Składniki Sprzęt alchemiczny ",
+          "effect": "Wykonanie mikstur, których liczba pomnożona przez poziom mikstury jest mniejsza niż wynik rzutu na Rzemiosło.",
+          "description": "Umiejętność wytwarzania mikstur o nadzwyczajnych właściwościach."
+        },
+        {
+          "id": 12,
+          "name": "Alchemia",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": " Rozum 4 Rzemiosło 5 Wola 5",
+          "requiredskills": "Alchemia 3 Zielarstwo 4  Geologia 4 ",
+          "usecost": "Punkty znużenia równe poziomowi receptury",
+          "requirements": "Receptura Składniki Sprzęt alchemiczny ",
+          "effect": "Wykonanie mikstur, których liczba pomnożona przez poziom mikstury jest mniejsza niż wynik rzutu na Rzemiosło.",
+          "description": "Umiejętność wytwarzania mikstur o nadzwyczajnych właściwościach."
+        },
+        {
+          "id": 13,
+          "name": "Anatomia",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "Rozum 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Grupa istot. W walce: łatwiejszy test ataku Poza walką: łatwiejsze testy powiązane",
+          "description": "Znajomość budowy anatomicznej."
+        },
+        {
+          "id": 14,
+          "name": "Anatomia",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": " Rozum 3",
+          "requiredskills": "Anatomia 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Trzy grupy istot. W walce: łatwiejszy test ataku Znajomość anatomii jeszcze szerszej grupy istot.Poza walką: łatwiejsze testy powiązane",
+          "description": "Znajomość budowy anatomicznej."
+        },
+        {
+          "id": 15,
+          "name": "Anatomia",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": " Rozum 4",
+          "requiredskills": "Anatomia 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Pięć grup istot. W walce: łatwiejszy test ataku Poza walką: łatwiejsze testy powiązane",
+          "description": "Znajomość budowy anatomicznej."
+        },
+        {
+          "id": 16,
+          "name": "Anatomia",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": " Rozum 5",
+          "requiredskills": "Anatomia 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Wszystkie istoty. W walce: łatwiejszy test ataku Poza walką: łatwiejsze testy powiązane",
+          "description": "Znajomość budowy anatomicznej."
+        },
+        {
+          "id": 17,
+          "name": "Atletyka",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "Krzepa 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do Krzepy +1",
+          "description": "Krzepa postaci wyróżnia się ponad przeciętną"
+        },
+        {
+          "id": 18,
+          "name": "Atletyka",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "Krzepa 4",
+          "requiredskills": "Atletyka 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do Krzepy +2",
+          "description": "Krzepa postaci wyróżnia się ponad przeciętną"
+        },
+        {
+          "id": 19,
+          "name": "Atletyka",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "Krzepa 5",
+          "requiredskills": "Atletyka 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do Krzepy +3",
+          "description": "Krzepa postaci wyróżnia się ponad przeciętną"
+        },
+        {
+          "id": 20,
+          "name": "Atletyka",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "Krzepa 6",
+          "requiredskills": "Atletyka 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Bonus do Krzepy +4",
+          "description": "Krzepa postaci wyróżnia się ponad przeciętną"
+        },
+        {
+          "id": 21,
+          "name": "Czarowanie",
+          "level": 1,
+          "xpcost": 20,
+          "requiredattributes": "Rozum 3 Wola 3",
+          "requiredskills": "",
+          "usecost": "Zgodnie z opisem czaru.",
+          "requirements": "Zgodnie z opisem czaru.",
+          "effect": "Możliwość władania czarami pierwszego poziomu. Dodatkowe efekty w opise czaru.",
+          "description": "Umiejętność rzucania czarów."
+        },
+        {
+          "id": 22,
+          "name": "Czarowanie",
+          "level": 2,
+          "xpcost": 100,
+          "requiredattributes": "Rozum 3 Wola 4",
+          "requiredskills": "Czarowanie 1",
+          "usecost": "Zgodnie z opisem czaru.",
+          "requirements": "Zgodnie z opisem czaru.",
+          "effect": "Możliwość władania czarami drugiego poziomu. Dodatkowe efekty w opise czaru.",
+          "description": "Umiejętność rzucania czarów."
+        },
+        {
+          "id": 23,
+          "name": "Czarowanie",
+          "level": 3,
+          "xpcost": 500,
+          "requiredattributes": "Rozum 3 Wola 5",
+          "requiredskills": "Czarowanie 2",
+          "usecost": "Zgodnie z opisem czaru.",
+          "requirements": "Zgodnie z opisem czaru.",
+          "effect": "Możliwość władania czarami trzeciego poziomu. Dodatkowe efekty w opise czaru.",
+          "description": "Umiejętność rzucania czarów."
+        },
+        {
+          "id": 24,
+          "name": "Czarowanie",
+          "level": 4,
+          "xpcost": 2500,
+          "requiredattributes": "Rozum 3 Wola 6",
+          "requiredskills": "Czarowanie 3",
+          "usecost": "Zgodnie z opisem czaru.",
+          "requirements": "Zgodnie z opisem czaru.",
+          "effect": "Możliwość władania czarami czwartego poziomu. Dodatkowe efekty w opise czaru.",
+          "description": "Umiejętność rzucania czarów."
+        },
+        {
+          "id": 25,
+          "name": "Dyplomacja",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 26,
+          "name": "Dyplomacja",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 27,
+          "name": "Dyplomacja",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 28,
+          "name": "Dyplomacja",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 29,
+          "name": "Geologia",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Rozum 2",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi kryształu minerału.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie minerałów i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzustywania skał i minerałów."
+        },
+        {
+          "id": 30,
+          "name": "Geologia",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Rozum 3",
+          "requiredskills": "Geologia 1",
+          "usecost": "Punkty znużenia równe poziomowi kryształu minerału.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie minerałów i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzustywania skał i minerałów."
+        },
+        {
+          "id": 31,
+          "name": "Geologia",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Rozum 4",
+          "requiredskills": "Geologia 2",
+          "usecost": "Punkty znużenia równe poziomowi kryształu minerału.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie minerałów i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzustywania skał i minerałów."
+        },
+        {
+          "id": 32,
+          "name": "Geologia",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Rozum 5",
+          "requiredskills": "Geologia 3",
+          "usecost": "Punkty znużenia równe poziomowi kryształu minerału.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie minerałów i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzustywania skał i minerałów."
+        },
+        {
+          "id": 33,
+          "name": "Gra na instrumencie",
+          "level": 1,
+          "xpcost": 6,
+          "requiredattributes": "Rozum 2 Zręczność 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Instrument",
+          "effect": "Przywrócenie punktów emocji.",
+          "description": "Umiejętność gry na instrumencie muzycznym."
+        },
+        {
+          "id": 34,
+          "name": "Gra na instrumencie",
+          "level": 2,
+          "xpcost": 30,
+          "requiredattributes": "Rozum 3 Zręczność 4",
+          "requiredskills": "Gra na instrumencie 1",
+          "usecost": "Brak",
+          "requirements": "Instrument",
+          "effect": "Przywrócenie punktów emocji.",
+          "description": "Umiejętność gry na instrumencie muzycznym."
+        },
+        {
+          "id": 35,
+          "name": "Gra na instrumencie",
+          "level": 3,
+          "xpcost": 150,
+          "requiredattributes": "Rozum 3 Zręczność 5",
+          "requiredskills": "Gra na instrumencie 2",
+          "usecost": "Brak",
+          "requirements": "Instrument",
+          "effect": "Przywrócenie punktów emocji.",
+          "description": "Umiejętność gry na instrumencie muzycznym."
+        },
+        {
+          "id": 36,
+          "name": "Gra na instrumencie",
+          "level": 4,
+          "xpcost": 750,
+          "requiredattributes": "Rozum 4 Zręczność 6",
+          "requiredskills": "Gra na instrumencie 2",
+          "usecost": "Brak",
+          "requirements": "Instrument",
+          "effect": "Przywrócenie punktów emocji.",
+          "description": "Umiejętność gry na instrumencie muzycznym."
+        },
+        {
+          "id": 37,
+          "name": "Handlowanie",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "Rozum 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża cenę o 1/5",
+          "description": ""
+        },
+        {
+          "id": 38,
+          "name": "Handlowanie",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "Rozum 3",
+          "requiredskills": "Handlowanie 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża cenę o ¼",
+          "description": ""
+        },
+        {
+          "id": 39,
+          "name": "Handlowanie",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "Rozum 4",
+          "requiredskills": "Handlowanie 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża cenę o 1/3",
+          "description": ""
+        },
+        {
+          "id": 40,
+          "name": "Handlowanie",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "Rozum 5",
+          "requiredskills": "Handlowanie 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża cenę o ½",
+          "description": ""
+        },
+        {
+          "id": 41,
+          "name": "Kradzież kieszonkowa",
+          "level": 1,
+          "xpcost": 6,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 42,
+          "name": "Kradzież kieszonkowa",
+          "level": 2,
+          "xpcost": 30,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 43,
+          "name": "Kradzież kieszonkowa",
+          "level": 3,
+          "xpcost": 150,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 44,
+          "name": "Kradzież kieszonkowa",
+          "level": 4,
+          "xpcost": 750,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 45,
+          "name": "Lingwista",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Rozum 3 ",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Znajomość dwóch dodatkowych języków.",
+          "description": "Postać biegle włada językami i ma łatwość w uczeniu się ich."
+        },
+        {
+          "id": 46,
+          "name": "Lingwista",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Rozum 4",
+          "requiredskills": "Lingwista 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Znajomość pięciu dodatkowych języków.",
+          "description": "Postać biegle włada językami i ma łatwość w uczeniu się ich."
+        },
+        {
+          "id": 47,
+          "name": "Lingwista",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Rozum 5",
+          "requiredskills": "Lingwista 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Swobodne uczenie się nowych języków. Znajomość języka specjalnego.",
+          "description": "Postać biegle włada językami i ma łatwość w uczeniu się ich."
+        },
+        {
+          "id": 48,
+          "name": "Lingwista",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Rozum 6",
+          "requiredskills": "Lingwista 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Swobodne uczenie się nowych języków i języków specjalnych.",
+          "description": "Postać biegle włada językami i ma łatwość w uczeniu się ich."
+        },
+        {
+          "id": 49,
+          "name": "Medycyna",
+          "level": 1,
+          "xpcost": 8,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 50,
+          "name": "Medycyna",
+          "level": 2,
+          "xpcost": 40,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 51,
+          "name": "Medycyna",
+          "level": 3,
+          "xpcost": 200,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 52,
+          "name": "Medycyna",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 53,
+          "name": "Niewidzialność",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 54,
+          "name": "Niewidzialność",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 55,
+          "name": "Niewidzialność",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 56,
+          "name": "Niewidzialność",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 57,
+          "name": "Nocny spacer",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 58,
+          "name": "Nocny spacer",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 59,
+          "name": "Nocny spacer",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 60,
+          "name": "Nocny spacer",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 61,
+          "name": "Noszenie pancerza",
+          "level": 1,
+          "xpcost": 7,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 62,
+          "name": "Noszenie pancerza",
+          "level": 2,
+          "xpcost": 35,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 63,
+          "name": "Noszenie pancerza",
+          "level": 3,
+          "xpcost": 245,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 64,
+          "name": "Noszenie pancerza",
+          "level": 4,
+          "xpcost": 1225,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 65,
+          "name": "Pierwsza pomoc",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 66,
+          "name": "Pierwsza pomoc",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 67,
+          "name": "Pierwsza pomoc",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 68,
+          "name": "Pierwsza pomoc",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 69,
+          "name": "Pływanie",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "Krzepa 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Łatwiejszy test na pływanie.",
+          "description": "Umiejętność pływania i nurkowania."
+        },
+        {
+          "id": 70,
+          "name": "Pływanie",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "Krzepa 3",
+          "requiredskills": "Pływanie 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Łatwiejszy test na pływanie.",
+          "description": "Umiejętność pływania i nurkowania."
+        },
+        {
+          "id": 71,
+          "name": "Pływanie",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "Krzepa 3",
+          "requiredskills": "Pływanie 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Łatwiejszy test na pływanie.",
+          "description": "Umiejętność pływania i nurkowania."
+        },
+        {
+          "id": 72,
+          "name": "Pływanie",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "Krzepa 4",
+          "requiredskills": "Pływanie 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Łatwiejszy test na pływanie.",
+          "description": "Umiejętność pływania i nurkowania."
+        },
+        {
+          "id": 73,
+          "name": "Porażenie",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 74,
+          "name": "Porażenie",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 75,
+          "name": "Porażenie",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 76,
+          "name": "Porażenie",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 77,
+          "name": "Posługiwanie się bronią dwuręczną",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": "Krzepa 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią bez utrudnienia w testach.",
+          "description": "Umiejętność walki bronią dwuręczną."
+        },
+        {
+          "id": 78,
+          "name": "Posługiwanie się bronią dwuręczną",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "Krzepa 3 Zręczność 2",
+          "requiredskills": "Posługiwanie się bronią dwuręczną 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią dwuręczną."
+        },
+        {
+          "id": 79,
+          "name": "Posługiwanie się bronią dwuręczną",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "Krzepa 4 Zręczność 2",
+          "requiredskills": "Posługiwanie się bronią dwuręczną 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią dwuręczną."
+        },
+        {
+          "id": 80,
+          "name": "Posługiwanie się bronią dwuręczną",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "Krzepa 5 Zręczność 3",
+          "requiredskills": "Posługiwanie się bronią dwuręczną 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią dwuręczną."
+        },
+        {
+          "id": 81,
+          "name": "Posługiwanie się bronią jednoręczną",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": "Krzepa 2 Zręczność 1",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią bez utrudnienia w testach.",
+          "description": "Umiejętność walki bronią jednoręczną."
+        },
+        {
+          "id": 82,
+          "name": "Posługiwanie się bronią jednoręczną",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "Krzepa 3 Zręczność 2",
+          "requiredskills": "Posługiwanie się bronią jednoręczną 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią jednoręczną."
+        },
+        {
+          "id": 83,
+          "name": "Posługiwanie się bronią jednoręczną",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "Krzepa 4 Zręczność 3",
+          "requiredskills": "Posługiwanie się bronią jednoręczną 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią jednoręczną."
+        },
+        {
+          "id": 84,
+          "name": "Posługiwanie się bronią jednoręczną",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "Krzepa 5 Zręczność 4",
+          "requiredskills": "Posługiwanie się bronią jednoręczną 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią jednoręczną."
+        },
+        {
+          "id": 85,
+          "name": "Posługiwanie się bronią strzelecką",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": "Krzepa 2 Zręczność 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią strzelecką."
+        },
+        {
+          "id": 86,
+          "name": "Posługiwanie się bronią strzelecką",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "Krzepa 2  Zręczność 2",
+          "requiredskills": "Posługiwanie się bronią strzelecką 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią strzelecką."
+        },
+        {
+          "id": 87,
+          "name": "Posługiwanie się bronią strzelecką",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "Krzepa 3  Zręczność 3",
+          "requiredskills": "Posługiwanie się bronią strzelecką 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią strzelecką."
+        },
+        {
+          "id": 88,
+          "name": "Posługiwanie się bronią strzelecką",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "Krzepa 4 Zręczność 4",
+          "requiredskills": "Posługiwanie się bronią strzelecką 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Posługiwanie się bronią z ułatwieniem w testach.",
+          "description": "Umiejętność walki bronią strzelecką."
+        },
+        {
+          "id": 89,
+          "name": "Posługiwanie się różdżkami",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 90,
+          "name": "Posługiwanie się różdżkami",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 91,
+          "name": "Posługiwanie się różdżkami",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 92,
+          "name": "Posługiwanie się różdżkami",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 93,
+          "name": "Przenikanie przez ściany",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 94,
+          "name": "Przenikanie przez ściany",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 95,
+          "name": "Przenikanie przez ściany",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 96,
+          "name": "Przenikanie przez ściany",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 97,
+          "name": "Regeneracja podczas pełni",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 98,
+          "name": "Regeneracja podczas pełni",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 99,
+          "name": "Regeneracja podczas pełni",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 100,
+          "name": "Regeneracja podczas pełni",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 101,
+          "name": "Rybołówstwo ",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 102,
+          "name": "Rybołówstwo ",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 103,
+          "name": "Rybołówstwo ",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 104,
+          "name": "Rybołówstwo ",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 105,
+          "name": "Skradanie się",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "Zręczność 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na skradanie o 1.",
+          "description": "Umiejętność cichego poruszania się."
+        },
+        {
+          "id": 106,
+          "name": "Skradanie się",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "Zręczność 4",
+          "requiredskills": "Skadanie się 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na skradanie o 2.",
+          "description": "Umiejętność cichego poruszania się."
+        },
+        {
+          "id": 107,
+          "name": "Skradanie się",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "Zręczność 5",
+          "requiredskills": "Skadanie się 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na skradanie o 3.",
+          "description": "Umiejętność cichego poruszania się."
+        },
+        {
+          "id": 108,
+          "name": "Skradanie się",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "Zręczność 6",
+          "requiredskills": "Skadanie się 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na skradanie o 4.",
+          "description": "Umiejętność cichego poruszania się."
+        },
+        {
+          "id": 109,
+          "name": "Szarża",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 110,
+          "name": "Szarża",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 111,
+          "name": "Szarża",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 112,
+          "name": "Szarża",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 113,
+          "name": "Sztuka przetrwania",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Mądrość 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na przetrwanie w dziczy o 1.",
+          "description": "Umiejętność przetrwania w dziczy."
+        },
+        {
+          "id": 114,
+          "name": "Sztuka przetrwania",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Mądrość 3",
+          "requiredskills": "Sztuka przetrwania 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na przetrwanie w dziczy o 2.",
+          "description": "Umiejętność przetrwania w dziczy."
+        },
+        {
+          "id": 115,
+          "name": "Sztuka przetrwania",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Mądrość 4",
+          "requiredskills": "Sztuka przetrwania 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na przetrwanie w dziczy o 3.",
+          "description": "Umiejętność przetrwania w dziczy."
+        },
+        {
+          "id": 116,
+          "name": "Sztuka przetrwania",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Mądrość 5",
+          "requiredskills": "Sztuka przetrwania 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na przetrwanie w dziczy o 4.",
+          "description": "Umiejętność przetrwania w dziczy."
+        },
+        {
+          "id": 117,
+          "name": "Śpiew ",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 118,
+          "name": "Śpiew ",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 119,
+          "name": "Śpiew ",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 120,
+          "name": "Śpiew ",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 121,
+          "name": "Świadomość bitewna",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 122,
+          "name": "Świadomość bitewna",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 123,
+          "name": "Świadomość bitewna",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 124,
+          "name": "Świadomość bitewna",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 125,
+          "name": "Tropienie",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Mądrość 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na tropienie o 1.",
+          "description": "Umiejętność znajdywania tropów."
+        },
+        {
+          "id": 126,
+          "name": "Tropienie",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Mądrość 3",
+          "requiredskills": "Tropienie 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na tropienie o 2.",
+          "description": "Umiejętność znajdywania tropów."
+        },
+        {
+          "id": 127,
+          "name": "Tropienie",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Mądrość 4",
+          "requiredskills": "Tropienie 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na tropienie o 3.",
+          "description": "Umiejętność znajdywania tropów."
+        },
+        {
+          "id": 128,
+          "name": "Tropienie",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Mądrość 5",
+          "requiredskills": "Tropienie 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Obniża trudność testów na tropienie o 4.",
+          "description": "Umiejętność znajdywania tropów."
+        },
+        {
+          "id": 129,
+          "name": "Tworzenie pułapek",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Mądrość 2 Rzemiosło 2",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi pułapki.",
+          "requirements": "Zgodnie z projektem pułapki.",
+          "effect": "Liczba pułapek pomnożona przez poziom projektu pułapki poniżej wyniku rzutu na Rzemiosło. Testy na rozbrajanie pułapek obniżone o 1",
+          "description": "Umiejętność tworzenia pułapek i ich rozbrajania."
+        },
+        {
+          "id": 130,
+          "name": "Tworzenie pułapek",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Mądrość 2 Rzemiosło 3",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi pułapki.",
+          "requirements": "Zgodnie z projektem pułapki.",
+          "effect": "Liczba pułapek pomnożona przez poziom projektu pułapki poniżej wyniku rzutu na Rzemiosło.Testy na rozbrajanie pułapek obniżone o 2",
+          "description": "Umiejętność tworzenia pułapek i ich rozbrajania."
+        },
+        {
+          "id": 131,
+          "name": "Tworzenie pułapek",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Mądrość 3 Rzemiosło 4",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi pułapki.",
+          "requirements": "Zgodnie z projektem pułapki.",
+          "effect": "Liczba pułapek pomnożona przez poziom projektu pułapki poniżej wyniku rzutu na Rzemiosło.Testy na rozbrajanie pułapek obniżone o 3",
+          "description": "Umiejętność tworzenia pułapek i ich rozbrajania."
+        },
+        {
+          "id": 132,
+          "name": "Tworzenie pułapek",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Mądrość 4 Rzemiosło 5",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi pułapki.",
+          "requirements": "Zgodnie z projektem pułapki.",
+          "effect": "Liczba pułapek pomnożona przez poziom projektu pułapki poniżej wyniku rzutu na Rzemiosło.Testy na rozbrajanie pułapek obniżone o 4",
+          "description": "Umiejętność tworzenia pułapek i ich rozbrajania."
+        },
+        {
+          "id": 133,
+          "name": "Unoszenie się",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 134,
+          "name": "Unoszenie się",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 135,
+          "name": "Unoszenie się",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 136,
+          "name": "Unoszenie się",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 137,
+          "name": "Walka wręcz",
+          "level": 1,
+          "xpcost": 10,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 138,
+          "name": "Walka wręcz",
+          "level": 2,
+          "xpcost": 50,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 139,
+          "name": "Walka wręcz",
+          "level": 3,
+          "xpcost": 250,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 140,
+          "name": "Walka wręcz",
+          "level": 4,
+          "xpcost": 1000,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 141,
+          "name": "Wiedza",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 142,
+          "name": "Wiedza",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 143,
+          "name": "Wiedza",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 144,
+          "name": "Wiedza",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 145,
+          "name": "Wiedza(Istoty magiczne)",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "Mądrość 3",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Księga Nauczyciel  Styczność",
+          "effect": "Możliwość korzystania z wiedzy w określonej dziedzinie.",
+          "description": "Specjalistyczna wiedza w temacie."
+        },
+        {
+          "id": 146,
+          "name": "Wiedza(Istoty magiczne)",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "Mądrość 4",
+          "requiredskills": "Wiedza(Istoty magiczne) 1",
+          "usecost": "Brak",
+          "requirements": "Księga Nauczyciel  Styczność",
+          "effect": "Możliwość korzystania z wiedzy w określonej dziedzinie i obniżenie testów o 1",
+          "description": "Specjalistyczna wiedza w temacie."
+        },
+        {
+          "id": 147,
+          "name": "Wiedza(Istoty magiczne)",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "Mądrość 5",
+          "requiredskills": "Wiedza(Istoty magiczne) 2",
+          "usecost": "Brak",
+          "requirements": "Księga Nauczyciel  Styczność",
+          "effect": "Możliwość korzystania z wiedzy w określonej dziedzinie i obniżenie testów o 2",
+          "description": "Specjalistyczna wiedza w temacie."
+        },
+        {
+          "id": 148,
+          "name": "Wiedza(Istoty magiczne)",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "Mądrość 6",
+          "requiredskills": "Wiedza(Istoty magiczne) 3",
+          "usecost": "Brak",
+          "requirements": "Księga Nauczyciel  Styczność",
+          "effect": "Możliwość korzystania z wiedzy w określonej dziedzinie i obniżenie testów o 3",
+          "description": "Specjalistyczna wiedza w temacie."
+        },
+        {
+          "id": 149,
+          "name": "Włamania",
+          "level": 1,
+          "xpcost": 6,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 150,
+          "name": "Włamania",
+          "level": 2,
+          "xpcost": 30,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 151,
+          "name": "Włamania",
+          "level": 3,
+          "xpcost": 150,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 152,
+          "name": "Włamania",
+          "level": 4,
+          "xpcost": 750,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 153,
+          "name": "Wspinaczka",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 154,
+          "name": "Wspinaczka",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 155,
+          "name": "Wspinaczka",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 156,
+          "name": "Wspinaczka",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 157,
+          "name": "Zaklinanie przedmiotów",
+          "level": 1,
+          "xpcost": 7,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 158,
+          "name": "Zaklinanie przedmiotów",
+          "level": 2,
+          "xpcost": 35,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 159,
+          "name": "Zaklinanie przedmiotów",
+          "level": 3,
+          "xpcost": 175,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 160,
+          "name": "Zaklinanie przedmiotów",
+          "level": 4,
+          "xpcost": 875,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 161,
+          "name": "Zielarstwo",
+          "level": 1,
+          "xpcost": 4,
+          "requiredattributes": "Rozum 2",
+          "requiredskills": "",
+          "usecost": "Punkty znużenia równe poziomowi wywaru.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie ziół i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzystywania ziół."
+        },
+        {
+          "id": 162,
+          "name": "Zielarstwo",
+          "level": 2,
+          "xpcost": 20,
+          "requiredattributes": "Rozum 3",
+          "requiredskills": "Zielarstwo 1",
+          "usecost": "Punkty znużenia równe poziomowi wywaru.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie ziół i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzystywania ziół."
+        },
+        {
+          "id": 163,
+          "name": "Zielarstwo",
+          "level": 3,
+          "xpcost": 100,
+          "requiredattributes": "Rozum 4",
+          "requiredskills": "Zielarstwo 2",
+          "usecost": "Punkty znużenia równe poziomowi wywaru.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie ziół i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzystywania ziół."
+        },
+        {
+          "id": 164,
+          "name": "Zielarstwo",
+          "level": 4,
+          "xpcost": 500,
+          "requiredattributes": "Rozum 5",
+          "requiredskills": "Zielarstwo 3",
+          "usecost": "Punkty znużenia równe poziomowi wywaru.",
+          "requirements": "Brak",
+          "effect": "Pozyskiwanie ziół i ich wykorzystanie.",
+          "description": "Znajomość i umiejętność wykorzystywania ziół."
+        },
+        {
+          "id": 165,
+          "name": "Żegluga",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "Zręczność 2",
+          "requiredskills": "",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Umiejętność żeglowania.",
+          "description": "Umiejętność żeglugi."
+        },
+        {
+          "id": 166,
+          "name": "Żegluga",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "Zręczność 3",
+          "requiredskills": "Żegluga 1",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Testy na żeglowanie obniżone o 1",
+          "description": "Umiejętność żeglugi."
+        },
+        {
+          "id": 167,
+          "name": "Żegluga",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "Mądrość 2 Zręczność 4",
+          "requiredskills": "Żegluga 2",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Testy na żeglowanie obniżone o 2",
+          "description": "Umiejętność żeglugi."
+        },
+        {
+          "id": 168,
+          "name": "Żegluga",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "Mądrość 3 Zręczność 4",
+          "requiredskills": "Żegluga 3",
+          "usecost": "Brak",
+          "requirements": "Brak",
+          "effect": "Testy na żeglowanie obniżone o 3",
+          "description": "Umiejętność żeglugi."
+        },
+        {
+          "id": 169,
+          "name": "Nawigacja",
+          "level": 1,
+          "xpcost": 3,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 170,
+          "name": "Nawigacja",
+          "level": 2,
+          "xpcost": 15,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 171,
+          "name": "Nawigacja",
+          "level": 3,
+          "xpcost": 75,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 172,
+          "name": "Nawigacja",
+          "level": 4,
+          "xpcost": 375,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 173,
+          "name": "Wiedza(Astrologia)",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 174,
+          "name": "Wiedza(Astrologia)",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 175,
+          "name": "Wiedza(Astrologia)",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 176,
+          "name": "Wiedza(Astrologia)",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 177,
+          "name": "Szał berserkera",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 178,
+          "name": "Szał berserkera",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 179,
+          "name": "Szał berserkera",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 180,
+          "name": "Szał berserkera",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 181,
+          "name": "Fachowiec(dziedzina)",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 182,
+          "name": "Fachowiec(dziedzina)",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 183,
+          "name": "Fachowiec(dziedzina)",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 184,
+          "name": "Fachowiec(dziedzina)",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 185,
+          "name": "Kowalstwo",
+          "level": 1,
+          "xpcost": 5,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 186,
+          "name": "Kowalstwo",
+          "level": 2,
+          "xpcost": 25,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 187,
+          "name": "Kowalstwo",
+          "level": 3,
+          "xpcost": 125,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 188,
+          "name": "Kowalstwo",
+          "level": 4,
+          "xpcost": 625,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 189,
+          "name": "Widzenie w ciemnościach",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 190,
+          "name": "Widzenie w ciemnościach",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 191,
+          "name": "Widzenie w ciemnościach",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 192,
+          "name": "Widzenie w ciemnościach",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 193,
+          "name": "Ochrona przed ogniem",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 194,
+          "name": "Ochrona przed ogniem",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 195,
+          "name": "Ochrona przed ogniem",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 196,
+          "name": "Ochrona przed ogniem",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 197,
+          "name": "Wydolność",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 198,
+          "name": "Wydolność",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 199,
+          "name": "Wydolność",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 200,
+          "name": "Wydolność",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 201,
+          "name": "Rozmycie w cieniu",
+          "level": 1,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 202,
+          "name": "Rozmycie w cieniu",
+          "level": 2,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 203,
+          "name": "Rozmycie w cieniu",
+          "level": 3,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        },
+        {
+          "id": 204,
+          "name": "Rozmycie w cieniu",
+          "level": 4,
+          "xpcost": 0,
+          "requiredattributes": "",
+          "requiredskills": "",
+          "usecost": "",
+          "requirements": "",
+          "effect": "",
+          "description": ""
+        }
       ],
       "spells": [
         {

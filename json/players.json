@@ -15,9 +15,9 @@
       "peculiarities": "Blizna przez policzek",
       "biography": "-",
       "exp": 108,
-      "knownherbs": [1],
-      "knownskills": [1],
-      "knonwspells": [1],
+      "knownherbs": [0],
+      "knownskills": [173,33,81,69,165,166,169],
+      "knonwspells": [0],
       "notes": [
         {
           "content": "-"
@@ -151,44 +151,44 @@
       "states": [
         {
           "name": "wounds",
-          "basevalue": 1,
+          "basevalue": 18,
           "buffvalue": null
         },
         {
           "name": "paralisis",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "stupor",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "panic",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "poisoning",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "weariness",
-          "basevalue": 1,
+          "basevalue": 2,
           "buffvalue": null
         }  
       ],
       "battle": [
         {
           "name": "reaction",
-          "basevalue": 0,
+          "basevalue": 3,
           "buffvalue": 0
         },
         {
           "name": "attacks",
-          "basevalue": 0,
+          "basevalue": 3,
           "buffvalue": 1
         },
         {
@@ -264,7 +264,7 @@
       "biography": "-",
       "exp": 134,
       "knownherbs": [0],
-      "knownskills": [3,4,5,6,7],
+      "knownskills": [13,17,21,81,85,105,125,129,145],
       "knonwspells": [0],
       "notes": [
         {
@@ -280,19 +280,6 @@
         }
       ],
       "equipment": [
-        {
-          "name": "Żeliwny miecz",
-          "description": "Prosty żeliwny miecz",
-          "type": "weapon",
-          "bodypart": "onehanded",
-          "ability": "-",
-          "buff": [
-            {
-              "name": null,
-              "value": null
-            }
-          ]          
-        },
         {
           "name": "Żeliwny miecz",
           "description": "Prosty żeliwny miecz",
@@ -350,7 +337,7 @@
         {
           "name": "strength",
           "basevalue": 3,
-          "buffvalue": null,
+          "buffvalue": 1,
           "secbuffvalue": null
         },
         {
@@ -387,49 +374,49 @@
       "states": [
         {
           "name": "wounds",
-          "basevalue": 1,
+          "basevalue": 22,
           "buffvalue": null
         },
         {
           "name": "paralisis",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "stupor",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "panic",
-          "basevalue": 1,
+          "basevalue": 2,
           "buffvalue": null
         },
         {
           "name": "poisoning",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "weariness",
-          "basevalue": 1,
+          "basevalue": 2,
           "buffvalue": null
         }  
       ],
       "battle": [
         {
           "name": "reaction",
-          "basevalue": 0,
+          "basevalue": 3,
           "buffvalue": 0
         },
         {
           "name": "attacks",
-          "basevalue": 0,
+          "basevalue": 3,
           "buffvalue": 1
         },
         {
           "name": "spells",
-          "basevalue": 0,
+          "basevalue": 1,
           "buffvalue": 0
         }
       ],
@@ -500,7 +487,7 @@
       "biography": "-",
       "exp": 102,
       "knownherbs": [0],
-      "knownskills": [0],
+      "knownskills": [1,113,125,129,13,85],
       "knonwspells": [0],
       "notes": [
         {
@@ -545,7 +532,7 @@
           "name": "Łuk myśliwski",
           "description": "Łuk przeznaczony do polowania.",
           "type": "weapon",
-          "bodypart": "otwohanded",
+          "bodypart": "twohanded",
           "ability": "-",
           "buff": [
             {
@@ -674,49 +661,49 @@
       "states": [
         {
           "name": "wounds",
-          "basevalue": 1,
+          "basevalue": 21,
           "buffvalue": null
         },
         {
           "name": "paralisis",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "stupor",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "panic",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "poisoning",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "weariness",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         }  
       ],
       "battle": [
         {
           "name": "reaction",
-          "basevalue": 0,
+          "basevalue": 3,
           "buffvalue": 0
         },
         {
           "name": "attacks",
-          "basevalue": 0,
-          "buffvalue": 1
+          "basevalue": 3,
+          "buffvalue": 0
         },
         {
           "name": "spells",
-          "basevalue": 0,
+          "basevalue": 1,
           "buffvalue": 0
         }
       ],
@@ -786,6 +773,190 @@
       "peculiarities": "kolczyki w uszach",
       "biography": "-",
       "exp": 118,
+      "knownherbs": [0],
+      "knownskills": [21,77,45,9,29,161],
+      "knonwspells": [0],
+      "notes": [
+        {
+          "content": "-"
+        }
+      ],
+      "items": [
+        {
+          "name": "-",
+          "quantity": 0,
+          "description": "-",
+          "ability": "-"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "-",
+          "description": "-",
+          "type": "-",
+          "bodypart": "-",
+          "ability": "-",
+          "buff": [
+            {
+              "name": null,
+              "value": null
+            }
+          ]          
+        }       
+      ],
+      "attributes": [
+        {
+          "name": "strength",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "agility",
+          "basevalue": 1,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "mind",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "emotions",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "craft",
+          "basevalue": 2,
+          "buffvalue": null,
+          "secbuffvalue": null
+        },
+        {
+          "name": "willpower",
+          "basevalue": 3,
+          "buffvalue": null,
+          "secbuffvalue": null
+        }
+      ],
+      "states": [
+        {
+          "name": "wounds",
+          "basevalue": 16,
+          "buffvalue": null
+        },
+        {
+          "name": "paralisis",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "stupor",
+          "basevalue": 4,
+          "buffvalue": null
+        },
+        {
+          "name": "panic",
+          "basevalue": 3,
+          "buffvalue": null
+        },
+        {
+          "name": "poisoning",
+          "basevalue": 2,
+          "buffvalue": null
+        },
+        {
+          "name": "weariness",
+          "basevalue": 4,
+          "buffvalue": null
+        }  
+      ],
+      "battle": [
+        {
+          "name": "reaction",
+          "basevalue": 1,
+          "buffvalue": 0
+        },
+        {
+          "name": "attacks",
+          "basevalue": 1,
+          "buffvalue": 1
+        },
+        {
+          "name": "spells",
+          "basevalue": 2,
+          "buffvalue": 0
+        }
+      ],
+      "comrades": [
+        {        
+          "name": "-",
+          "surname": "-",
+          "occupation": "-",
+          "species": "-",
+          "subspecies": "-", 
+          "variety": "-",
+          "provenance": "-",
+          "age": 0,
+          "height": 0,
+          "haircolor": "-",
+          "eyecolor": "-",
+          "peculiarities": "-",
+          "knownskills": [0],
+          "knownspells": [0],
+          "equipment": [
+            {
+              "name": "-",
+              "description": "-",
+              "type": "-",
+              "bodypart": "-",
+              "ability": "-",
+              "buff": [
+                {
+                  "primary": "-",
+                  "secondary": "-"
+                }
+              ]          
+            }                   
+          ],
+          "items": [
+            {
+              "name": "-",
+              "description": "-",
+              "ability": "-"
+            }
+          ],
+          "food": "-",
+          "weakness": "-",
+          "motivation": "-",
+          "bond": [
+            {
+              "name": "-",
+              "description": "-",
+              "visible": "-"
+            }
+          ]
+        }        
+      ]        
+    },
+    {
+      "name": "Gazania",
+      "surname": "-",
+      "occupation": "Kapłanka",
+      "species": "Ludzie",
+      "subspecies": "Człowiek", 
+      "variety": "-",
+      "provenance": "Nordstjern",
+      "age": 28,
+      "height": 165,
+      "haircolor": "jasne, blond, długie",
+      "eyecolor": "niebieskie",
+      "peculiarities": "głęboka blizna na prawym ramieniu",
+      "biography": "-",
+      "exp": 104,
       "knownherbs": [0],
       "knownskills": [0],
       "knonwspells": [0],
@@ -858,49 +1029,49 @@
       "states": [
         {
           "name": "wounds",
-          "basevalue": 1,
+          "basevalue": 16,
           "buffvalue": null
         },
         {
           "name": "paralisis",
-          "basevalue": 1,
+          "basevalue": 2,
           "buffvalue": null
         },
         {
           "name": "stupor",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         },
         {
           "name": "panic",
-          "basevalue": 1,
+          "basevalue": 3,
           "buffvalue": null
         },
         {
           "name": "poisoning",
-          "basevalue": 1,
+          "basevalue": 2,
           "buffvalue": null
         },
         {
           "name": "weariness",
-          "basevalue": 1,
+          "basevalue": 4,
           "buffvalue": null
         }  
       ],
       "battle": [
         {
           "name": "reaction",
-          "basevalue": 0,
+          "basevalue": 1,
           "buffvalue": 0
         },
         {
           "name": "attacks",
-          "basevalue": 0,
+          "basevalue": 1,
           "buffvalue": 1
         },
         {
           "name": "spells",
-          "basevalue": 0,
+          "basevalue": 2,
           "buffvalue": 0
         }
       ],
