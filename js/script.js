@@ -22,6 +22,8 @@ var buttonComrades = document.getElementById("companions");
 var buttonNotes = document.getElementById("notes");
 var buttonBio = document.getElementById("biography");
 var buttonsHerbs = document.getElementById("herbarium");
+var buttonAbilitiesList = document.getElementById("skillList");
+var buttonSpellsList = document.getElementById("spellList");
 var subField = document.getElementById("sub");
 var subDiv = document.getElementById("sub").outerHTML;
 
@@ -99,6 +101,18 @@ buttonsHerbs.addEventListener('click', function(){
   getPlayerData("herbarium", document.baseURI);
 });
 
+buttonAbilitiesList.addEventListener('click', function(){
+  window.location.hash = '#next';
+  classChanger("kp", "invisible");
+  getPlayerData("skillsList", document.baseURI);
+});
+
+buttonSpellsList.addEventListener('click', function(){
+  window.location.hash = '#next';
+  classChanger("kp", "invisible");
+  getPlayerData("spellsList", document.baseURI);
+});
+
 function playerInformation(locationInJson, valueForClass)
 {
   var info =  "<tr class = 'detail" + valueForClass + "'><td><b>Dane podstawowe</b></td></tr>" + 
@@ -109,6 +123,9 @@ function playerInformation(locationInJson, valueForClass)
         "<tr class = 'detail" + valueForClass + "'><td>Podgatunek: </td><td>" + locationInJson.subspecies + "</td></tr>" +
         "<tr class = 'detail" + valueForClass + "'><td>Rasa/Odmiana: </td><td>" + locationInJson.variety + "</td></tr>" +
         "<tr class = 'detail" + valueForClass + "'><td>Pochodzenie: </td><td>" + locationInJson.provenance + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Dostępne doświadczenie: </td><td>" + locationInJson.expleft + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Wydane doświadczenie: </td><td>" + locationInJson.expspent + "</td></tr>" +
+        "<tr class = 'detail" + valueForClass + "'><td>Całkowite zdobyte doświadczenie: </td><td>" + locationInJson.exp + "</td></tr>" +
         "<tr class = 'detail" + valueForClass + "'><td>Wzrost: </td><td>" + locationInJson.height + "</td></tr>" +
         "<tr class = 'detail" + valueForClass + "'><td>Włosy: </td><td>" + locationInJson.haircolor + "</td></tr>" +
         "<tr class = 'detail" + valueForClass + "'><td>Oczy: </td><td>" + locationInJson.eyecolor + "</td></tr>" +
@@ -247,7 +264,11 @@ function subMenuSwitch(subMenuType, locationInJson, fullJson)
     case "biography":
       return biographyGenerator(locationInJson); 
     case "herbarium":
-      return herbListGenerator(locationInJson, fullJson.herbs);   
+      return herbListGenerator(locationInJson, fullJson.herbs);
+    case "skillsList":
+      return abilitiesFullListGenerator(fullJson.skills);
+    case "spellsList":
+      return abilitiesFullListGenerator(fullJson.spells);     
     default:
       return null;
   }
@@ -337,7 +358,30 @@ function abilitiesListGenerator(path, skillsList, valueForClass)
   };
 }
 
+function abilitiesFullListGenerator(skillsList)
+{
+  
+  var skills = 
+  "<tr class='detail'><td><b>Umiejętności</b></td></tr>" +
+  "<tr class='detail'><td>Nazwa</td><td>Koszt użycia</td><td>Koszt wykupienia</td><td>Warunek użycia</td><td>Efekt</td><td>Opis</td></tr>";
+    for(var i=0;i<skillsList.length;i++){
 
+      if(skillsList[i].level != null){
+        var level = skillsList[i].level;
+      } else {
+          var level = '';
+      };
+      
+      skills += "<tr class='detail'><td>" + skillsList[i].name + " " + level +
+      "</td><td>" + skillsList[i].usecost +
+      "</td><td>" + skillsList[i].xpcost +
+      "</td><td>" + skillsList[i].requirements + 
+      "</td><td>" + skillsList[i].effect +
+      "</td><td>" + skillsList[i].description + "</td></tr>";
+    };
+  return skills;
+
+}
 
 function spellsListGenerator(path, spellsList, valueForClass)
 {
