@@ -17,7 +17,7 @@
       "exp": 108,
       "knownherbs": [0],
       "knownskills": [173,33,81,69,165,166,169],
-      "knonwspells": [0],
+      "knownspells": [0],
       "notes": [
         {
           "content": "-"
@@ -120,7 +120,7 @@
         {
           "name": "agility",
           "basevalue": 3,
-          "buffvalue": null,
+          "buffvalue": 1,
           "secbuffvalue": null
         },
         {

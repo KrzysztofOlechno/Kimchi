@@ -149,9 +149,9 @@ function playerBattle(locationInJson)
 {
   var attr =  "<tr><td><b>Walka</b></td></tr>" +
   "<tr><td>Stan</td><td>Bazowa</td><td>Bonus</td><td>Suma</td></tr>" + 
-  "<tr><td>Reakcja: </td><td>" + locationInJson.battle[0].basevalue + "</td><td>" + locationInJson.battle[0].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[0] + "</td></tr>" +
-  "<tr><td>Ataki: </td><td>" + locationInJson.battle[1].basevalue + "</td><td>" + locationInJson.battle[1].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[1] + "</td></tr>" +
-  "<tr><td>Czary: </td><td>" + locationInJson.battle[2].basevalue + "</td><td>" + locationInJson.battle[2].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[2] + "</td></tr>"; 
+  "<tr><td>Akcje(tura): </td><td>" + locationInJson.battle[0].basevalue + "</td><td>" + locationInJson.battle[0].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[0] + "</td></tr>" +
+  "<tr><td>Ataki spcecjalne(walka): </td><td>" + locationInJson.battle[1].basevalue + "</td><td>" + locationInJson.battle[1].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[1] + "</td></tr>" +
+  "<tr><td>Czary(walka): </td><td>" + locationInJson.battle[2].basevalue + "</td><td>" + locationInJson.battle[2].buffvalue + "</td><td>" + sumTable(locationInJson.battle)[2] + "</td></tr>"; 
 
   return attr;
 }
@@ -285,11 +285,11 @@ function equipmentListGenerator(path, valueForClass)
 {
   var equipment =  
   "<tr class='detail" + valueForClass + "'><td><b>Ekwipunek</b></td></tr>" + 
-  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td><td>Typ</td><td>Umiejscowienie</td><td>Właściwości</td></tr>";
+  "<tr class='detail" + valueForClass + "'><td>Nazwa</td><td>Opis</td><td>Właściwości</td></tr>";
 
   for(var i=0; i<path.equipment.length;i++)
   {
-    equipment += "<tr class='detail" + valueForClass + "'><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td><td>" + path.equipment[i].type + "</td><td>" + path.equipment[i].bodypart + "</td><td>" + path.equipment[i].ability + "</td></tr>";
+    equipment += "<tr class='detail" + valueForClass + "'><td>" + path.equipment[i].name + "</td><td>" + path.equipment[i].description + "</td>><td>" + path.equipment[i].ability + "</td></tr>";
   }
   
   return equipment;
